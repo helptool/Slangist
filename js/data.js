@@ -791,7 +791,7 @@ const SLANGIST_DATA = [
     ],
     relatedSlangs: ["goat", "rizz", "mid"],
     seoKeywords: ["W meaning slang", "L meaning slang", "taking an L meaning", "W and L gen z slang"]
-  }
+  },
 
   /* ── BATCH 3 — NEW ENTRIES ───────────────────────────── */
 
@@ -1522,7 +1522,7 @@ const SLANGIST_DATA = [
     ],
     relatedSlangs: ["slay", "nocap", "fr"],
     seoKeywords: ["periodt meaning slang", "what does periodt mean", "periodt slang definition", "period slang meaning"]
-  }
+  },
 
   /* ── BATCH 4 — 10 NEW ENTRIES ────────────────────────── */
 
@@ -1794,6 +1794,468 @@ const SLANGIST_DATA = [
     ],
     relatedSlangs: ["vibecheck", "lowkey", "fire"],
     seoKeywords: ["vibe meaning slang", "what does vibe mean", "vibing meaning", "vibe slang definition"]
+  }
+,
+
+  /* ── BATCH 5 — 17 NEW ENTRIES ────────────────────────── */
+
+  {
+    id: "aura", word: "Aura", slug: "aura",
+    devanagari: null, pronunciation: "/ˈɔː.rə/",
+    shortMeaning: "Your vibe, presence, or social energy score. Gain or lose aura points.",
+    fullMeaning: "Aura is the invisible energy or presence you radiate — your social magnetism and general vibe. Gen Z gamified it: doing something cool earns you 'aura points,' while doing something embarrassing loses them. A person with high aura walks into a room and commands attention without trying. Low aura is the opposite. It is both a spiritual concept and a running internet scoreboard.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Gen Z / TikTok gaming culture", origin: "TikTok / internet gaming culture",
+    culturalContext: "While 'aura' has existed in spiritual and metaphysical contexts for centuries, Gen Z rebranded it as a social credit score. The gamification — earning and losing aura points for specific behaviors — made it a running commentary format that spread rapidly on TikTok and Twitter.",
+    examples: [
+      { label: "💬 Gaining points", them: "He stayed completely calm when everyone else panicked.", me: "Massive aura moment. That man has +500 aura points easy." },
+      { label: "📱 Losing points", them: "He tripped walking into the presentation.", me: "Bro lost 200 aura points in front of the whole class. Cannot recover today." },
+      { label: "🎯 Evaluating someone", them: "What do you think of him?", me: "High aura. He doesn't say much but when he does the room listens." }
+    ],
+    originStory: [
+      { date: "Ancient concept", title: "Spiritual Origins", body: "Aura as a concept of personal energy field has roots in spiritual traditions worldwide. The idea that people radiate invisible energy that others can sense predates modern language." },
+      { date: "2023 · TikTok", title: "The Gamification", body: "TikTok's gaming-influenced culture turned aura into a points system. Videos rating situations as 'aura loss' or 'aura gain' went massively viral. The format was simple: did this action raise or lower your social standing?" },
+      { date: "2024", title: "Universal Social Currency", body: "Aura became shorthand for personal presence and social magnetism. Celebrities, athletes, and everyday people were all assigned aura scores based on their behavior." }
+    ],
+    whyViral: [
+      { title: "Gamification of social life", desc: "Turning social situations into a points game is immediately engaging. Everyone wants to know their aura score." },
+      { title: "Instantly relatable moments", desc: "Aura loss and gain moments happen constantly. The format applies to every embarrassing or impressive thing anyone does." },
+      { title: "High aura aspiration", desc: "Who doesn't want high aura? It is the new 'cool' but with a scoring system that makes it discussable." },
+      { title: "Infinite content format", desc: "Any action by any person can be assigned an aura value. The format never runs out of material." }
+    ],
+    relatedSlangs: ["vibecheck", "rizz", "based"],
+    seoKeywords: ["aura meaning slang", "aura points meaning", "what does aura mean gen z", "aura loss meaning"]
+  },
+
+  {
+    id: "verydemure", word: "Very Demure", slug: "verydemure",
+    devanagari: null, pronunciation: "/ˈvɛr.i dɪˈmjʊər/",
+    shortMeaning: "Being modest, understated, and professional. Often used sarcastically.",
+    fullMeaning: "'Very demure, very mindful' is a viral phrase describing a way of presenting yourself that is modest, understated, and quietly professional. Used sincerely to praise tasteful restraint. Used sarcastically to contrast with something excessive or outrageous. The full phrase 'very demure, very mindful, very cutesy' became its own content format.",
+    tag: "trending", year: 2024, language: "English", coinedBy: "Jools Lebron (@joolieannie on TikTok)", origin: "TikTok viral audio",
+    culturalContext: "TikTok creator Jools Lebron posted a video in August 2024 describing her approach to presenting herself at work as 'very demure, very mindful.' The deadpan delivery and contrast with standard social media behavior made it immediately iconic. It became one of TikTok's biggest trends of 2024.",
+    examples: [
+      { label: "📸 Fashion advice", them: "What should I wear to the interview?", me: "Something very demure, very mindful. Not too much." },
+      { label: "💬 Ironic use", them: "She showed up to brunch in a ballgown.", me: "Very demure. Very understated. Truly a mindful choice." },
+      { label: "🎭 General vibe", them: "How are you approaching this?", me: "Very demure, very mindful. No chaos from me today." }
+    ],
+    originStory: [
+      { date: "August 2024", title: "The Original Video", body: "TikToker Jools Lebron posted a video advising viewers to be 'very demure, very mindful' at work — not overdoing their makeup or behavior. The deadpan, earnest delivery and the word 'demure' in a Gen Z context created instant comedic contrast." },
+      { date: "August 2024", title: "Viral Explosion", body: "The video went viral within days. Celebrities, brands, politicians, and millions of creators responded with their own 'very demure' videos. It became TikTok's defining audio of summer 2024." },
+      { date: "Late 2024", title: "Cultural Shorthand", body: "'Very demure' became a phrase for any situation where restraint or modesty was either praised or ironically applied to something extremely undemure." }
+    ],
+    whyViral: [
+      { title: "Comedic contrast", desc: "Using 'demure' in a Gen Z context creates immediate funny contrast between the formal word and casual internet culture." },
+      { title: "Versatile tone", desc: "Works sincerely (actually praising restraint) and sarcastically (describing something excessive). Both are funny." },
+      { title: "Jools Lebron's delivery", desc: "The original video's deadpan confidence made the phrase stick. Great delivery launches great phrases." },
+      { title: "Brand adoption", desc: "When brands start using a phrase, it signals complete mainstream crossover. Every major brand posted a very demure response video." }
+    ],
+    relatedSlangs: ["era", "understood", "based"],
+    seoKeywords: ["very demure meaning", "very demure very mindful meaning", "demure slang meaning", "jools lebron demure"]
+  },
+
+  {
+    id: "lockin", word: "Lock In", slug: "lockin",
+    devanagari: null, pronunciation: "/lɒk ɪn/",
+    shortMeaning: "To focus intensely on a task or goal. No distractions, full commitment.",
+    fullMeaning: "'Lock in' means to shift into a state of complete, distraction-free focus on a goal or task. When you lock in, everything else falls away — social life, entertainment, idle scrolling. It is the mental equivalent of entering a vault and sealing the door. 'Locked in era' means a sustained period of total focus. It carries connotations of discipline, sacrifice, and serious intent.",
+    tag: "trending", year: 2023, language: "English / AAVE", coinedBy: "Sports and productivity culture / Black American vernacular", origin: "Sports culture / TikTok productivity",
+    culturalContext: "Emerged from sports culture where 'locking in' described athletes entering peak focus states before games. Gen Z adopted it for academic, creative, and career contexts. The 'locked in' aesthetic on TikTok — studying, working out, building — became aspirational content.",
+    examples: [
+      { label: "💬 Exam season", them: "You free this weekend?", me: "No. I'm locked in until finals are done. Full lock in mode." },
+      { label: "📱 Commitment", them: "How's the music project going?", me: "I locked in this week. Six tracks recorded. No sleep, no complaints." },
+      { label: "🎯 Goal setting", them: "What is your plan for this year?", me: "Lock in. Completely. No wasted days, no excuses." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Sports Foundation", body: "Athletes and coaches have always talked about 'locking in' before big games — the mental focus that separates good from exceptional performance. It was sports psychology vocabulary." },
+      { date: "2023 · TikTok", title: "Productivity Culture", body: "TikTok's 'that girl' and productivity aesthetics adopted lock in as the vocabulary for serious self-improvement. Study with me videos, gym content, business building — all used 'locked in' as the aspirational state." },
+      { date: "2024", title: "Universal Focus Phrase", body: "'Lock in' became the phrase for any period of intense focus. Exam season, a creative sprint, a financial goal — anything requiring sustained effort gets the lock in treatment." }
+    ],
+    whyViral: [
+      { title: "Aspirational productivity culture", desc: "Gen Z's self-improvement content is massive. Lock in gave that culture its defining action phrase." },
+      { title: "Sports prestige transfer", desc: "Borrowing vocabulary from elite athletes gives everyday tasks an elevated, serious energy." },
+      { title: "Simple instruction", desc: "'Lock in' is both description and command. It tells you exactly what to do and how it should feel." },
+      { title: "Era pairing", desc: "'Locked in era' works perfectly with the 'era' vocabulary trend. The two concepts reinforced each other." }
+    ],
+    relatedSlangs: ["era", "based", "grind"],
+    seoKeywords: ["lock in meaning slang", "locked in meaning", "what does lock in mean gen z", "lock in era meaning"]
+  },
+
+  {
+    id: "crashout", word: "Crash Out", slug: "crashout",
+    devanagari: null, pronunciation: "/kræʃ aʊt/",
+    shortMeaning: "To completely lose your composure and act recklessly out of frustration.",
+    fullMeaning: "To 'crash out' means to completely lose your temper, composure, or rational control — usually after accumulated frustration reaches a breaking point. When someone crashes out, they say or do things they probably shouldn't, driven entirely by emotion rather than thought. It is the act of snapping. 'I'm about to crash out' is a warning. 'He crashed out' is the report after the fact.",
+    tag: "trending", year: 2023, language: "English / AAVE", coinedBy: "Black American internet culture", origin: "Black Twitter / TikTok",
+    culturalContext: "Emerged from Black internet culture to describe the moment when patience runs out and emotional chaos takes over. It captures a specific type of meltdown — not just being upset, but visibly, publicly, recklessly losing it in a way that might have consequences.",
+    examples: [
+      { label: "💬 Warning sign", them: "How are you holding up?", me: "One more thing goes wrong today and I am crashing out. Consider yourself warned." },
+      { label: "📱 After the fact", them: "What happened at the meeting?", me: "He crashed out. Said things to his boss that cannot be unsaid. It was a scene." },
+      { label: "🎭 Relatable frustration", them: "Did you see what they posted?", me: "I almost crashed out in the comments. Closed the app instead. Matured." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "The Feeling Existed", body: "Losing composure under pressure is a universal human experience. AAVE and Black internet culture created precise vocabulary for the specific type of reckless emotional meltdown that 'crash out' describes." },
+      { date: "2023", title: "TikTok Spread", body: "'Crash out' went viral on TikTok as creators used it to describe moments of emotional overload — their own or others'. The phrase was both a warning and a dramatic declaration." },
+      { date: "2024", title: "Cultural Shorthand", body: "Crash out became the standard phrase for any loss of emotional control, from minor frustration expressions to serious public meltdowns. 'I'm crashing out' entered everyday conversation." }
+    ],
+    whyViral: [
+      { title: "Specific emotional description", desc: "Crash out describes a very specific state — not just angry, but losing control recklessly. That specificity makes it useful." },
+      { title: "Universal experience", desc: "Everyone has been pushed to their limit. Crash out names that threshold moment precisely." },
+      { title: "Warning format", desc: "'I'm about to crash out' as a warning is both funny and relatable. The format drives enormous engagement." },
+      { title: "Drama content", desc: "Stories about crashing out or witnessing someone crash out are compelling content by definition." }
+    ],
+    relatedSlangs: ["pressed", "salty", "vibecheck"],
+    seoKeywords: ["crash out meaning slang", "crashing out meaning", "what does crash out mean", "crash out slang definition"]
+  },
+
+  {
+    id: "lore", word: "Lore", slug: "lore",
+    devanagari: null, pronunciation: "/lɔːr/",
+    shortMeaning: "The deep, rich backstory or history of a person or situation.",
+    fullMeaning: "Borrowed from gaming and fantasy storytelling, 'lore' means the accumulated backstory, history, and context surrounding a person, situation, or thing. 'His dating lore is insane' means the full history of his romantic life is rich with drama and story. 'There is so much lore here' means a situation has deep, complex history worth exploring. Lore implies depth, narrative, and usually some chaos.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Gaming culture / internet", origin: "Gaming / fantasy culture / TikTok",
+    culturalContext: "Gaming communities have always used 'lore' for the deep story world of games. Gen Z extended this to real life — treating friends, celebrities, and situations as having their own lore worth exploring. 'Explain the lore' became a request for complete context.",
+    examples: [
+      { label: "💬 Asking for context", them: "Why does everyone act weird around him?", me: "There is SO much lore. Sit down. This is a long story." },
+      { label: "📱 Celebrity drama", them: "What's the history between them?", me: "The lore between those two goes back five years. It is genuinely cinematic." },
+      { label: "🎭 Self-aware", them: "You seem to have a complicated relationship with this city.", me: "I have so much lore here. I cannot even begin." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Gaming and Fantasy Origins", body: "In RPGs and fantasy fiction, 'lore' describes the accumulated history and backstory of a world. Dedicated fans spend years exploring game lore — every character has history, every location has meaning." },
+      { date: "2022 · TikTok", title: "Applied to Real Life", body: "Gen Z began applying 'lore' to real-world situations. 'Explaining the lore' of a friend group, a celebrity feud, or a complicated relationship became a recognizable storytelling format on TikTok." },
+      { date: "2023 Onward", title: "Universal Backstory Language", body: "Lore became the standard word for any rich, complex backstory. Everyone has lore. Every situation has lore. The word elevated personal history to the level of epic storytelling." }
+    ],
+    whyViral: [
+      { title: "Gaming culture universality", desc: "With gaming being the world's largest entertainment industry, gaming vocabulary reaches everyone." },
+      { title: "Narrative framing of life", desc: "Treating real-life situations as having 'lore' elevates them to story level. Everything feels more epic and worth engaging with." },
+      { title: "TikTok storytelling format", desc: "'Explaining the lore' videos are a perfect TikTok format — long context delivered in short segments." },
+      { title: "Infinite application", desc: "Any person, relationship, place, or situation can have lore. The word applies everywhere there is history." }
+    ],
+    relatedSlangs: ["tea", "iykyk", "rentfree"],
+    seoKeywords: ["lore meaning slang", "what does lore mean gen z", "lore slang definition", "explaining the lore meaning"]
+  },
+
+  {
+    id: "yap", word: "Yap / Yapping", slug: "yap",
+    devanagari: null, pronunciation: "/jæp/",
+    shortMeaning: "Talking too much or at great length about things that do not matter.",
+    fullMeaning: "To yap means to talk excessively, usually about things that are not that important or that nobody asked about at length. A yapper is someone who cannot stop talking. 'Stop yapping' is the request to be quiet. 'He was yapping for an hour' means someone monologued without mercy. It is affectionate as a roast but also genuinely observational — sometimes people really are just yapping.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Gen Z internet / Black American vernacular", origin: "TikTok / Twitter",
+    culturalContext: "Yap as a word for excessive talking existed before it went viral, but Gen Z formalized it as internet vocabulary around 2023. The 'yapper' character type became a recognizable archetype — someone who fills every silence with words regardless of whether those words are needed.",
+    examples: [
+      { label: "💬 Calling someone out", them: "He explained the same point four different ways.", me: "The yapping. I genuinely could not follow because he would not stop." },
+      { label: "📱 Self-aware", them: "Sorry, am I talking too much?", me: "You are yapping a little but I love you so it is fine." },
+      { label: "🎭 Group observation", them: "Why does she dominate every meeting?", me: "She is a yapper. Cannot help it. Silence is her enemy." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "The Word Existed", body: "Yap as a word for high-pitched, excessive barking (from small dogs) and by extension, excessive talking has existed in English for a long time. It was already in informal use." },
+      { date: "2023", title: "Gen Z Formalization", body: "TikTok and Twitter began using 'yapping' to describe a specific type of excessive, not-particularly-useful talking. The 'yapper' character became a meme format — the person who fills every silence." },
+      { date: "2024", title: "Everywhere", body: "Yapping spread as one of Gen Z's most used observational words. 'Stop yapping', 'he's a yapper', 'I was yapping all day' — it entered constant rotation." }
+    ],
+    whyViral: [
+      { title: "Universal observation", desc: "Everyone knows someone who yaps. The word gives you a clean, funny way to name that without being cruel." },
+      { title: "The yapper archetype", desc: "The yapper as a character type is immediately recognizable. Everyone has one in their life." },
+      { title: "Sound of the word", desc: "Yap is phonetically perfect — it sounds like what it describes. Quick, repetitive, slightly annoying." },
+      { title: "Self-aware usage", desc: "People calling themselves yappers is funny and relatable. Self-deprecating words spread fast." }
+    ],
+    relatedSlangs: ["npc", "touchgrass", "lowkey"],
+    seoKeywords: ["yap meaning slang", "yapping meaning slang", "what does yap mean gen z", "yapper slang definition"]
+  },
+
+  {
+    id: "mewing", word: "Mewing", slug: "mewing",
+    devanagari: null, pronunciation: "/mjuː.ɪŋ/",
+    shortMeaning: "Pressing the tongue to the roof of the mouth to define the jawline. A widespread looksmaxxing technique.",
+    fullMeaning: "Mewing is a tongue-placement technique developed by orthodontist Dr. John Mew — pressing the entire tongue flat against the roof of the mouth, supposedly to improve jaw structure and facial symmetry over time. Online it became both a genuine looksmaxxing practice and a meme. 'He's mewing' means someone is visibly keeping their mouth closed and jaw set, usually because they are working on their jawline.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Dr. John Mew / internet fitness culture", origin: "YouTube / Reddit / looksmaxxing culture",
+    culturalContext: "Dr. John Mew's orthotropic theory about tongue posture influencing facial development was picked up by YouTube fitness and looksmaxxing communities. It became one of the most searched body modification concepts online, spawning entire communities dedicated to tracking mewing results.",
+    examples: [
+      { label: "💬 Spotting it", them: "Why is he just sitting there with his jaw clenched?", me: "He's mewing. He does it constantly. Dedicated to the jawline journey." },
+      { label: "📱 Self-reporting", them: "How long have you been mewing?", me: "Six months. Results are subtle but I see them." },
+      { label: "🎭 Meme usage", them: "He didn't say a word the entire lunch.", me: "Bro was mewing so hard he forgot to speak. The commitment." }
+    ],
+    originStory: [
+      { date: "1970s–80s", title: "Dr. John Mew", body: "British orthodontist Dr. John Mew developed orthotropics — the theory that tongue posture and oral habits shape facial bone development. His work was controversial in mainstream orthodontics." },
+      { date: "2017–2019", title: "YouTube Discovery", body: "Fitness and self-improvement YouTube channels discovered Mew's work and introduced 'mewing' to online audiences seeking to improve their jawline without surgery. The practice went viral in looksmaxxing communities." },
+      { date: "2021 Onward", title: "Mainstream Meme", body: "Mewing crossed from serious practice to meme — videos of people silently holding their jaw set, pointing to their jaw when asked why they are quiet. The joke and the practice coexist." }
+    ],
+    whyViral: [
+      { title: "Free appearance change", desc: "The idea that you can improve your face structure for free just by moving your tongue is irresistible." },
+      { title: "Looksmaxxing community", desc: "Online communities dedicated to maximizing appearance spread mewing constantly as a core technique." },
+      { title: "Visible dedication", desc: "You can spot a mewer in the wild. The slightly clenched jaw is visible. That observability makes it a meme." },
+      { title: "Before/after culture", desc: "Mewing result posts generate enormous engagement. Visible transformation content always does." }
+    ],
+    relatedSlangs: ["looksmaxxing", "glow up", "era"],
+    seoKeywords: ["mewing meaning slang", "what is mewing", "mewing jawline meaning", "how to mew slang"]
+  },
+
+  {
+    id: "brainrot", word: "Brain Rot", slug: "brainrot",
+    devanagari: null, pronunciation: "/breɪn rɒt/",
+    shortMeaning: "Nonsensical internet content that numbs your brain. The feeling of having spent too long online.",
+    fullMeaning: "Brain rot describes two related things: first, the type of content that is absurd, chaotic, and without clear purpose — designed to be consumed mindlessly. Second, the mental state of having consumed too much of it — where your brain feels dulled, your attention span shrinks, and you find yourself unable to engage with anything requiring real focus. Brain rot content is both addictive and corrosive.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Gen Z internet culture", origin: "TikTok / Reddit / internet culture",
+    culturalContext: "Oxford's 2024 Word of the Year was 'brain rot' — a validation of how deeply the concept had embedded in cultural consciousness. The term captures Gen Z's self-aware relationship with doomscrolling: they know the content is numbing them and consume it anyway.",
+    examples: [
+      { label: "📱 Content description", them: "What are you watching?", me: "Pure brain rot honestly. A 30-part Minecraft drama series with raccoons. I cannot explain." },
+      { label: "💬 Self-diagnosis", them: "Why can't you focus on anything for more than two minutes?", me: "Years of brain rot content. My attention span is gone." },
+      { label: "🎭 Sharing brain rot", them: "Watch this.", me: "I watched 40 of these. It is brain rot but I need it." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Older Usage", body: "'Brain rot' as a metaphor for mental decay appeared in English literature as early as Henry David Thoreau's writing. The concept of media numbing the mind predates the internet." },
+      { date: "2022–2023", title: "TikTok Self-Awareness", body: "As TikTok's algorithm served increasingly random, chaotic content, users began describing the consumption pattern as 'brain rot.' The term captured the self-aware but helpless relationship with addictive content." },
+      { date: "2024", title: "Oxford Word of the Year", body: "Oxford University Press named 'brain rot' the 2024 Word of the Year. The selection acknowledged that the concept had become central to how society understood its relationship with digital media." }
+    ],
+    whyViral: [
+      { title: "Oxford Word of the Year 2024", desc: "Academic validation of a slang term signals it has captured something real. Brain rot won that recognition." },
+      { title: "Self-aware irony", desc: "The people who share brain rot content know it is brain rot. That self-awareness is itself part of the humor." },
+      { title: "Universal digital experience", desc: "Anyone who uses TikTok, YouTube, or social media has experienced brain rot. The recognition is instant." },
+      { title: "Names the doomscroll feeling", desc: "The specific feeling of having spent too long consuming mindless content had no precise name before brain rot." }
+    ],
+    relatedSlangs: ["npc", "touchgrass", "vibecheck"],
+    seoKeywords: ["brain rot meaning slang", "what does brain rot mean", "brainrot slang definition", "brain rot content meaning"]
+  },
+
+  {
+    id: "fanumtax", word: "Fanum Tax", slug: "fanumtax",
+    devanagari: null, pronunciation: "/ˈfeɪ.nəm tæks/",
+    shortMeaning: "Stealing or taking a bite of someone else's food as a joke tax.",
+    fullMeaning: "The Fanum Tax is the act of 'taxing' someone — taking a bite or portion of their food without asking, framed as an unavoidable levy. Named after streamer Fanum, who became famous for stealing bites of his friends' food during streams. Paying the Fanum Tax means accepting that someone will take some of your food. It is always framed as a joke but can be slightly aggressive in practice.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Fanum (AMP streamer)", origin: "Twitch / AMP streaming collective",
+    culturalContext: "Streamer Fanum, a member of the AMP collective, made 'taxing' friends' food a running bit on streams. Kai Cenat and other AMP members popularized it further. The 'tax' framing — making food theft sound like an official levy — gave it comedic legitimacy.",
+    examples: [
+      { label: "🍕 At a table", them: "Stop taking my fries!", me: "This is the Fanum Tax. It is non-negotiable. Legally required." },
+      { label: "💬 Warning friends", them: "I ordered a lot, don't worry.", me: "You know I'm collecting the Fanum Tax. Budget accordingly." },
+      { label: "📱 Being taxed", them: "He ate half my meal without asking.", me: "The Fanum Tax is real and it is ruthless. I was not prepared." }
+    ],
+    originStory: [
+      { date: "2022–2023", title: "Fanum's Food Habits", body: "AMP streamer Fanum developed a reputation for grabbing bites of his friends' food during streams without asking. His casual, unapologetic approach to eating others' food became a running joke." },
+      { date: "2023", title: "The Tax Framework", body: "Kai Cenat and other AMP members began calling it the 'Fanum Tax' — reframing it as an official levy that must be paid. The joke spread through streams and then onto TikTok and Twitter." },
+      { date: "2023–2024", title: "Internet Meme", body: "The Fanum Tax became a meme format applied to any situation where someone takes from another's resources. It kept the food-specific meaning but expanded conceptually." }
+    ],
+    whyViral: [
+      { title: "AMP collective reach", desc: "Kai Cenat, Fanum, and the AMP collective have hundreds of millions of combined views. Their bits become everyone's vocabulary." },
+      { title: "Universal food experience", desc: "Everyone has had someone take their food. The Fanum Tax gave that a funny, non-confrontational framework." },
+      { title: "The tax metaphor", desc: "Making food theft sound like an official government levy is funny in a very specific way. The bureaucratic framing makes it funnier." },
+      { title: "Stream-to-internet pipeline", desc: "Streaming communities are one of the fastest vocabulary transmission systems online." }
+    ],
+    relatedSlangs: ["bussin", "rizz", "based"],
+    seoKeywords: ["fanum tax meaning", "what is fanum tax", "fanum tax slang", "fanum tax food meaning"]
+  },
+
+  {
+    id: "ong", word: "ONG / On God", slug: "ong",
+    devanagari: null, pronunciation: "/ɒn ɡɒd/",
+    shortMeaning: "I swear on God this is true. The strongest possible emphasis of honesty.",
+    fullMeaning: "'On God' or 'ONG' is a declaration that something is absolutely true — you are swearing on God that you mean what you say. It is used to emphasize sincerity, agree strongly with something, or confirm a statement as fact. 'On God that was the best meal I've had' is extreme emphasis. 'ONG?' asks if you are serious. It is one of the strongest sincerity markers in Gen Z vocabulary.",
+    tag: "trending", year: 2018, language: "English / AAVE", coinedBy: "Black American vernacular", origin: "AAVE / Black Twitter",
+    culturalContext: "Swearing 'on God' or 'on my mother' for emphasis has existed in Black American vernacular and urban culture for generations. 'ONG' as text shorthand emerged from that tradition and became one of the most-used agreement and emphasis markers on social media.",
+    examples: [
+      { label: "💬 Strong agreement", them: "That movie was genuinely terrible.", me: "ONG. I walked out after 30 minutes. No regrets." },
+      { label: "📱 Confirmation", them: "Did that really happen?", me: "On God. I was there. It happened exactly like that." },
+      { label: "🎭 Sincere statement", them: "Do you actually like this?", me: "On God this is the best thing I've eaten this year. No performance." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Swearing on God", body: "Invoking God as a witness to one's honesty is a universal human practice. In AAVE and urban culture, 'on God' and 'on my life' served as the strongest possible sincerity markers." },
+      { date: "2018–2020", title: "Black Twitter Standard", body: "Black Twitter made 'ONG' a standard shorthand for intense agreement and sincere emphasis. It appeared constantly in responses to relatable or surprising statements." },
+      { date: "2021 Onward", title: "Universal Use", body: "ONG crossed from Black Twitter into general Gen Z vocabulary. It became one of the most recognizable emphasis and agreement phrases across every platform." }
+    ],
+    whyViral: [
+      { title: "Maximum sincerity marker", desc: "Swearing on God is the highest possible sincerity signal. ONG carries that weight in three letters." },
+      { title: "AAVE to internet pipeline", desc: "Black vernacular drives internet language. On God traveled the standard path from AAVE to mainstream via Black Twitter." },
+      { title: "Works as agreement and statement", desc: "ONG can end a statement ('It was great, ONG') or respond to one ('ONG facts'). Dual function is linguistic power." },
+      { title: "Three letters, maximum weight", desc: "Abbreviation culture made ONG the most efficient way to say 'I am being completely honest right now.'" }
+    ],
+    relatedSlangs: ["nocap", "fr", "based"],
+    seoKeywords: ["ONG meaning slang", "on god meaning slang", "what does ONG mean", "on god slang definition"]
+  },
+
+  {
+    id: "hardlaunch", word: "Hard Launch", slug: "hardlaunch",
+    devanagari: null, pronunciation: "/hɑːrd lɔːntʃ/",
+    shortMeaning: "Officially announcing a new relationship with a clear, direct post.",
+    fullMeaning: "A hard launch is when you formally announce a new relationship to your social media audience with a clear, direct post — usually with a face-reveal of your partner. It is the opposite of a 'soft launch,' where you hint at someone's existence without fully revealing them. A hard launch says: this person is official, I am proud of them, and I am declaring this publicly. It requires courage and commitment.",
+    tag: "trending", year: 2021, language: "English", coinedBy: "Social media / dating culture", origin: "Instagram / Twitter dating discourse",
+    culturalContext: "Borrowed from tech and business language where a 'hard launch' means a full, committed product release as opposed to a quiet 'soft launch.' Applied to dating, it captures the social media ritual of making a relationship official online — a distinctly modern act of romantic commitment.",
+    examples: [
+      { label: "📸 The announcement", them: "She posted a full photo with him captioned with his name.", me: "The hard launch! After three months of soft launching. It is official." },
+      { label: "💬 Relationship milestone", them: "When are you going to post about her?", me: "Hard launch is coming. I need to plan it properly. Cannot just drop it." },
+      { label: "🎭 Excitement", them: "Did you see his story??", me: "The hard launch of the century. She is gorgeous. He did well." }
+    ],
+    originStory: [
+      { date: "Pre-2021", title: "Tech Vocabulary Borrowed", body: "In technology and business, a 'hard launch' means releasing a product fully and publicly with commitment — no beta, no soft rollout. The relationship equivalent: posting your partner fully and publicly." },
+      { date: "2021", title: "Dating Discourse", body: "Dating Twitter and Instagram discourse adopted hard and soft launch to describe the social ritual of making a relationship visible online. The vocabulary spread rapidly because the behavior was universal." },
+      { date: "2022 Onward", title: "Relationship Milestone", body: "The hard launch became recognized as a genuine relationship milestone — as significant as meeting the parents or making it official in traditional terms. Social media made it a ceremony." }
+    ],
+    whyViral: [
+      { title: "Universal modern experience", desc: "Anyone in a relationship has navigated when and how to post their partner. Hard launch named that decision precisely." },
+      { title: "Tech vocabulary prestige", desc: "Borrowing from tech language gives the word a strategic, intentional feeling. A hard launch is planned, not accidental." },
+      { title: "Soft launch contrast", desc: "Having both soft and hard launch creates a vocabulary spectrum for relationship public status. Systems spread together." },
+      { title: "Social media as ceremony", desc: "The hard launch treats posting as a formal act. That elevation of the mundane is very Gen Z." }
+    ],
+    relatedSlangs: ["situationship", "rizz", "era"],
+    seoKeywords: ["hard launch meaning slang", "what does hard launch mean", "hard launch relationship meaning", "soft launch vs hard launch meaning"]
+  },
+
+  {
+    id: "romanempire", word: "Roman Empire", slug: "romanempire",
+    devanagari: null, pronunciation: "/ˈroʊ.mən ˈɛm.paɪər/",
+    shortMeaning: "Something you think about surprisingly often for no clear reason.",
+    fullMeaning: "The 'Roman Empire' trend refers to things you think about more often than you expect — random obsessions, recurring thoughts, or topics your mind returns to unprompted. The meme started when a creator asked men how often they think about the Roman Empire, and the answers were surprisingly high. Now 'my Roman Empire' means whatever you cannot stop thinking about.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "TikTok / @arielkelleys trend", origin: "TikTok viral trend 2023",
+    culturalContext: "A TikTok trend in September 2023 asked men how often they thought about the Roman Empire — and the answers (daily, multiple times a week) went viral. Women then asked their partners, the results were shared, and 'Roman Empire' became shorthand for any recurring, inexplicable mental preoccupation.",
+    examples: [
+      { label: "💬 Personal admission", them: "What is your Roman Empire?", me: "The fact that Cleopatra lived closer to the moon landing than to the building of the pyramids. Cannot leave my brain." },
+      { label: "📱 Sharing obsessions", them: "What do you randomly think about?", me: "My Roman Empire is that weird thing that happened at summer camp in 2014. Still processing." },
+      { label: "🎭 Calling it out", them: "You've mentioned that thing three times this week.", me: "It is just my Roman Empire. I have no control over it." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Men and the Roman Empire", body: "An observation floated online that men think about the Roman Empire with surprising frequency — a running joke about men's tendency toward history and military strategy." },
+      { date: "September 2023", title: "TikTok Goes Viral", body: "Creator @arielkelleys posted asking women to ask their husbands and partners how often they thought about the Roman Empire. The responses were hilariously high. The video blew up and spawned thousands of response videos." },
+      { date: "Late 2023", title: "Universal Application", body: "'My Roman Empire' became shorthand for any recurring, inexplicable mental preoccupation — not just the actual Roman Empire. The format expanded to any thought you return to more than you expect." }
+    ],
+    whyViral: [
+      { title: "The surprise of the original answers", desc: "The genuinely high frequency of men's Roman Empire thoughts was funny and unexpected. Surprise drives viral spread." },
+      { title: "Universal mental preoccupation", desc: "Everyone has things they think about more than they should. The Roman Empire gave that experience a name." },
+      { title: "Couple content format", desc: "Asking your partner questions and recording reactions is one of TikTok's best-performing formats." },
+      { title: "Ironic historical specificity", desc: "Using the actual Roman Empire as shorthand for any obsession is funny in a very specific way." }
+    ],
+    relatedSlangs: ["rentfree", "lore", "iykyk"],
+    seoKeywords: ["roman empire meaning slang", "what does roman empire meme mean", "my roman empire meaning", "roman empire trend meaning"]
+  },
+
+  {
+    id: "brat", word: "Brat", slug: "brat",
+    devanagari: null, pronunciation: "/bræt/",
+    shortMeaning: "Unapologetically yourself with a messy, rebellious, party-girl energy.",
+    fullMeaning: "Inspired by Charli XCX's 2024 album 'Brat,' being brat means embracing an unapologetically messy, carefree, party-first identity. Brat is about not performing perfection — being loud, having fun, saying the wrong thing sometimes, and not caring about being likable. The brat aesthetic is lime green, chaotic, and genuinely free. 'Brat summer' was 2024's answer to 'hot girl summer.'",
+    tag: "trending", year: 2024, language: "English", coinedBy: "Charli XCX", origin: "Charli XCX album 'Brat' / TikTok",
+    culturalContext: "Charli XCX's 2024 album 'Brat' and its neon lime green aesthetic redefined a word previously used as an insult into an aspirational identity. Brat culture is about authenticity without polish — the anti-clean-girl, the anti-that-girl. It became one of 2024's defining cultural aesthetics.",
+    examples: [
+      { label: "💬 Claiming the identity", them: "You were the last one on the dance floor again.", me: "Brat behavior. I cannot apologize for it." },
+      { label: "📸 The aesthetic", them: "Why is everything lime green?", me: "Brat summer is not a theme it is a lifestyle." },
+      { label: "🎭 Unfiltered energy", them: "Are you sure you want to say that?", me: "Very brat of me, I know. But I mean it." }
+    ],
+    originStory: [
+      { date: "June 2024", title: "Charli XCX's Album", body: "Charli XCX released 'Brat' with a deliberately minimal lime green cover. The album celebrated imperfection, party culture, and authenticity over curated perfection. It became a critical and cultural phenomenon." },
+      { date: "Summer 2024", title: "Brat Summer", body: "By summer 2024, 'brat summer' was everywhere — the chaotic, unbothered, messy counterpoint to 2023's 'hot girl summer.' The lime green aesthetic took over social media." },
+      { date: "2024", title: "Cultural Identity", body: "Brat became more than an album — it became an identity. Being brat meant choosing authenticity and fun over performance and perfection. Politicians even leaned into the brat label." }
+    ],
+    whyViral: [
+      { title: "Charli XCX's cultural moment", desc: "Artists who capture the cultural mood create vocabulary. Charli XCX in 2024 was that artist." },
+      { title: "Anti-perfection culture", desc: "A generation tired of curated, perfect social media found brat's messy authenticity deeply appealing." },
+      { title: "The lime green aesthetic", desc: "A distinctive visual identity makes a cultural moment immediately recognizable and shareable." },
+      { title: "Political adoption", desc: "When political figures adopt cultural slang, it reaches new audiences and becomes part of broader discourse." }
+    ],
+    relatedSlangs: ["era", "slay", "based"],
+    seoKeywords: ["brat meaning slang", "charli xcx brat meaning", "what does brat mean gen z", "brat summer meaning"]
+  },
+
+  {
+    id: "unc", word: "Unc", slug: "unc",
+    devanagari: null, pronunciation: "/ʌŋk/",
+    shortMeaning: "Short for uncle. Calling someone out for acting old, out of touch, or uncool.",
+    fullMeaning: "Unc is short for 'uncle' and is used to call someone out for acting old, out of touch, or behind on culture. Calling someone 'unc' says they are behaving like an older relative who doesn't understand modern references, speaks in outdated slang, or reacts to things in a way that reveals they are no longer culturally current. It is a roast but usually affectionate.",
+    tag: "trending", year: 2022, language: "English / AAVE", coinedBy: "Black American internet culture", origin: "Black Twitter / TikTok",
+    culturalContext: "The uncle archetype in Black American culture is the older male relative who shows up to family events with outdated opinions and uncool behavior but lots of confidence. 'Unc behavior' describes that specific flavor of confident-but-wrong-era energy.",
+    examples: [
+      { label: "💬 Calling out old behavior", them: "He used 'on fleek' in a serious sentence.", me: "Unc behavior. Someone needs to tell him that was 2015." },
+      { label: "📱 Friendly roast", them: "Why are you listening to that?", me: "Don't call me unc. I know what I like." },
+      { label: "🎭 Self-aware", them: "I don't understand what they are saying.", me: "You are the unc in this scenario and I say that with love." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "The Uncle Archetype", body: "The 'unc' as a character type exists in Black American family and cultural life — the older relative who is confident, opinionated, but operating on old cultural frameworks. Recognizable to most people." },
+      { date: "2022", title: "Black Twitter Codification", body: "Black Twitter began using 'unc' as a label for anyone displaying culturally outdated behavior or references. The archetype transferred from family life to internet commentary." },
+      { date: "2023 Onward", title: "General Roast Tool", body: "Unc spread as a friendly but pointed roast for out-of-touch behavior. Useful because it is more specific than 'old' and more affectionate than 'cringe.'" }
+    ],
+    whyViral: [
+      { title: "Universal family archetype", desc: "Everyone has an unc. The archetype is immediately recognizable across cultures." },
+      { title: "Specific but gentle roast", desc: "Calling someone unc is sharper than 'old-fashioned' but softer than an outright insult. That precision is useful." },
+      { title: "Cultural gap commentary", desc: "In a fast-moving culture, falling behind happens quickly. Unc names the result with humor." },
+      { title: "Self-deprecating usage", desc: "'I'm being the unc here' is charming self-awareness. Words used self-deprecatingly spread faster." }
+    ],
+    relatedSlangs: ["cheugy", "mid", "based"],
+    seoKeywords: ["unc meaning slang", "what does unc mean", "unc slang definition", "unc behavior meaning"]
+  },
+
+  {
+    id: "fit", word: "Fit", slug: "fit",
+    devanagari: null, pronunciation: "/fɪt/",
+    shortMeaning: "Short for outfit. What you are wearing today.",
+    fullMeaning: "'Fit' is simply short for 'outfit.' 'What's the fit today?' asks what you are wearing. 'The fit is clean' means the outfit looks great. 'Fit check' is a request to see what someone is wearing or a moment when you show off your outfit for appraisal. It is one of the most natural abbreviations in fashion vocabulary — two syllables become one.",
+    tag: "classic", year: 2015, language: "English / AAVE", coinedBy: "Hip-hop / fashion culture", origin: "AAVE / streetwear / hip-hop",
+    culturalContext: "Fashion has always been central to hip-hop and Black American culture. 'Fit' as shorthand for outfit emerged from those communities and traveled through streetwear culture into mainstream Gen Z vocabulary. Instagram and TikTok's visual culture made 'fit' ubiquitous.",
+    examples: [
+      { label: "💬 Daily question", them: "What are you wearing tonight?", me: "Still deciding the fit. Thinking all black but it might be too much." },
+      { label: "📸 Fit check", them: "Posted an outfit photo with the caption", me: "Fit check. Rate it." },
+      { label: "🛍️ Complimenting", them: "Where did you get that jacket?", me: "Thank you, the fit has been getting attention all day." }
+    ],
+    originStory: [
+      { date: "Pre-2015", title: "Fashion Culture Abbreviation", body: "In hip-hop and streetwear communities, 'fit' naturally shortened 'outfit.' Fashion-focused communities shorten vocabulary constantly — it is part of the culture." },
+      { date: "2015–2018", title: "Social Media Normalization", body: "Instagram's fashion content made 'fit' universal. 'Fit check' as a content format — posting an outfit for community feedback — spread the word to every fashion-interested audience." },
+      { date: "2019 Onward", title: "Everywhere", body: "'Fit' is now simply the standard word for outfit in Gen Z vocabulary. It appears in every fashion conversation, caption, and comment." }
+    ],
+    whyViral: [
+      { title: "Natural abbreviation", desc: "Fit is simply shorter than outfit. When a shorter version is available and sounds good, it wins." },
+      { title: "Fit check format", desc: "The fit check content format — showing your outfit for feedback — made the word appear in millions of captions." },
+      { title: "Fashion community centrality", desc: "Fashion content is massive online. A word from that community's core vocabulary spreads through enormous audiences." },
+      { title: "AAVE pipeline", desc: "Black American vernacular's abbreviation culture drives internet language constantly." }
+    ],
+    relatedSlangs: ["drip", "snatched", "baddie"],
+    seoKeywords: ["fit meaning slang", "what does fit mean slang", "fit outfit slang", "fit check meaning"]
+  },
+
+  {
+    id: "mogging", word: "Mogging", slug: "mogging",
+    devanagari: null, pronunciation: "/ˈmɒɡ.ɪŋ/",
+    shortMeaning: "Looking significantly better than the person next to you. Outclassing someone in appearance.",
+    fullMeaning: "To mog someone means to look significantly, noticeably better than them — especially in photos or side-by-side comparisons. 'He mogged everyone in that photo' means he stood out as clearly more attractive. The term comes from looksmaxxing culture where appearance hierarchies are discussed openly. Being mogged means being outclassed in looks in a specific context.",
+    tag: "trending", year: 2020, language: "English", coinedBy: "Looksmaxxing / incel culture / internet", origin: "Looksmaxxing communities / Reddit / TikTok",
+    culturalContext: "Emerged from looksmaxxing communities on Reddit and YouTube where appearance was analyzed systematically. 'Mogging' described the phenomenon of standing next to someone significantly more attractive. It crossed from niche forums into mainstream TikTok and became part of broader appearance commentary.",
+    examples: [
+      { label: "📸 Group photo", them: "Look at this photo from the event.", me: "He is mogging everyone in this picture. How is that fair." },
+      { label: "💬 Celebrity comparison", them: "They always appear together.", me: "She mogs him so hard in every photo. The contrast is wild." },
+      { label: "🎭 Self-aware", them: "I always look bad in photos with you.", me: "You are getting mogged and it is not your fault. I am just built different in photos." }
+    ],
+    originStory: [
+      { date: "2018–2020", title: "Looksmaxxing Forums", body: "In online communities dedicated to maximizing physical appearance, 'mogging' emerged to describe the experience of being outclassed in attractiveness by someone nearby. It came from 'to mog' someone." },
+      { date: "2021–2022", title: "Mainstream TikTok", body: "TikTok's appearance-focused content brought mogging from niche forums to mainstream audiences. Photo comparison content and 'mog check' videos spread the vocabulary." },
+      { date: "2023 Onward", title: "General Use", body: "Mogging escaped looksmaxxing communities and became general vocabulary for outclassing someone in any aspect — not just physical appearance, though that remains its primary use." }
+    ],
+    whyViral: [
+      { title: "Photo comparison culture", desc: "Social media is driven by photos and appearance comparisons. Mogging described a very real and frequently observed phenomenon." },
+      { title: "Specificity", desc: "Mogging describes a particular dynamic — looking better than the person standing next to you — with precision no other word achieves." },
+      { title: "Looksmaxxing community reach", desc: "Appearance-focused online communities are large and engaged. Their vocabulary spreads to anyone interested in looks." },
+      { title: "Funny observation tool", desc: "Noticing that someone is mogging everyone in a photo is both an observation and a compliment. The word makes the dynamic speakable." }
+    ],
+    relatedSlangs: ["looksmaxxing", "snatched", "drip"],
+    seoKeywords: ["mogging meaning slang", "what does mogging mean", "mog slang definition", "mogged meaning"]
+  },
+
+  {
+    id: "looksmaxxing", word: "Looksmaxxing", slug: "looksmaxxing",
+    devanagari: null, pronunciation: "/ˈlʊks.mæks.ɪŋ/",
+    shortMeaning: "The process of maximizing your physical attractiveness through various methods.",
+    fullMeaning: "Looksmaxxing is the systematic pursuit of maximum physical attractiveness — analyzing your features, identifying improvements, and implementing techniques ranging from skincare and fitness to more extreme approaches. It spans everything from basic grooming (softmaxxing) to bone structure analysis and medical procedures (hardmaxxing). The community has developed its own technical vocabulary for the science of appearance optimization.",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Online self-improvement communities / Reddit", origin: "Reddit / Lookism forums / YouTube",
+    culturalContext: "Emerged from Reddit's self-improvement communities and dedicated looks forums where users analyzed facial structure and appearance scientifically. While the community's origins are debated, looksmaxxing practices like mewing, skincare, and fitness have reached mainstream audiences through TikTok.",
+    examples: [
+      { label: "💬 Starting the journey", them: "I want to improve how I look.", me: "Look into looksmaxxing honestly. Start with the basics — sleep, hydration, skincare, gym." },
+      { label: "📱 Community advice", them: "Where do I start?", me: "Softmaxxing first. Fix the basics before anything dramatic. Looksmaxxing is a marathon." },
+      { label: "🎯 The mindset", them: "Is looksmaxxing vain?", me: "Taking care of how you look is just taking care of yourself. The looksmaxxing community just made it systematic." }
+    ],
+    originStory: [
+      { date: "2015–2018", title: "Forum Origins", body: "Online communities on Reddit and dedicated forums began systematically analyzing appearance — which features are most attractive, what can be changed, what cannot. The community developed technical vocabulary including 'looksmaxxing,' 'softmaxxing,' and 'hardmaxxing.'" },
+      { date: "2019–2021", title: "YouTube Spread", body: "Looksmaxxing content found a large YouTube audience. Videos on mewing, skincare, fitness, and facial symmetry attracted millions of views. The vocabulary traveled with the content." },
+      { date: "2022 Onward", title: "TikTok Mainstream", body: "TikTok brought looksmaxxing to the widest possible audience. The more accessible techniques — skincare, gym, grooming — entered mainstream consciousness while the more extreme aspects remained niche." }
+    ],
+    whyViral: [
+      { title: "Universal appearance interest", desc: "Everyone wants to look their best. Looksmaxxing gave that aspiration a systematic, community-backed framework." },
+      { title: "TikTok appearance content boom", desc: "TikTok's before/after content and appearance transformation videos are some of the platform's most viewed." },
+      { title: "Accessible entry points", desc: "Skincare and gym are easy to start. The community onboards through accessible recommendations before introducing more complex topics." },
+      { title: "Community and vocabulary", desc: "Looksmaxxing comes with a whole technical vocabulary. Communities with shared specialized language retain members and attract curious outsiders." }
+    ],
+    relatedSlangs: ["mogging", "mewing", "glowup"],
+    seoKeywords: ["looksmaxxing meaning", "what is looksmaxxing", "looksmaxxing slang", "how to looksmax meaning"]
   }
 
 ];
