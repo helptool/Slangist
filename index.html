@@ -110,7 +110,7 @@
         </h1>
 
         <p class="hero-sub">
-          Every trending word, every viral phrase — with real origins,
+          Every trending word, every viral phrase. Real origins,
           cultural context, and the receipts to prove it.
         </p>
 
@@ -123,7 +123,7 @@
             <input
               type="search"
               class="search-input"
-              placeholder="Search slang — try 'rizz' or 'sus'…"
+              placeholder="Search slang, try 'rizz' or 'sus'..."
               aria-label="Search slangs"
               autocomplete="off"
             />
@@ -145,7 +145,7 @@
 
         <div class="hero-stats" style="margin-top:48px">
           <div class="stat-item">
-            <span class="stat-num">7+</span>
+            <span class="stat-num" id="word-count-stat">56+</span>
             <span class="stat-label">Words</span>
           </div>
           <div class="stat-divider"></div>
@@ -186,7 +186,7 @@
             </div>
             <h3 id="spotlight-word" class="spotlight-word">Velkāmya</h3>
             <p id="spotlight-devan" style="font-family:var(--ff-display);font-style:italic;color:var(--text-3);font-size:1.1rem;margin-bottom:12px">वेलकाम्य</p>
-            <p id="spotlight-meaning" class="spotlight-meaning">A new Gen Z Hindi reply to "thank you" — warm, modern, and finally desi.</p>
+            <p id="spotlight-meaning" class="spotlight-meaning">A new Gen Z Hindi reply to "thank you". Warm, modern, and finally desi.</p>
             <div class="spotlight-meta">
               <span class="tag tag-new">New</span>
               <span class="btn btn-ghost" style="padding:8px 18px;font-size:0.8rem">Read More →</span>
@@ -246,13 +246,13 @@
               Language is living.<br/><em>We document it.</em>
             </h2>
             <p class="body-lg" style="margin-top:20px;margin-bottom:28px">
-              Slang is the most honest form of language — it's what people
+              Slang is the most honest form of language. It's what people
               actually say when they're not performing. We track it, document it,
               and give it the serious treatment it deserves.
             </p>
             <p class="body-md" style="margin-bottom:32px">
               Every word in our dictionary comes with pronunciation, real usage examples,
-              a documented origin story, and cultural context — not just a one-line definition.
+              a documented origin story, and cultural context. Not just a one-line definition.
             </p>
             <a href="about.html" class="btn btn-ghost">Learn About Slangist →</a>
           </div>
@@ -292,7 +292,7 @@
             <p class="body-md" style="max-width:460px;margin:0 auto 28px">
               Language moves faster than any dictionary can track.
               If you've coined or discovered a word worth documenting,
-              reach out — we want to hear it.
+              reach out. We want to hear it.
             </p>
             <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
               <a href="about.html" class="btn btn-primary">Get in Touch</a>
@@ -315,7 +315,7 @@
           <a href="index.html" class="footer-logo">
             <span>S</span>langist
           </a>
-          <p class="footer-tagline">The internet's slang dictionary — every trending word, documented with care.</p>
+          <p class="footer-tagline">The internet's slang dictionary. Every trending word, documented with care.</p>
           <div class="flex gap-8">
             <button class="btn-icon" data-theme-toggle aria-label="Toggle theme"></button>
           </div>
@@ -384,8 +384,12 @@
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
   <script>
-    // Homepage specific init
     document.addEventListener('DOMContentLoaded', () => {
+      // Update word count from live data
+      const countEl = document.getElementById('word-count-stat');
+      if (countEl && typeof getAllSlangs === 'function') {
+        countEl.textContent = getAllSlangs().length + '+';
+      }
       initHomepage();
     });
   </script>

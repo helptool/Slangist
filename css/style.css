@@ -897,10 +897,11 @@ input { font-family: inherit; }
   font-family: var(--ff-display);
   font-style: italic;
   color: var(--text-1);
-  opacity: 0.025;
+  opacity: 0.06;
   white-space: nowrap;
-  animation: float-drift linear infinite;
+  animation: float-drift linear infinite alternate;
   user-select: none;
+  transform-origin: center center;
 }
 
 @keyframes float-drift {

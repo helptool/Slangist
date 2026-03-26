@@ -557,21 +557,39 @@ function initFloatingWords() {
   const container = document.querySelector('.hero-floats');
   if (!container || typeof SLANGIST_DATA === 'undefined') return;
 
-  const words = SLANGIST_DATA.map(s => s.word);
-  const sizes = [3, 4, 5, 6, 7, 8];
+  /* Grid-based placement — 6 columns × 4 rows = 24 cells.
+     One word per cell so nothing overlaps badly.           */
+  const COLS = 6;
+  const ROWS = 4;
+  const cellW = 100 / COLS;   // % width per cell
+  const cellH = 100 / ROWS;   // % height per cell
 
-  words.concat(words).forEach((word, i) => {
+  /* Pick 24 words, shuffle them */
+  const pool = [...SLANGIST_DATA].map(s => s.word)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, COLS * ROWS);
+
+  pool.forEach((word, i) => {
     const el = document.createElement('span');
     el.classList.add('float-word');
     el.textContent = word;
 
-    const size = sizes[i % sizes.length];
-    const top  = Math.random() * 90;
-    const left = Math.random() * 90;
-    const dur  = 15 + Math.random() * 20;
-    const tx   = (Math.random() - 0.5) * 120 + 'px';
-    const ty   = (Math.random() - 0.5) * 80 + 'px';
-    const rot  = (Math.random() - 0.5) * 30 + 'deg';
+    const col = i % COLS;
+    const row = Math.floor(i / COLS);
+
+    /* Anchor to cell centre then apply a small random jitter */
+    const jitterX = (Math.random() - 0.5) * cellW * 0.45;
+    const jitterY = (Math.random() - 0.5) * cellH * 0.45;
+    const left = col * cellW + cellW * 0.5 + jitterX;
+    const top  = row * cellH + cellH * 0.5 + jitterY;
+
+    /* Smaller, readable sizes — no 7–8 rem monsters */
+    const size = 1.6 + Math.random() * 1.8;   /* 1.6–3.4 rem */
+
+    const dur = 22 + Math.random() * 18;
+    const tx  = (Math.random() - 0.5) * 50 + 'px';
+    const ty  = (Math.random() - 0.5) * 35 + 'px';
+    const rot = (Math.random() - 0.5) * 12 + 'deg'; /* gentle tilt only */
 
     el.style.cssText = `
       font-size: ${size}rem;

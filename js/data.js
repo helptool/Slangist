@@ -793,6 +793,737 @@ const SLANGIST_DATA = [
     seoKeywords: ["W meaning slang", "L meaning slang", "taking an L meaning", "W and L gen z slang"]
   }
 
+  /* ── BATCH 3 — NEW ENTRIES ───────────────────────────── */
+
+  {
+    id: "pookie", word: "Pookie", slug: "pookie",
+    devanagari: null, pronunciation: "/ˈpʊk.i/",
+    shortMeaning: "An endearing nickname for a close friend or romantic partner.",
+    fullMeaning: "Pookie is a cute, affectionate nickname used for someone you adore, whether a best friend, a partner, or even a pet. It conveys warmth, closeness, and a kind of playful intimacy. Calling someone your pookie signals genuine fondness without being too formal or serious.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Internet / Black American vernacular", origin: "TikTok / social media",
+    culturalContext: "While 'pookie' existed as an old-fashioned pet name, TikTok's affectionate culture brought it roaring back. Gen Z uses it ironically and sincerely at the same time — calling someone pookie is sweet but also a little funny, which is exactly the Gen Z emotional register.",
+    examples: [
+      { label: "💬 To a best friend", them: "Just got here, where are you??", me: "Coming pookie!! 30 seconds I promise 😭" },
+      { label: "📸 Instagram caption", them: "Posted a photo with their partner", me: "My pookie and I 🥹❤️" },
+      { label: "🐕 Pet owners", them: "Your dog's videos are everything.", me: "She's my pookie, I'd do anything for her honestly." }
+    ],
+    originStory: [
+      { date: "1980s–90s", title: "Old-School Pet Name", body: "Pookie existed as a cutesy pet name in American English for decades, used mostly by grandparents and in cartoons. It was wholesome and slightly dorky — which is exactly why the internet brought it back." },
+      { date: "2021–2022", title: "TikTok Revival", body: "TikTok's affection-heavy culture rediscovered 'pookie' and gave it new life. Videos calling partners, friends, and pets 'pookie' went viral because the word is both genuine and slightly ironic — perfect for Gen Z's emotional tone." },
+      { date: "2023", title: "Mainstream Explosion", body: "By 2023, pookie was everywhere. Comments sections, couple content, friendship posts — anyone showing affection called their person their pookie. The word became shorthand for wholesome, earnest love." }
+    ],
+    whyViral: [
+      { title: "Sounds adorable", desc: "Pookie is phonetically soft and round. It literally sounds like a hug." },
+      { title: "Safe affection", desc: "Calling someone pookie is intimate but not intense. It's the perfect level of affection for internet culture." },
+      { title: "Irony + sincerity blend", desc: "Gen Z loves words that work both genuinely and as jokes. Pookie does both without trying." },
+      { title: "Universal application", desc: "Partners, friends, siblings, pets — pookie works for any being you love." }
+    ],
+    relatedSlangs: ["rizz", "simp", "slay"],
+    seoKeywords: ["pookie meaning slang", "what does pookie mean", "pookie slang definition", "pookie gen z meaning"]
+  },
+
+  {
+    id: "ick", word: "Ick", slug: "ick",
+    devanagari: null, pronunciation: "/ɪk/",
+    shortMeaning: "A sudden, visceral feeling of disgust toward someone you were attracted to.",
+    fullMeaning: "The ick is that sudden, inexplicable moment when someone you were romantically interested in does something — sometimes completely trivial — that completely kills your attraction. You were interested, then they did that one thing, and now you physically cannot. The ick is instant, often irrational, and almost always permanent. Once you've gotten the ick, there's rarely any coming back.",
+    tag: "trending", year: 2017, language: "English", coinedBy: "UK dating reality shows / internet", origin: "Love Island UK / TikTok",
+    culturalContext: "The ick went mainstream through UK dating reality shows, particularly Love Island, where contestants described sudden turn-offs. TikTok then turned 'things that give me the ick' into a massive content genre. The format — listing absurd, hyper-specific triggers — is one of TikTok's most beloved.",
+    examples: [
+      { label: "💬 Dating horror", them: "Wait you stopped liking him? What happened??", me: "He waved at a train. I got the ick and it hasn't left." },
+      { label: "📱 Shared experience", them: "What gives you the ick?", me: "When they run to catch a bus. I don't make the rules." },
+      { label: "🎭 Self-aware", them: "She's cute right?", me: "She was until she clapped when the plane landed. Full ick. Can't recover." }
+    ],
+    originStory: [
+      { date: "2017 · Love Island UK", title: "Reality TV Coinage", body: "Contestant Olivia Attwood used 'the ick' on Love Island UK Season 3 to describe the sudden revulsion she felt toward a partner. The show's massive following spread the term across UK social media instantly." },
+      { date: "2020–2021", title: "TikTok Format", body: "'Things that give me the ick' became a wildly popular TikTok format. Creators listed increasingly absurd triggers — running for a bus, using a straw incorrectly, waving at a train — that resonated because everyone recognized the irrational specificity." },
+      { date: "2022–2023", title: "Global Phenomenon", body: "The ick crossed from UK-centric to global. American, Australian, South Asian creators all joined the format. It became shorthand for the inexplicable nature of attraction and revulsion." }
+    ],
+    whyViral: [
+      { title: "Universal relatability", desc: "Everyone has experienced an irrational turn-off. The ick gave that experience a name and a community." },
+      { title: "TikTok list format", desc: "Listing your icks is a perfect TikTok format. Specific, funny, endlessly relatable, and infinitely repeatable." },
+      { title: "Irrational specificity", desc: "The funnier and more specific your ick, the more people engage. 'Waving at a train' is funnier than 'being rude.'" },
+      { title: "Dating culture zeitgeist", desc: "A generation navigating modern dating needed vocabulary for its irrational emotional realities. The ick delivered." }
+    ],
+    relatedSlangs: ["situationship", "ghosting", "rizz"],
+    seoKeywords: ["the ick meaning", "ick slang dating", "what does the ick mean", "getting the ick meaning"]
+  },
+
+  {
+    id: "stan", word: "Stan", slug: "stan",
+    devanagari: null, pronunciation: "/stæn/",
+    shortMeaning: "To be an obsessive superfan of someone or something.",
+    fullMeaning: "To stan someone means to be their passionate, dedicated, sometimes obsessive fan. Originally a noun ('I'm a stan'), now also a verb ('I stan her'). A stan goes beyond regular appreciation — they follow every update, defend their favorite online, know every lyric, and consider support for their idol a core part of their identity. Also used more casually: 'We all stan this song' just means everyone loves it.",
+    tag: "classic", year: 2000, language: "English", coinedBy: "Eminem (song 'Stan')", origin: "Hip-hop / Eminem",
+    culturalContext: "Coined by Eminem's 2000 song 'Stan,' which told the story of an obsessive fan who wrote increasingly unhinged letters to his idol. The word went from describing dangerous obsession to being embraced by fan communities as a badge of passionate loyalty.",
+    examples: [
+      { label: "💬 Music fandom", them: "Have you listened to her new album yet?", me: "Every song, twice, in order. I unironically stan her forever." },
+      { label: "📱 General appreciation", them: "That director's cinematography is incredible.", me: "We all stan him. No notes, no critique, just art." },
+      { label: "🎭 Self-aware fandom", them: "Are you really buying concert tickets for a third time?", me: "Stan behavior, I cannot be helped at this stage." }
+    ],
+    originStory: [
+      { date: "2000 · Eminem", title: "The Song That Coined It", body: "Eminem's 2000 track 'Stan' featured a fictional obsessive fan who idolized Eminem to the point of self-destruction. The song was a dark study in celebrity parasocial relationships. The name 'Stan' became the word for that extreme fandom." },
+      { date: "2010–2016", title: "Fan Community Adoption", body: "K-pop fandoms, BeyHive, Swifties, and other dedicated fan armies adopted 'stan' as a self-identifier. The word detached from its dark original connotation and became a celebration of passionate fandom." },
+      { date: "2016 Onward", title: "Verb and Casual Use", body: "'I stan this' expanded the word from describing superfans to a general expression of enthusiastic support. 'We stan' became a positive endorsement for anything from artists to brands to ideas." }
+    ],
+    whyViral: [
+      { title: "Eminem's legacy", desc: "A Grammy-winning song that introduced a character named Stan gave the word immediate cultural prestige and emotional weight." },
+      { title: "Fan culture explosion", desc: "The 2010s saw unprecedented growth in organized fandom, especially K-pop. 'Stan' was the perfect word for that identity." },
+      { title: "Verb flexibility", desc: "'Stan' as a verb ('I stan her') made it usable in any sentence structure. Maximum linguistic versatility." },
+      { title: "Dictionary official", desc: "Merriam-Webster added 'stan' in 2019. From a rap song to an official dictionary entry in under 20 years." }
+    ],
+    relatedSlangs: ["slay", "goat", "rizz"],
+    seoKeywords: ["stan meaning slang", "what does stan mean", "stan slang definition", "stan fandom meaning"]
+  },
+
+  {
+    id: "situationship", word: "Situationship", slug: "situationship",
+    devanagari: null, pronunciation: "/ˌsɪtʃ.u.ˈeɪ.ʃən.ʃɪp/",
+    shortMeaning: "A romantic connection that's more than friends but less than official.",
+    fullMeaning: "A situationship is a romantic or emotionally intimate relationship that exists without a clear label, commitment, or defined status. You're not 'just friends' but you're also not officially together. There are feelings, there might be physical intimacy, you text constantly — but nobody has 'had the talk.' It's the grey zone of modern romance, and it's become increasingly common in an era of casual dating culture.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Dating culture / Twitter / TikTok", origin: "Modern dating discourse",
+    culturalContext: "Emerged from Gen Z and Millennial dating culture grappling with the rise of apps that made casual, undefined connections the norm. When everyone could date multiple people simultaneously with no commitment required, a new word was needed for the limbo that resulted.",
+    examples: [
+      { label: "💬 The grey zone", them: "So are you two dating or what?", me: "Honestly? Neither of us has said anything. It's a full situationship and I hate it." },
+      { label: "📱 Seeking advice", them: "He texts me first thing every morning.", me: "Girl that's not nothing. But it's also not a relationship. Classic situationship." },
+      { label: "🎭 Self-diagnosis", them: "How long has this been going on?", me: "Six months of situationship. I need to have the talk or I need to leave." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "The Experience Existed", body: "Undefined romantic relationships have always existed. But dating apps made them dramatically more common by normalizing non-commitment and making it easy to keep things ambiguous indefinitely." },
+      { date: "2022 · TikTok", title: "The Word Takes Off", body: "TikTok's dating content creators started using 'situationship' to describe the epidemic of undefined relationships they were personally navigating. The word resonated instantly because millions of viewers recognized their own situation in it." },
+      { date: "2023", title: "Cultural Diagnosis", body: "Situationship became a cultural diagnosis for what was wrong with modern dating. Articles, podcasts, and therapists all began using the term. It gave people a framework to understand and communicate their own ambiguous relationship experiences." }
+    ],
+    whyViral: [
+      { title: "Names a universal experience", desc: "Millions of people were living in undefined romantic limbo with no word for it. Situationship named the shared experience." },
+      { title: "Dating app era", desc: "Tinder and Hinge normalized casual, label-free connections. Situationship is the vocabulary for that normalized ambiguity." },
+      { title: "Emotional resonance", desc: "Situationships are confusing and often painful. Naming the experience makes it feel less isolating and more manageable." },
+      { title: "Relationship discourse", desc: "Relationship content performs extremely well. Situationship gave that entire content genre a precise, searchable keyword." }
+    ],
+    relatedSlangs: ["ick", "ghosting", "rizz"],
+    seoKeywords: ["situationship meaning", "what is a situationship", "situationship definition", "situationship dating"]
+  },
+
+  {
+    id: "baddie", word: "Baddie", slug: "baddie",
+    devanagari: null, pronunciation: "/ˈbæd.i/",
+    shortMeaning: "An attractive, confident person who knows they look good.",
+    fullMeaning: "A baddie is someone — usually a woman — who is physically attractive, stylishly dressed, confident, and fully aware of all of the above. A baddie doesn't apologize for how good she looks. She walks into a room with the energy of someone who knows exactly who she is. Being a baddie is as much about confidence and self-possession as it is about appearance.",
+    tag: "trending", year: 2015, language: "English / AAVE", coinedBy: "Black American culture / Instagram era", origin: "AAVE / Instagram influencer culture",
+    culturalContext: "Rooted in AAVE where 'bad' meaning attractive has a long history (going back to 'bad' meaning excellent in hip-hop). The Instagram era formalized 'baddie' as an aesthetic: flawless makeup, form-fitting outfits, unshakeable confidence. It became an aspiration category.",
+    examples: [
+      { label: "📸 Instagram energy", them: "She walked into the party and the whole room noticed.", me: "That's just baddie behavior. She's built different." },
+      { label: "💬 Complimenting", them: "Girl the way you've been carrying yourself lately.", me: "Finally stepped into my baddie era, it was long overdue." },
+      { label: "🎯 Self-description", them: "What's the vibe for tonight?", me: "Baddie era, no notes. Hair done, drip sorted, ready." }
+    ],
+    originStory: [
+      { date: "Pre-2015", title: "AAVE Roots", body: "In Black American culture, 'bad' as a compliment for attractiveness predates hip-hop. 'She's bad' meant she's strikingly attractive. 'Baddie' was the natural evolution into a category and identity." },
+      { date: "2015–2018", title: "Instagram Aesthetic", body: "Instagram's influencer era codified the 'baddie aesthetic' into a recognizable visual genre: contoured makeup, curve-hugging outfits, attitude-filled selfies. The look had its own hashtag and millions of followers." },
+      { date: "2019 Onward", title: "Aspirational Identity", body: "Baddie shifted from describing someone to being an identity to step into. 'My baddie era' became a declaration of self-transformation and confidence. It absorbed self-empowerment and fashion vocabulary simultaneously." }
+    ],
+    whyViral: [
+      { title: "Aspirational category", desc: "Baddie is something you can become, not just something you are. That aspiration drives massive content creation." },
+      { title: "Instagram visual culture", desc: "Perfectly photogenic by definition, baddie content performs extremely well on visual platforms." },
+      { title: "Confidence as core", desc: "Baddie isn't just about looks. It's about the attitude. That makes it more inclusive and more aspirational than pure appearance-based labels." },
+      { title: "Era narrative", desc: "'My baddie era' taps into the transformation narrative that Gen Z loves. Before/after, glow up, self-discovery." }
+    ],
+    relatedSlangs: ["slay", "drip", "glowup"],
+    seoKeywords: ["baddie meaning slang", "what does baddie mean", "baddie slang definition", "baddie aesthetic meaning"]
+  },
+
+  {
+    id: "opp", word: "Opp", slug: "opp",
+    devanagari: null, pronunciation: "/ɒp/",
+    shortMeaning: "Short for opposition. A rival, enemy, or someone who's against you.",
+    fullMeaning: "An opp is someone who opposes you, whether in a real conflict or a more casual social rivalry. 'Opps' (plural) refers to your enemies or people who wish you ill. The word carries serious weight in hip-hop and street culture but has also been adopted more lightly online to describe anyone you're beefing with. 'Watch out for the opps' means be aware of people who don't have your best interests at heart.",
+    tag: "trending", year: 2014, language: "English / AAVE", coinedBy: "UK and US hip-hop / drill music", origin: "UK drill / Chicago rap",
+    culturalContext: "Emerged primarily from UK drill music and Chicago's rap scene simultaneously, both of which were documenting real neighborhood rivalries. As drill music went mainstream globally, its vocabulary traveled with it.",
+    examples: [
+      { label: "🎵 Hip-hop context", them: "Why is everyone so tense at that event?", me: "Half the room is opps, they shouldn't even be in the same building." },
+      { label: "💬 Casual use", them: "Why don't you talk to Meera anymore?", me: "She's an opp at this point. Long story, but it's done." },
+      { label: "📱 Online", them: "Your comment section is getting messy.", me: "Opps found my page, I knew this would happen." }
+    ],
+    originStory: [
+      { date: "2012–2014", title: "Drill Music Origins", body: "Chicago's drill rap scene and the emerging UK drill scene both began using 'opps' to describe rival groups. The word was direct shorthand for 'opposition' in a context where rivalries were serious and real." },
+      { date: "2015–2018", title: "Hip-hop Mainstream", body: "As drill music went platinum and global, its vocabulary traveled. 'Opps' entered mainstream hip-hop vocabulary through chart-topping artists. The word lost some of its intense edge and became more general." },
+      { date: "2019 Onward", title: "Internet Casual Use", body: "Online, 'opp' softened to describe anyone you're in conflict with, even minor social drama. 'She's an opp' now can mean anything from a genuine enemy to someone who just annoys you." }
+    ],
+    whyViral: [
+      { title: "Drill music reach", desc: "Drill became one of the most influential music genres globally. Its vocabulary went with it everywhere the music went." },
+      { title: "Short and punchy", desc: "Three letters. One syllable. Unmistakable meaning. Opp hits fast and hard." },
+      { title: "Universal conflict", desc: "Everyone has people in their life who are against them. 'Opp' gave that a cooler name than 'enemy.'" },
+      { title: "Social media drama", desc: "Online conflict needs vocabulary. 'Opp' fitted perfectly into the drama-content ecosystem." }
+    ],
+    relatedSlangs: ["salty", "tea", "vibecheck"],
+    seoKeywords: ["opp meaning slang", "what does opp mean", "opps meaning", "opp slang definition"]
+  },
+
+  {
+    id: "snatched", word: "Snatched", slug: "snatched",
+    devanagari: null, pronunciation: "/snætʃt/",
+    shortMeaning: "Looking absolutely amazing, particularly in terms of fit, face, or figure.",
+    fullMeaning: "Snatched means looking excellent — usually referring to a waist that appears sculpted, a face that's beautifully put together, or an outfit that fits perfectly. 'Your waist is snatched' means your waist looks cinched and defined. More broadly, 'she's snatched' means she looks incredible. It's a step beyond pretty — snatched implies effort, precision, and undeniable results.",
+    tag: "trending", year: 2018, language: "English / Drag / AAVE", coinedBy: "Black drag and ballroom culture", origin: "Drag culture / Instagram beauty",
+    culturalContext: "Originated in Black drag and ballroom culture where 'snatching a wig' meant so completely dominating a look or performance that it metaphorically yanked someone's hair off. Beauty and fashion communities on Instagram adopted 'snatched' to describe perfectly sculpted looks.",
+    examples: [
+      { label: "📸 Beauty compliment", them: "Did you see her at the event last night?", me: "Her waist was SNATCHED. The dress, the face, everything. Flawless." },
+      { label: "💬 Getting ready", them: "How are you looking?", me: "Fully snatched and ready to leave. It's giving everything." },
+      { label: "💄 Makeup reaction", them: "The contour tutorial she posted—", me: "Did her jawline absolutely snatched. I need that product immediately." }
+    ],
+    originStory: [
+      { date: "Pre-2018", title: "Ballroom Roots", body: "In ballroom culture, 'snatching a wig' was the ultimate compliment — your performance was so stunning it metaphorically left your competitor wigless (devastated). The concept of looking so good you steal the room." },
+      { date: "2018 · Instagram Beauty", body: "The fitness and beauty community on Instagram adopted 'snatched waist' to describe visible waist definition. Beauty influencers followed with 'snatched face.' The word moved from metaphor to aesthetic descriptor.", date: "2018 · Instagram Beauty", title: "Beauty Community Adoption" },
+      { date: "2019 Onward", title: "General Excellence", body: "Like 'ate' and 'slay,' 'snatched' expanded beyond its specific original meaning to describe anything that looks precisely right and beautiful." }
+    ],
+    whyViral: [
+      { title: "Visual and physical", desc: "Snatched describes something you can see. It's specific and visual in a way that 'pretty' or 'beautiful' aren't." },
+      { title: "Beauty content is everything", desc: "Instagram and YouTube beauty communities are among the most engaged audiences online. Their vocabulary spreads incredibly fast." },
+      { title: "Drag culture energy", desc: "Words from ballroom carry attitude and performance energy that 'normal' vocabulary lacks." },
+      { title: "Precision compliment", desc: "'Snatched' tells someone exactly what they did well — their physical presentation is precise and excellent." }
+    ],
+    relatedSlangs: ["slay", "drip", "baddie"],
+    seoKeywords: ["snatched meaning slang", "what does snatched mean", "snatched slang definition", "snatched waist meaning"]
+  },
+
+  {
+    id: "boujee", word: "Boujee", slug: "boujee",
+    devanagari: null, pronunciation: "/ˈbuː.ʒi/",
+    shortMeaning: "Acting fancy, luxurious, or high-maintenance. Bougie.",
+    fullMeaning: "Boujee (also spelled bougie or bourgie) means acting fancy, preferring luxury, or being high-maintenance about quality. It comes from 'bourgeois' (the middle or wealthy class). Being called boujee can be affectionate ('she's boujee but in the best way') or a gentle shade ('he's too boujee for this restaurant'). Migos made it globally famous with their 2016 hit.",
+    tag: "classic", year: 2016, language: "English / AAVE / French", coinedBy: "Migos / AAVE culture", origin: "Hip-hop / Migos 'Bad and Boujee'",
+    culturalContext: "While 'bourgie' as a corruption of 'bourgeois' existed in Black American vernacular for decades, Migos' 2016 smash 'Bad and Boujee' introduced the spelling 'boujee' to a global audience and redefined it. Being boujee became aspirational rather than a critique.",
+    examples: [
+      { label: "💬 Affectionate shade", them: "She refused to eat at a restaurant without reservations.", me: "She's boujee. Always has been. But the restaurants she picks are always incredible." },
+      { label: "📱 Self-identification", them: "You really won't drink cheap wine?", me: "I'm not sorry, I'm boujee. There's a difference." },
+      { label: "🛍️ Shopping", them: "That price tag though...", me: "Listen. Sometimes being boujee is the right choice." }
+    ],
+    originStory: [
+      { date: "Pre-2016", title: "Bourgeois to Bourgie", body: "The French 'bourgeois' (middle/upper class) became 'bourgie' in Black American vernacular to describe someone who acted above their station or preferred fancy things. It was often a gentle critique." },
+      { date: "2016 · Migos", title: "Bad and Boujee", body: "Migos released 'Bad and Boujee' which became one of the most streamed songs of 2016-2017. Their spelling 'boujee' and the song's celebration of luxury lifestyle flipped the meaning from critique to aspiration." },
+      { date: "2017 Onward", title: "Cultural Aspiration", body: "Boujee became something to aspire to rather than be shamed for. Having standards, preferring quality, refusing to settle — all boujee, all celebrated." }
+    ],
+    whyViral: [
+      { title: "Migos' mega-hit", desc: "One of the most-played songs of its era introduced the spelling and the aspirational meaning simultaneously." },
+      { title: "Meaning flip", desc: "Turning a critique into an aspiration is always culturally powerful. Boujee did this perfectly." },
+      { title: "Self-description freedom", desc: "People love words they can claim for themselves. 'I'm boujee' is a power statement, not an insult." },
+      { title: "Luxury culture resonance", desc: "In an era obsessed with aspirational lifestyles and luxury aesthetics, boujee fit perfectly." }
+    ],
+    relatedSlangs: ["drip", "flex", "baddie"],
+    seoKeywords: ["boujee meaning slang", "what does boujee mean", "boujee definition", "bougie meaning"]
+  },
+
+  {
+    id: "fire", word: "Fire", slug: "fire",
+    devanagari: null, pronunciation: "/faɪər/",
+    shortMeaning: "Something that is amazing, cool, or exceptionally impressive.",
+    fullMeaning: "In slang, 'fire' means something is outstanding, impressive, or excellent. 'That song is fire' means it's incredible. 'You look fire' means you look amazing. The fire metaphor is intuitive — fire is powerful, bright, and impossible to ignore. Something that's fire burns with obvious quality. It can be used for music, food, fashion, ideas, and people.",
+    tag: "classic", year: 2012, language: "English / AAVE", coinedBy: "Hip-hop / Black American culture", origin: "Hip-hop / social media",
+    culturalContext: "Fire as a compliment has deep roots in hip-hop culture where 'fire' described tracks with blazing production and bars. Social media then universalized it into the go-to compliment for any outstanding thing. It's one of the most versatile single-word endorsements in English.",
+    examples: [
+      { label: "🎵 Music reaction", them: "Did you hear his new project?", me: "Every track is fire. Not a single skip. How." },
+      { label: "📸 Outfit check", them: "Rate my fit for tonight.", me: "BRO that fit is fire. They're not ready for you." },
+      { label: "🍕 Food", them: "First time making homemade pasta.", me: "This is absolutely fire. Open a restaurant." }
+    ],
+    originStory: [
+      { date: "1990s–2000s", title: "Hip-Hop Foundation", body: "Hip-hop producers, DJs, and MCs used 'fire' to describe beats and bars that burned with quality. 'That beat is fire' was the highest studio compliment." },
+      { date: "2012–2015", title: "Social Media Universalization", body: "Instagram and Twitter turned fire into the go-to endorsement for anything excellent. The 🔥 emoji became inseparable from the word, adding a visual shorthand." },
+      { date: "2015 Onward", title: "Everywhere, Always", body: "'Fire' is now one of the most used English slang terms globally. It's in every language community, every content genre, every platform. Few words have achieved this level of universal adoption." }
+    ],
+    whyViral: [
+      { title: "Intuitive metaphor", desc: "Fire is hot, bright, powerful, and impossible to ignore. The metaphor for excellence is immediately understood." },
+      { title: "🔥 emoji", desc: "The fire emoji and the word became inseparable. Having a visual shorthand accelerates any slang's spread." },
+      { title: "Music pipeline", desc: "Hip-hop is the most-streamed genre on the planet. Words from hip-hop go global." },
+      { title: "Maximally versatile", desc: "Fire applies to absolutely everything. Music, fashion, food, people, ideas. Zero limitations." }
+    ],
+    relatedSlangs: ["lit", "slaps", "goat"],
+    seoKeywords: ["fire meaning slang", "what does fire mean", "fire slang definition", "fire gen z meaning"]
+  },
+
+  {
+    id: "cooked", word: "Cooked", slug: "cooked",
+    devanagari: null, pronunciation: "/kʊkt/",
+    shortMeaning: "Completely done, burnt out, or in a catastrophically losing situation.",
+    fullMeaning: "'Cooked' means thoroughly finished in a bad way. You might be cooked from exhaustion, cooked because you're losing badly, or cooked because you made a decision that's about to have dire consequences. 'We're cooked' is the modern 'we're done for.' The metaphor: once something is fully cooked, it's passed the point of return. Overdone. No going back.",
+    tag: "trending", year: 2020, language: "English / Australian slang", coinedBy: "Australian slang / gaming culture", origin: "Australian English / internet gaming",
+    culturalContext: "While 'cooked' as a past tense of 'cook' is standard English, Australian slang used 'cooked' to mean exhausted or in a bad state long before it went global. Gaming and internet culture amplified it as the perfect word for being in an unrecoverable situation.",
+    examples: [
+      { label: "🎮 Gaming disaster", them: "We have no resources left and they're rushing us.", me: "Bro we are COOKED. Absolutely cooked." },
+      { label: "💬 Exhaustion", them: "How are you doing after that week?", me: "I am cooked. Completely. I need 48 hours of nothing." },
+      { label: "📱 Bad situation", them: "She saw your message reactions from before you deleted them.", me: "I am so cooked. There's no coming back from this." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Australian Roots", body: "Australian slang has long used 'cooked' to describe someone who is exhausted, wrecked, or in a terrible state. The convivial harshness of Australian slang gave the word its direct edge." },
+      { date: "2018–2020", title: "Gaming Culture Adoption", body: "Online gaming communities, particularly battle royale and strategy game players, adopted 'cooked' to describe situations where defeat is certain and resources are depleted. 'We're cooked' became the loss-acknowledgment phrase." },
+      { date: "2021 Onward", title: "TikTok and General Use", body: "TikTok's global reach spread Australian-inflected internet slang rapidly. 'Cooked' crossed into mainstream use for any situation involving exhaustion, failure, or hopelessness." }
+    ],
+    whyViral: [
+      { title: "Universally understood metaphor", desc: "Something that's cooked is past the point of no return. The culinary metaphor is immediately clear." },
+      { title: "Gaming language pipeline", desc: "Gaming vocabulary constantly refreshes internet slang. 'We're cooked' arrived via millions of gaming streams." },
+      { title: "Australian slang prestige", desc: "Australian English has a global reputation for vivid, punchy slang. Words with Australian origins carry authenticity." },
+      { title: "Covers multiple situations", desc: "Cooked works for exhaustion, losing, bad decisions, and being caught. Total situational range." }
+    ],
+    relatedSlangs: ["mid", "salty", "vibecheck"],
+    seoKeywords: ["cooked meaning slang", "what does cooked mean", "cooked slang definition", "we're cooked meaning"]
+  },
+
+  {
+    id: "valid", word: "Valid", slug: "valid",
+    devanagari: null, pronunciation: "/ˈvæl.ɪd/",
+    shortMeaning: "Completely acceptable, understandable, or logically justified.",
+    fullMeaning: "'Valid' in slang means something is completely acceptable, makes sense, or is worthy of respect. 'That's valid' is a way of saying you understand and accept someone's perspective or decision without judgment. It's also used to affirm choices: 'wearing that to the event is valid.' The word borrowed its technical meaning (logically sound) and turned it into an emotional validation tool.",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Internet culture / Twitter", origin: "Social media / Tumblr culture",
+    culturalContext: "Emerged from Tumblr's validation culture and then flourished on Twitter, where 'that's valid' became the supportive, non-judgmental response to people sharing their feelings or choices. It spread as a way to affirm people without necessarily agreeing with them.",
+    examples: [
+      { label: "💬 Supporting a decision", them: "I just quit my job with nothing lined up.", me: "Honestly? Valid. Your peace of mind matters more." },
+      { label: "📱 Affirmation", them: "I cried watching a dog food commercial.", me: "Completely valid response. Those ads are designed to wreck you." },
+      { label: "🤷 Non-judgment", them: "I'm taking the day off just because.", me: "Valid. No explanation needed ever." }
+    ],
+    originStory: [
+      { date: "Pre-2018", title: "Logic Becomes Emotion", body: "In logic and law, 'valid' means something holds up under scrutiny. Internet culture borrowed this sense of 'this checks out' and applied it to emotional and social situations." },
+      { date: "2018 · Tumblr and Twitter", title: "Validation Culture", body: "Tumblr's mental health positive culture and Twitter's reply ecosystem made 'that's valid' a supportive standard response. It gave people a way to affirm without needing to agree or explain." },
+      { date: "2019 Onward", title: "Universal Affirmation", body: "'Valid' became Gen Z's non-judgmental green light. Whatever you're feeling, whatever you're choosing — if someone says 'that's valid,' you feel seen." }
+    ],
+    whyViral: [
+      { title: "Mental health culture", desc: "Gen Z's emphasis on emotional validation and non-judgmental support made 'valid' the perfect linguistic tool." },
+      { title: "Short affirmation", desc: "One word that says 'I hear you, I understand, and I accept your experience.' Unmatched efficiency." },
+      { title: "No commitment required", desc: "'That's valid' supports someone without requiring agreement. It's empathy without endorsement." },
+      { title: "Universal applicability", desc: "Every feeling, every choice, every situation can be 'valid.' It works in every context." }
+    ],
+    relatedSlangs: ["lowkey", "nocap", "vibecheck"],
+    seoKeywords: ["valid meaning slang", "what does valid mean", "that's valid meaning", "valid slang definition"]
+  },
+
+  {
+    id: "imdead", word: "I'm Dead", slug: "imdead",
+    devanagari: null, pronunciation: "/aɪm dɛd/",
+    shortMeaning: "This is so funny I cannot handle it. Same energy as the 💀 skull emoji.",
+    fullMeaning: "'I'm dead' (or just 💀) means something is so funny, shocking, or chaotic that you've metaphorically died from it. It's the hyperbolic reaction to anything hilarious — you've expired, ceased to exist, been slain by comedy. The skull emoji 💀 serves the exact same function and often replaces the phrase entirely.",
+    tag: "trending", year: 2015, language: "English", coinedBy: "Black Twitter / internet culture", origin: "Twitter / Black internet culture",
+    culturalContext: "Emerged from Black Twitter's tradition of hyperbolic, dramatic comedy reactions. Being metaphorically 'dead' from laughter was an established expression that social media compressed into a reaction phrase and then into a single emoji.",
+    examples: [
+      { label: "💬 Comedy reaction", them: "He tried to parallel park for 20 minutes and then just left.", me: "I'm DEAD 😭💀 please why is this so funny" },
+      { label: "📱 Emoji only", them: "Posted the most chaotic video imaginable", me: "💀💀💀" },
+      { label: "🎭 Group chat", them: "The professor replied to his own email to himself.", me: "I'm actually deceased. Cannot recover." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Hyperbolic Comedy Roots", body: "Dying from laughter is an old English expression. 'I'm dying' and 'I'm dead' as hyperbolic laughter reactions predate the internet by centuries." },
+      { date: "2013–2016", title: "Black Twitter Codification", body: "Black Twitter compressed hyperbolic laughter into a reaction format. 'I'm dead' and 'I'm deceased' became the standard comedy reactions on the platform, establishing it as internet vocabulary." },
+      { date: "2018 Onward", title: "Skull Emoji Dominance", body: "The 💀 emoji became the universal shorthand for 'I'm dead.' A single emoji that communicates dying from laughter — zero words needed. TikTok's comment section made the skull emoji one of the most-used reactions online." }
+    ],
+    whyViral: [
+      { title: "Hyperbole is comedy", desc: "Saying you died from laughter is funnier than saying you laughed. Escalation is a core comedy principle." },
+      { title: "💀 emoji efficiency", desc: "One emoji. The complete emotional reaction. That level of compression is unbeatable on fast-moving platforms." },
+      { title: "Black Twitter prestige", desc: "Black Twitter set the comedic tone for English-language internet culture. Their vocabulary became everyone's vocabulary." },
+      { title: "Universal comedy reaction", desc: "Everyone needs a way to react to something funny. 'I'm dead' filled that role for a generation." }
+    ],
+    relatedSlangs: ["sendingme", "sheesh", "yeet"],
+    seoKeywords: ["I'm dead meaning slang", "skull emoji meaning", "what does I'm dead mean", "im dead slang"]
+  },
+
+  {
+    id: "sheesh", word: "Sheesh", slug: "sheesh",
+    devanagari: null, pronunciation: "/ʃiːʃ/",
+    shortMeaning: "An exclamation of surprise, awe, or being impressed by something.",
+    fullMeaning: "'Sheesh' is an exclamation that expresses a wide range of intense reactions — being impressed, surprised, overwhelmed, or in awe of something. It's the verbal equivalent of a slow head nod of respect. 'Sheesh' said to someone's outfit means you're blown away by how good they look. The Vine-era pronunciation — an extended 'sheeeesh' — added a comedic layer.",
+    tag: "trending", year: 2020, language: "English", coinedBy: "Vine / TikTok internet culture", origin: "Vine / TikTok",
+    culturalContext: "While 'sheesh' existed as an exclamation of mild exasperation for decades, a Vine clip of someone saying it while dramatically reacting turned it into a comedic meme. TikTok's Tiko Fish meme in 2021 then launched 'sheesh' into a full viral explosion.",
+    examples: [
+      { label: "📸 Reacting to a look", them: "Just posted my outfit.", me: "SHEESH. The drip is immaculate honestly." },
+      { label: "🎵 Music reaction", them: "This guitar solo though—", me: "Sheeeeesh. How is that even possible." },
+      { label: "💬 Impressed", them: "He got a full scholarship AND a job offer.", me: "Sheesh. Some people are just built different." }
+    ],
+    originStory: [
+      { date: "Pre-2020", title: "Old Expression, New Energy", body: "'Sheesh' as mild exasperation ('sheesh, that was close') is old American English. But the internet found in it a comedic potential — saying it with extreme emphasis and drama as a reaction to being impressed." },
+      { date: "2020 · Viral Clips", title: "Meme Format Established", body: "Viral clips of people saying 'SHEEEESH' while reacting to impressive things established it as a reaction format. The extended pronunciation became part of the joke." },
+      { date: "2021 · Tiko Fish TikTok", title: "Full Explosion", body: "A TikTok trend featuring the 'Sheesh Tiko Fish' sound launched 'sheesh' into mainstream awareness. The comment section became flooded with 'sheesh' reactions and it became one of the most recognizable Gen Z sound bites." }
+    ],
+    whyViral: [
+      { title: "Phonetically satisfying", desc: "The extended 'sheeeeesh' is physically enjoyable to say and hear. Good slang feels good in the mouth." },
+      { title: "Universal reaction", desc: "Whether you're impressed, shocked, or overwhelmed, 'sheesh' covers it." },
+      { title: "TikTok sound culture", desc: "TikTok is an audio platform. A sound that became iconic spread faster than any text-based slang." },
+      { title: "Comedic escalation", desc: "The more dramatic the 'sheesh,' the funnier it gets. Built-in escalation mechanism." }
+    ],
+    relatedSlangs: ["imdead", "vibecheck", "fire"],
+    seoKeywords: ["sheesh meaning slang", "what does sheesh mean", "sheesh slang definition", "sheesh gen z"]
+  },
+
+  {
+    id: "sendingme", word: "Sending Me", slug: "sendingme",
+    devanagari: null, pronunciation: "/ˈsɛnd.ɪŋ miː/",
+    shortMeaning: "This is so funny it's making me lose it completely.",
+    fullMeaning: "'That's sending me' means something is so funny, chaotic, or unhinged that you're being metaphorically launched into outer space by the hilarity. It's a step above 'I'm dead' — sending me implies you're being physically propelled by the comedy. The image: you've been shot out of a cannon by a piece of content.",
+    tag: "trending", year: 2021, language: "English", coinedBy: "Twitter / TikTok", origin: "Black Twitter / internet comedy culture",
+    culturalContext: "Part of the tradition of hyperbolic comedy reactions that evolved on Black Twitter and then spread through TikTok. 'Sending me' captures the specific sensation of comedy that makes you lose your composure — you're being sent somewhere else entirely by the sheer force of the funny.",
+    examples: [
+      { label: "💬 Comedy gold", them: "He replied 'k' to her two-paragraph text.", me: "This is SENDING me. The confidence required for that response." },
+      { label: "📱 Chaos content", them: "Posted the most unhinged video ever filmed", me: "SENDING ME. I've watched this seven times." },
+      { label: "🎭 Group chat", them: "The cat knocked the whole Christmas tree over on camera.", me: "The expression on its face at the end is sending me into another dimension." }
+    ],
+    originStory: [
+      { date: "2019–2021", title: "Hyperbolic Reaction Evolution", body: "As 'I'm dead' became overused, internet comedy culture evolved toward even more extreme hyperbole. 'Sending me' emerged as the next escalation — being propelled somewhere by the comedy rather than just dying from it." },
+      { date: "2021 · TikTok Comedy Era", title: "TikTok Mainstream", body: "TikTok's explosion of comedy and chaotic content created demand for fresh reaction vocabulary. 'Sending me' filled the gap left by oversaturation of 'I'm dead.'" },
+      { date: "2022 Onward", title: "Comment Section Standard", body: "'This is sending me' became a standard comment section reaction format, particularly on videos that are funny in slow-burn, building ways rather than immediate comedy." }
+    ],
+    whyViral: [
+      { title: "Hyperbole escalation", desc: "Internet comedy requires constant escalation. 'Sending me' is funnier than 'I'm dead' because it implies active propulsion." },
+      { title: "Comment section perfect", desc: "Three words that convey strong laughter reaction. Efficient and readable in any comment section." },
+      { title: "Fresh vocabulary", desc: "As 'dead' became overused, something fresh was needed. Sending me arrived at the right time." },
+      { title: "Universal comedy reaction", desc: "Works for any type of comedy — visual, text, situations, music." }
+    ],
+    relatedSlangs: ["imdead", "sheesh", "nocap"],
+    seoKeywords: ["sending me meaning slang", "what does sending me mean", "that's sending me meaning", "sending me slang"]
+  },
+
+  {
+    id: "bigyikes", word: "Big Yikes", slug: "bigyikes",
+    devanagari: null, pronunciation: "/bɪɡ jaɪks/",
+    shortMeaning: "An expression for something extremely embarrassing, cringey, or terrible.",
+    fullMeaning: "'Big yikes' is an intensified version of 'yikes' — expressing strong second-hand embarrassment, horror, or cringey discomfort at something. Where 'yikes' handles minor awkwardness, 'big yikes' is for when something is catastrophically, almost impressively, bad. It's said with the energy of watching someone crash in slow motion.",
+    tag: "classic", year: 2017, language: "English", coinedBy: "Twitter / Tumblr", origin: "Twitter humor / internet culture",
+    culturalContext: "Emerged from internet humor culture's tradition of graduated embarrassment reactions. 'Yikes' already existed; 'big yikes' simply added intensity when regular yikes wasn't enough for whatever horror had occurred.",
+    examples: [
+      { label: "💬 Social disaster", them: "He showed up to the wedding in a tracksuit.", me: "Big yikes. From him. That's a big yikes situation." },
+      { label: "📱 Celebrity mishap", them: "She called her fans by the wrong city name at the concert.", me: "Ooh. Big yikes. That's going to be a meme." },
+      { label: "🎭 Dating fail", them: "He sent the 'I miss you' text to the group chat instead of her.", me: "Big yikes. HUGE yikes. Catastrophic." }
+    ],
+    originStory: [
+      { date: "Pre-2017", title: "Yikes Foundation", body: "'Yikes' as an expression of alarm or embarrassment predates the internet. It was already established as the standard reaction to mild awkwardness." },
+      { date: "2017 · Twitter and Tumblr", title: "Intensification", body: "As internet culture evolved increasingly extreme reactions to increasingly chaotic situations, 'yikes' alone became insufficient. 'Big yikes' emerged on Twitter and Tumblr to handle situations that exceeded normal yikes capacity." },
+      { date: "2018 Onward", title: "Standard Cringe Reaction", body: "'Big yikes' became the calibrated response to something embarrassing but not malicious — perfect for social fails, celebrity gaffes, and awkward moments." }
+    ],
+    whyViral: [
+      { title: "Graduated reaction system", desc: "Having yikes, big yikes, and huge yikes creates a satisfying scale of embarrassment reactions." },
+      { title: "Second-hand cringe culture", desc: "Internet content is full of things to cringe at. Calibrated vocabulary for cringe is always useful." },
+      { title: "Tone clarity", desc: "Big yikes says 'this is bad but not evil' — it's calibrated for social fails, not moral failings." },
+      { title: "Comment section precision", desc: "Two words. The exact reaction you need for many internet moments." }
+    ],
+    relatedSlangs: ["salty", "imdead", "cooked"],
+    seoKeywords: ["big yikes meaning", "what does big yikes mean", "yikes slang meaning", "big yikes definition"]
+  },
+
+  {
+    id: "shook", word: "Shook", slug: "shook",
+    devanagari: null, pronunciation: "/ʃʊk/",
+    shortMeaning: "Completely shocked, surprised, or left speechless by something.",
+    fullMeaning: "Being 'shook' means you're so shocked, surprised, or emotionally affected by something that your stability has been disrupted — metaphorically shaken. You can be shook by news, an amazing performance, a plot twist, or someone's unexpected behavior. The physical metaphor: shook = physically rattled by the surprise or impact.",
+    tag: "classic", year: 2016, language: "English / AAVE", coinedBy: "Black American internet culture", origin: "Black Twitter / AAVE",
+    culturalContext: "While 'shook' is simply the past tense of 'shake,' AAVE and Black internet culture used it to describe the state of being emotionally rattled or surprised. Beyoncé's 'Formation' and other cultural moments made it mainstream — people were 'shook' by great art, surprising news, and anything that disrupted their equilibrium.",
+    examples: [
+      { label: "🎵 Music reaction", them: "Did you see that live performance??", me: "I am genuinely shook. I've watched it four times and I still can't process it." },
+      { label: "💬 Plot twist", them: "The twist at the end of that show—", me: "I was SHOOK. Sat there for five minutes not speaking." },
+      { label: "📱 Surprising news", them: "She got the job at her first interview.", me: "Shook. Genuinely shook for her. What an energy." }
+    ],
+    originStory: [
+      { date: "Pre-2016", title: "AAVE Usage", body: "In Black American vernacular, being 'shook' described the physical sensation of being rattled by fear, surprise, or intense emotion. The word carried the physical metaphor of being physically shaken." },
+      { date: "2016 · Cultural Moments", title: "Beyoncé and Internet Discourse", body: "Major cultural moments — Beyoncé's Lemonade, political events, shocking celebrity news — prompted 'I'm shook' as the standard intense reaction. The word captured the particular feeling of being left destabilized by something significant." },
+      { date: "2017–2019", title: "General Surprise Reaction", body: "'Shook' became the calibrated word for when something affects you more than regular surprise. Not just 'oh wow' but actively destabilized." }
+    ],
+    whyViral: [
+      { title: "Physical metaphor clarity", desc: "Shook literally means shaken. The physical metaphor for emotional disruption is immediately understood." },
+      { title: "Graduated surprise scale", desc: "There's surprised and then there's shook. Having the distinction is useful and people used it." },
+      { title: "Cultural moment reactions", desc: "Major events create demand for strong reaction vocabulary. Shook met that demand repeatedly." },
+      { title: "Short and expressive", desc: "One syllable. Loaded with emotion. Perfect for the pace of social media reactions." }
+    ],
+    relatedSlangs: ["sheesh", "imdead", "vibecheck"],
+    seoKeywords: ["shook meaning slang", "what does shook mean", "shook slang definition", "I'm shook meaning"]
+  },
+
+  {
+    id: "touchgrass", word: "Touch Grass", slug: "touchgrass",
+    devanagari: null, pronunciation: "/tʌtʃ ɡrɑːs/",
+    shortMeaning: "Go outside and experience the real world. You're spending too much time online.",
+    fullMeaning: "'Touch grass' is a piece of internet advice (often unsolicited) telling someone to go outside, disconnect from the internet, and re-engage with the physical world. It's the digital equivalent of 'get some fresh air.' Used when someone is being dangerously online — too invested in internet drama, takes things too seriously, or clearly hasn't left their room in a while.",
+    tag: "classic", year: 2019, language: "English", coinedBy: "Gaming / internet culture", origin: "Gaming communities / Twitter",
+    culturalContext: "Emerged from gaming communities where playing games all day while neglecting the physical world was a running joke. 'Touch grass' became the standard response to anyone displaying extreme internet behavior — a reminder that the outside world exists and is worth engaging with.",
+    examples: [
+      { label: "💬 Internet over-investment", them: "I've been in the comment section of this drama for 8 hours.", me: "Please go touch grass. The discourse will survive without you." },
+      { label: "📱 Too online", them: "I'm taking this very seriously and here's a 12-point breakdown of why—", me: "Touch grass. I say this with love." },
+      { label: "🎮 Gaming marathon", them: "Day 3 of not leaving my room.", me: "Brother I need you to touch grass. Just once. For me." }
+    ],
+    originStory: [
+      { date: "2017–2019", title: "Gaming Community Origins", body: "Gaming communities used 'touch grass' as self-deprecating and external humor about the lifestyle of playing games all day inside. It was both an acknowledgment and a gently directed critique." },
+      { date: "2020 · Pandemic Context", title: "Ironic During Lockdown", body: "During the pandemic lockdowns of 2020, 'touch grass' took on ironic dimensions — people genuinely couldn't go outside. The phrase became both a joke and a genuine longing." },
+      { date: "2021 Onward", title: "Universal Internet Critique", body: "'Touch grass' became the standard response to anyone being dangerously online. It transcended gaming and became general internet vocabulary for calling out over-engagement with digital life." }
+    ],
+    whyViral: [
+      { title: "Universal tech concern", desc: "Everyone — gamers, parents, therapists, journalists — recognized the problem of too much time online. Touch grass named the solution." },
+      { title: "Specific and visual", desc: "'Touching grass' is specific and imageable. More memorable than 'go outside.'" },
+      { title: "Self-aware humor", desc: "The people most likely to say 'touch grass' are often themselves deeply online. The self-awareness makes it funnier." },
+      { title: "Perfect insult/advice hybrid", desc: "Touch grass is simultaneously a roast and genuine life advice. That dual function makes it versatile." }
+    ],
+    relatedSlangs: ["npc", "mid", "vibecheck"],
+    seoKeywords: ["touch grass meaning", "what does touch grass mean", "touch grass slang", "touch grass definition"]
+  },
+
+  {
+    id: "npc", word: "NPC", slug: "npc",
+    devanagari: null, pronunciation: "/ɛn piː siː/",
+    shortMeaning: "Someone who seems robotic, unoriginal, or acts like a background character with no real opinions.",
+    fullMeaning: "NPC stands for Non-Playable Character — a game character controlled by AI rather than a player, who follows scripted routines without genuine thought or agency. When used about a real person, it means they seem to lack independent thought, follow the crowd blindly, give scripted responses, or seem generally unaware of what's happening around them. It's also an internet aesthetic: NPC streamers who act like video game characters for content.",
+    tag: "trending", year: 2016, language: "English", coinedBy: "Gaming culture / internet", origin: "Video game culture / Twitter",
+    culturalContext: "The metaphor of treating real people like video game NPCs emerged from gaming culture's philosophy that some people seem to be running on autopilot — scripted, unthinking, just filling space. TikTok's 'NPC streaming' trend (people acting like video game characters for gifts) added an entirely new dimension.",
+    examples: [
+      { label: "💬 Calling out behavior", them: "He just agrees with whatever the last person said.", me: "Full NPC behavior. He has no genuine opinions." },
+      { label: "📱 Social observation", them: "Everyone in that comment section says the exact same thing.", me: "It's an NPC army. They all ran the same script." },
+      { label: "🎮 TikTok streaming", them: "Why is she pretending to be a robot on TikTok?", me: "NPC streaming — people send gifts and she does the scripted reaction. It's actually genius." }
+    ],
+    originStory: [
+      { date: "Pre-2016", title: "Gaming Concept", body: "Non-Playable Characters have existed since video games began. NPCs follow programmed routines, give the same responses, and exist to populate a world rather than think independently." },
+      { date: "2016–2019", title: "Twitter Metaphor", body: "Twitter's philosophy culture began applying the NPC metaphor to real people — particularly to describe someone with robotic thinking, no original opinions, or who just follows social scripts without awareness." },
+      { date: "2023 · NPC Streaming", title: "TikTok Aesthetic", body: "TikTok creators invented NPC streaming — performing scripted NPC-style reactions when viewers sent gifts. 'Ice cream so good' became iconic. The trend brought NPC vocabulary to millions who weren't gamers." }
+    ],
+    whyViral: [
+      { title: "Gaming metaphor precision", desc: "The NPC metaphor captures exactly what it describes — someone running on autopilot, no real agency, just filling space." },
+      { title: "TikTok NPC streaming", desc: "One of TikTok's most viral trends made NPC mainstream for non-gamers in 2023." },
+      { title: "Social commentary value", desc: "Describing someone as an NPC makes a philosophical point about individuality and independent thought." },
+      { title: "Infinitely applicable", desc: "Any person, any brand, any institution can be called NPC when they display scripted, unthinking behavior." }
+    ],
+    relatedSlangs: ["touchgrass", "mid", "vibecheck"],
+    seoKeywords: ["NPC meaning slang", "what does NPC mean", "NPC slang definition", "NPC TikTok meaning"]
+  },
+
+  {
+    id: "caughtin4k", word: "Caught in 4K", slug: "caughtin4k",
+    devanagari: null, pronunciation: "/kɔːt ɪn fɔːr keɪ/",
+    shortMeaning: "Caught red-handed with clear, undeniable evidence. No denying it.",
+    fullMeaning: "'Caught in 4K' means caught doing something with such crystal-clear evidence that there's absolutely no possible denial. 4K refers to the ultra-high resolution of modern cameras — when something is captured in 4K, every detail is visible. Being caught in 4K is the ultimate 'there's no way out of this' situation.",
+    tag: "trending", year: 2020, language: "English", coinedBy: "Black Twitter / internet culture", origin: "Black Twitter / social media",
+    culturalContext: "Emerged from the increasingly high-resolution cameras on smartphones and surveillance systems. As 4K became the standard for video, 'caught in 4K' became the phrase for evidence so clear it's irrefutable. It's the digital evolution of 'caught red-handed.'",
+    examples: [
+      { label: "💬 Evidence moment", them: "He said he wasn't there.", me: "He was absolutely there. Someone posted a video. Caught in 4K." },
+      { label: "📱 Social media exposure", them: "She denied being at the party.", me: "Three different people tagged her in their Stories. Caught in 4K, no recovery." },
+      { label: "🎮 Gaming caught", them: "He claims he wasn't hacking.", me: "The kill cam caught it all in full 4K. It's over for him." }
+    ],
+    originStory: [
+      { date: "2018–2019", title: "Camera Technology Context", body: "As 4K cameras became standard on smartphones and security systems, the phrase 'caught in 4K' emerged to describe being captured with irrefutably clear evidence — every pixel of your guilt visible." },
+      { date: "2020 · Black Twitter", title: "Viral Format", body: "Black Twitter formalized 'caught in 4K' as a reaction phrase for any situation where someone's lie or misdeed was captured with undeniable clarity. The format spread rapidly." },
+      { date: "2021 Onward", title: "Universal Evidence Phrase", body: "From sports controversies to celebrity drama to personal relationship issues — 'caught in 4K' became the go-to phrase for any situation where the evidence is irrefutable." }
+    ],
+    whyViral: [
+      { title: "Technology metaphor", desc: "4K resolution means nothing is hidden. The metaphor perfectly captures the sensation of being caught with no ambiguity." },
+      { title: "Satisfying specificity", desc: "Not just caught, but caught in 4K. The specificity adds humor and emphasizes the completeness of the evidence." },
+      { title: "Evergreen format", desc: "People get caught doing things constantly. 'Caught in 4K' will always be applicable." },
+      { title: "Drama and accountability culture", desc: "A generation that grew up with cameras everywhere needed vocabulary for the reality of being permanently observable." }
+    ],
+    relatedSlangs: ["nocap", "tea", "opp"],
+    seoKeywords: ["caught in 4K meaning", "what does caught in 4K mean", "caught in 4K slang", "4K slang definition"]
+  },
+
+  {
+    id: "rentfree", word: "Rent Free", slug: "rentfree",
+    devanagari: null, pronunciation: "/rɛnt friː/",
+    shortMeaning: "Something or someone who lives in your head constantly without paying rent.",
+    fullMeaning: "When something or someone is 'living rent free in your head,' it means you cannot stop thinking about them, even if you don't want to. The person or thing occupies mental space without contributing anything in return — hence, rent free. It's applied to people you're obsessing over, songs you can't stop thinking of, situations you can't let go, and anything that takes up mental real estate uninvited.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Twitter / internet culture", origin: "Twitter humor / internet",
+    culturalContext: "The metaphor of the mind as a house with rooms to rent existed in psychology before it became internet slang. Twitter humor made 'rent free' a standard way to describe involuntary and often unwanted mental preoccupation — particularly with people you wish you weren't thinking about.",
+    examples: [
+      { label: "💬 Post-breakup", them: "How are you over him?", me: "I'm not. He's living completely rent free in my head and I can't evict him." },
+      { label: "📱 Song obsession", them: "What's stuck in your head today?", me: "That same melody. Rent free. I've heard it three times and it will not leave." },
+      { label: "🎭 Personal rival", them: "Do you still think about what she said?", me: "Rent free, fully. I replay it at 3am and I hate myself for it." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "The Metaphor's Roots", body: "The concept of someone living in your head was a psychology and self-help metaphor before it became slang. Mental real estate, cognitive space — the mind-as-property framework existed." },
+      { date: "2019 · Twitter", title: "Slang Compression", body: "Twitter humor condensed 'living rent free in my head' into a standard phrase for involuntary obsession. The real estate metaphor resonated in an era of housing anxiety — the irony of something in your mind not paying rent was immediately funny." },
+      { date: "2020 Onward", title: "Universal Mental Preoccupation", body: "'Rent free' became the phrase for anything you can't stop thinking about — songs, people, embarrassing memories, unresolved situations." }
+    ],
+    whyViral: [
+      { title: "Universal human experience", desc: "Everyone has things that occupy their mind uninvited. Rent free named that universal experience precisely." },
+      { title: "Real estate metaphor resonance", desc: "In an era where housing costs are a constant concern, metaphors about rent hit differently and more humorously." },
+      { title: "Self-aware vulnerability", desc: "Admitting something lives rent free in your head is vulnerable but framed humorously — the perfect internet confession tone." },
+      { title: "Applies to everything", desc: "Songs, people, memories, embarrassments. Any form of involuntary mental preoccupation." }
+    ],
+    relatedSlangs: ["lowkey", "situationship", "tea"],
+    seoKeywords: ["rent free meaning slang", "living rent free meaning", "what does rent free mean", "rent free slang"]
+  },
+
+  {
+    id: "iykyk", word: "IYKYK", slug: "iykyk",
+    devanagari: null, pronunciation: "/ɪf juː noʊ juː noʊ/",
+    shortMeaning: "If You Know You Know. A nod to shared inside knowledge or an experience not everyone gets.",
+    fullMeaning: "IYKYK stands for 'If You Know You Know.' It's used when referencing something that only a specific group, community, or set of people would understand — an inside joke, a niche reference, or a shared experience that doesn't need explaining to those who were there but would take too long to explain to outsiders.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Social media / Gen Z internet", origin: "Twitter / Instagram captions",
+    culturalContext: "IYKYK emerged from caption culture — posting content with context that only your community would understand, using IYKYK as a knowing wink to insiders. It creates two audiences: those who know and feel belonging, and those who don't and feel curious.",
+    examples: [
+      { label: "📸 Niche reference", them: "Posted a very specific inside joke photo", me: "IYKYK 😭" },
+      { label: "💬 Shared experience", them: "Posted a clip from a show only superfans would recognize", me: "The season 4 callback. IYKYK." },
+      { label: "🎵 Fandom moment", them: "Posted a lyric that only true fans know the significance of", me: "This lyric hits different. IYKYK." }
+    ],
+    originStory: [
+      { date: "2018–2019", title: "Caption Culture", body: "Instagram caption culture created the need for shorthand that signals 'this is for a specific audience.' IYKYK emerged as a way to post for insiders without alienating the broader audience — or without having to explain." },
+      { date: "2019–2021", title: "Twitter and TikTok", body: "IYKYK became a standard caption/hashtag across platforms. It functions as both content label and community signal — creating belonging for those who understand and intrigue for those who don't." },
+      { date: "2021 Onward", title: "Universal Inside Reference", body: "IYKYK expanded from truly niche references to ironically referring to things everyone knows. The ironic use — IYKYK about something completely mainstream — added a comedic layer." }
+    ],
+    whyViral: [
+      { title: "Creates community", desc: "IYKYK builds instant in-group solidarity. Seeing it and understanding feels like a handshake." },
+      { title: "Creates curiosity", desc: "For those who don't know, IYKYK is an invitation to find out. It drives engagement." },
+      { title: "Caption efficiency", desc: "Four letters that replace a long explanation. Maximum efficiency for captions." },
+      { title: "Inside joke culture", desc: "Every community has its own language. IYKYK is the meta-signal for all of them." }
+    ],
+    relatedSlangs: ["lowkey", "fr", "nocap"],
+    seoKeywords: ["IYKYK meaning", "what does IYKYK mean", "if you know you know meaning", "IYKYK slang"]
+  },
+
+  {
+    id: "fr", word: "FR", slug: "fr",
+    devanagari: null, pronunciation: "/fɔːr rɪəl/",
+    shortMeaning: "For Real. Used for emphasis or to ask if something is genuinely true.",
+    fullMeaning: "'FR' stands for 'for real' and serves two purposes: as an emphasis (I am fr done with this = I am genuinely done) and as a question (FR? = Are you serious?). It's one of the most versatile internet abbreviations because it can end a statement, begin a question, or stand alone as a reaction.",
+    tag: "trending", year: 2012, language: "English / AAVE", coinedBy: "Texting culture / Black American vernacular", origin: "SMS / Twitter",
+    culturalContext: "A natural abbreviation of 'for real' from texting culture. 'For real' itself comes from AAVE where it served as both emphasis and question for decades. The abbreviation emerged from character-limited SMS culture and became even more natural in tweet-length internet communication.",
+    examples: [
+      { label: "💬 Emphasis", them: "I cannot deal with this today.", me: "FR tho. Some days are just like that." },
+      { label: "📱 Question mode", them: "He actually apologized??", me: "FR?? Like a real apology or the fake kind?" },
+      { label: "🎭 Agreement", them: "The ending of that show made no sense.", me: "FR FR. The writers absolutely lost the plot in season 3." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "AAVE Roots", body: "'For real' as emphasis and verification question comes from African American Vernacular English. 'For real?' asked for confirmation. 'For real' ended a statement with sincerity." },
+      { date: "2010–2013", title: "SMS Abbreviation", body: "As texting became universal, 'for real' naturally compressed to 'fr.' Character limits and typing speed made the abbreviation practical and it spread rapidly through text culture." },
+      { date: "2015 Onward", title: "Twitter Standard", body: "On Twitter and then every other platform, 'fr' became a standard sentence modifier. 'Fr tho' (for real though) became particularly common as an agreement phrase." }
+    ],
+    whyViral: [
+      { title: "Maximum efficiency", desc: "Two letters. The complete function of 'for real.' SMS culture made this abbreviation inevitable." },
+      { title: "Dual function", desc: "Works as statement emphasis AND as a question. That flexibility makes it extremely useful." },
+      { title: "Universal agreement tool", desc: "'FR tho' is one of the most natural agreement phrases in internet English." },
+      { title: "AAVE foundation", desc: "Built on deeply embedded Black American vernacular that has driven internet language for two decades." }
+    ],
+    relatedSlangs: ["nocap", "bet", "iykyk"],
+    seoKeywords: ["FR meaning slang", "what does FR mean", "for real slang", "FR slang definition"]
+  },
+
+  {
+    id: "ofc", word: "OFC", slug: "ofc",
+    devanagari: null, pronunciation: "/ɒv kɔːrs/",
+    shortMeaning: "Of course. A quick way to agree or confirm something obvious.",
+    fullMeaning: "'OFC' means 'of course' — used to agree, confirm, or answer a yes/no question where the answer is obviously yes. It's the abbreviated affirmative that says 'obviously, what a question.' Used to confirm plans, agree with something obvious, or respond to requests. Sometimes carries a slightly sarcastic edge when the 'of course' is delivered with mild exasperation.",
+    tag: "trending", year: 2013, language: "English", coinedBy: "Texting / internet culture", origin: "SMS / online chat",
+    culturalContext: "A natural product of SMS and internet chat culture where brevity is valued. 'Of course' is already only two words, but OFC emerged because every word saved is friction removed in fast-moving conversation.",
+    examples: [
+      { label: "💬 Obvious confirmation", them: "Are you coming tonight?", me: "Ofc! Wouldn't miss it." },
+      { label: "📱 Quick agreement", them: "Is it okay if I borrow your notes?", me: "Ofc, I'll send them now." },
+      { label: "🙄 Sarcastic edge", them: "Of course he was late again.", me: "Ofc he was. Some things never change." }
+    ],
+    originStory: [
+      { date: "2010–2013", title: "Chat Abbreviation Era", body: "Online chat platforms like MSN Messenger, Skype, and early smartphone messaging created a culture of abbreviation. OFC emerged alongside LOL, BRB, and TTYL as a standard shorthand." },
+      { date: "2015 Onward", title: "Universal Acknowledgment", body: "OFC became standard across all platforms — Twitter replies, Instagram comments, WhatsApp — as a quick affirmative that doesn't require full words." },
+      { date: "Present", title: "Tone Flexibility", body: "OFC can be warm ('ofc, I'm here for you'), casual ('ofc let's go'), or slightly exasperated ('ofc that happened'). That tone flexibility kept it versatile." }
+    ],
+    whyViral: [
+      { title: "Pure efficiency", desc: "Three letters instead of eight. The math works in any time-pressed conversation." },
+      { title: "Universal affirmative", desc: "Works as agreement, confirmation, permission, and acknowledgment. All from three letters." },
+      { title: "Abbreviation culture", desc: "The internet normalized abbreviations. OFC was one of the first wave and has never left." },
+      { title: "Tone flexibility", desc: "Warm, casual, or exasperated — OFC adapts to context automatically." }
+    ],
+    relatedSlangs: ["fr", "bet", "nocap"],
+    seoKeywords: ["OFC meaning slang", "what does OFC mean", "of course abbreviation", "OFC slang definition"]
+  },
+
+  {
+    id: "finna", word: "Finna", slug: "finna",
+    devanagari: null, pronunciation: "/ˈfɪn.ə/",
+    shortMeaning: "About to do something. Fixing to. Getting ready to.",
+    fullMeaning: "'Finna' is a contraction of 'fixing to' or 'fixin' to' — meaning 'about to' or 'getting ready to do something.' 'I'm finna go' means I'm about to go. It's used to signal immediate future action in casual conversation. It carries a casual confidence: I've decided, I'm moving.",
+    tag: "classic", year: 2015, language: "English / AAVE", coinedBy: "Black American vernacular / Southern US", origin: "AAVE / Southern US slang",
+    culturalContext: "Finna has deep roots in African American and Southern American English where 'fixing to' (preparing to do something) has been used for generations. 'Finna' is the compressed, casual form that became standard in Black internet culture and then spread broadly.",
+    examples: [
+      { label: "💬 Immediate action", them: "Where are you?", me: "Finna leave rn, be there in 10." },
+      { label: "📱 Decision made", them: "Are you ordering food?", me: "Finna order the whole left side of the menu honestly." },
+      { label: "🎮 Gaming", them: "What are you about to do?", me: "Finna solo the whole dungeon. Watch." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Southern AAVE Roots", body: "'Fixing to' (or 'fixin' to') is a Southern American and Black American expression meaning 'about to' or 'preparing to.' It's been in use for generations as a way to signal imminent future action." },
+      { date: "2012–2015", title: "Black Internet Culture", body: "Black internet culture, particularly Black Twitter, normalized 'finna' as an everyday written expression. The compressed form spread rapidly through online communication." },
+      { date: "2016 Onward", title: "General Internet Adoption", body: "'Finna' spread from Black internet culture into general Gen Z vocabulary. It's now used across communities as a casual future tense marker." }
+    ],
+    whyViral: [
+      { title: "AAVE pipeline", desc: "AAVE has been the primary driver of English internet slang for two decades. Finna was carried by that current." },
+      { title: "Casual future tense", desc: "English doesn't have a dedicated casual future form. Finna fills that gap naturally and expressively." },
+      { title: "Efficient and musical", desc: "Two syllables. Sounds good when spoken or typed. Finna has a rhythm that 'about to' lacks." },
+      { title: "Black Twitter influence", desc: "Black Twitter standardized finna in written internet English and its reach is massive." }
+    ],
+    relatedSlangs: ["bet", "fr", "lowkey"],
+    seoKeywords: ["finna meaning slang", "what does finna mean", "finna slang definition", "finna about to meaning"]
+  },
+
+  {
+    id: "smol", word: "Smol", slug: "smol",
+    devanagari: null, pronunciation: "/smoʊl/",
+    shortMeaning: "Something small, cute, and absolutely precious.",
+    fullMeaning: "'Smol' is a deliberately misspelled version of 'small' that conveys extreme cuteness and affection. Something that is smol is not just small — it is tiny in the most endearing, precious, want-to-protect-it way possible. Kittens are smol. Babies are smol. Very short people (affectionately) are smol. The misspelling is itself part of the aesthetic — it softens the word and makes it feel even more gentle.",
+    tag: "classic", year: 2015, language: "English", coinedBy: "Tumblr / internet cute culture", origin: "Tumblr / fandom culture",
+    culturalContext: "Emerged from Tumblr's 'uwu' and cute aesthetic culture where deliberate misspellings conveyed softness and affection. 'Smol' is part of a vocabulary system (also including 'bby,' 'soft,' 'precious') that expresses protective affection for cute things.",
+    examples: [
+      { label: "🐾 Pet content", them: "My kitten is 8 weeks old.", me: "She is so smol I cannot handle this. Protect her at all costs." },
+      { label: "💬 Affectionate about a person", them: "My little cousin just tried to give me a high five and barely reached my elbow.", me: "The smolest thing I've ever heard, I love them." },
+      { label: "📱 Cute reaction", them: "Posted a photo of a tiny plant", me: "This smol plant deserves the world." }
+    ],
+    originStory: [
+      { date: "2014–2015", title: "Tumblr Cute Aesthetic", body: "Tumblr's culture of affectionate, protective feelings toward cute things created a vocabulary of deliberate misspellings. 'Smol' emerged alongside 'bby,' 'frend,' and 'precious' as markers of this aesthetic." },
+      { date: "2016–2018", title: "Fandom Adoption", body: "Fandom communities adopted 'smol' to describe beloved small characters, baby animals, and short celebrities. 'Smol bean' became its own phrase for someone small and precious." },
+      { date: "2018 Onward", title: "General Cute Culture", body: "Smol escaped fandom into general internet use for anything that triggers protective affection through its smallness." }
+    ],
+    whyViral: [
+      { title: "Phonetically soft", desc: "Smol sounds softer than 'small.' The misspelling creates a gentler, rounder sound that matches its meaning." },
+      { title: "Protective affection culture", desc: "The internet loves to express protective feelings toward cute things. Smol is a vocabulary word for that impulse." },
+      { title: "Deliberate misspelling signals", desc: "Intentional misspelling is a community signal — it says 'I'm participating in this aesthetic on purpose.'" },
+      { title: "Universal cute triggers", desc: "Babies, animals, small plants — the triggers for 'smol' are everywhere and constant." }
+    ],
+    relatedSlangs: ["pookie", "bussin", "tea"],
+    seoKeywords: ["smol meaning slang", "what does smol mean", "smol slang definition", "smol bean meaning"]
+  },
+
+  {
+    id: "gucci", word: "Gucci", slug: "gucci",
+    devanagari: null, pronunciation: "/ˈɡuː.tʃi/",
+    shortMeaning: "Everything's good. All is well. We're fine.",
+    fullMeaning: "In slang, 'Gucci' means good, great, or everything is fine. 'We're Gucci' means we're okay. 'It's all Gucci' means there's no problem. The luxury fashion brand's name was borrowed to signal premium okayness — if something is Gucci, it's elevated above average and functioning at its best. It's the fashion-world version of 'all good.'",
+    tag: "classic", year: 2009, language: "English / AAVE", coinedBy: "Gucci Mane / hip-hop culture", origin: "Hip-hop / Atlanta culture",
+    culturalContext: "Atlanta rapper Gucci Mane made 'Gucci' a frequent exclamation in his music, turning his own name (a nod to the brand) into slang. The association between the luxury brand's quality and personal okayness was then adopted by broader hip-hop culture.",
+    examples: [
+      { label: "💬 Everything's fine", them: "Sorry I'm running late, is that okay?", me: "We're Gucci, take your time." },
+      { label: "📱 Confirming good status", them: "How are things after the drama?", me: "All Gucci now. We talked it out." },
+      { label: "🤝 Clearing the air", them: "Are we good after last time?", me: "Completely Gucci. Already forgot about it." }
+    ],
+    originStory: [
+      { date: "2009 · Gucci Mane", title: "Rapper as Living Brand", body: "Gucci Mane — whose stage name already referenced the luxury brand — started using 'Gucci' as a general positive affirmation in his music and interviews. His Atlanta fanbase adopted it immediately." },
+      { date: "2012–2016", title: "Hip-hop Integration", body: "'Gucci' as an affirmation spread through Southern hip-hop, then general hip-hop, then Black internet culture. Saying everything is 'Gucci' connected everyday okayness to luxury quality." },
+      { date: "2016 Onward", title: "General Positive", body: "Gucci became standard internet slang for 'good' or 'fine.' Its luxury brand origins add a faintly ironic layer — even mundane okayness gets elevated to designer status." }
+    ],
+    whyViral: [
+      { title: "Gucci Mane's reach", desc: "An Atlanta rap legend making his own name into slang is both clever and impossible to miss." },
+      { title: "Luxury elevation of 'fine'", desc: "Everything isn't just fine, it's Gucci. The brand association upgrades the mundane." },
+      { title: "Atlanta's cultural influence", desc: "Atlanta's dominance of hip-hop culture meant its vocabulary went everywhere the music went." },
+      { title: "Casual okayness need", desc: "English needed a casual, elevated way to say everything is fine. Gucci delivered." }
+    ],
+    relatedSlangs: ["fire", "lit", "bet"],
+    seoKeywords: ["gucci meaning slang", "what does gucci mean", "gucci slang definition", "all gucci meaning"]
+  },
+
+  {
+    id: "periodt", word: "Periodt", slug: "periodt",
+    devanagari: null, pronunciation: "/ˈpɪər.i.ɒdt/",
+    shortMeaning: "Period. Full stop. The discussion is absolutely over. No further argument.",
+    fullMeaning: "'Periodt' is an intensified version of 'period' (as in, 'and that's final'). The added 't' makes it more emphatic and signals AAVE origins. When you say 'periodt,' you're declaring something as fact, ending discussion, and indicating no further debate is welcome or possible. It's the ultimate mic-drop punctuation for any statement.",
+    tag: "trending", year: 2019, language: "English / AAVE", coinedBy: "Black American culture / drag culture", origin: "AAVE / Black drag culture",
+    culturalContext: "Emerged from Black and drag culture's tradition of declarative, final statements. 'Period' as emphasis comes from AAVE. The spelling 'periodt' with a silent T adds flair and signals cultural origin. It was popularized by drag queens and Black Twitter before becoming universal.",
+    examples: [
+      { label: "💬 Declaring a fact", them: "Who was better, honestly?", me: "Beyoncé. Periodt. End of discussion." },
+      { label: "📱 Self-affirmation", them: "You deserve better.", me: "I know. And I'm not settling anymore. Periodt." },
+      { label: "🎭 Final word", them: "But don't you think—", me: "No. She's the greatest. Periodt." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Period as Punctuation of Life", body: "In AAVE and Black rhetoric, 'period' at the end of a statement has long meant 'this is final, the conversation ends here.' It borrowed punctuation's function as spoken emphasis." },
+      { date: "2018–2019", title: "Drag and Black Twitter", body: "Black drag culture and Black Twitter began spelling it 'periodt' to signal the word as slang rather than standard English. The silent T became a community identifier." },
+      { date: "2019–2021", title: "TikTok and Mainstream", body: "TikTok's lip sync and speech culture spread 'periodt' rapidly. It became standard punctuation for any emphatic statement, used as both a standalone word and a caption addition." }
+    ],
+    whyViral: [
+      { title: "Punctuation as personality", desc: "Borrowing a punctuation mark and turning it into a power statement is clever and immediately understood." },
+      { title: "Drag culture charisma", desc: "Drag vocabulary carries energy and conviction. Periodt is the linguistic equivalent of a death drop." },
+      { title: "Finality is universal", desc: "Everyone wants a way to end a discussion definitively. Periodt is the perfect tool for that." },
+      { title: "The T makes it different", desc: "The silent T spelling marks 'periodt' as slang rather than standard English, creating community ownership of the word." }
+    ],
+    relatedSlangs: ["slay", "nocap", "fr"],
+    seoKeywords: ["periodt meaning slang", "what does periodt mean", "periodt slang definition", "period slang meaning"]
+  }
+
 ];
 
 /* ════════════════════════════════════════════════════════════
