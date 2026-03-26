@@ -1524,6 +1524,278 @@ const SLANGIST_DATA = [
     seoKeywords: ["periodt meaning slang", "what does periodt mean", "periodt slang definition", "period slang meaning"]
   }
 
+  /* ── BATCH 4 — 10 NEW ENTRIES ────────────────────────── */
+
+  {
+    id: "era", word: "Era", slug: "era",
+    devanagari: null, pronunciation: "/ˈɪər.ə/",
+    shortMeaning: "A chapter or phase of your life you are currently living.",
+    fullMeaning: "An 'era' is a defined chapter or phase of your life, usually one with a specific vibe, aesthetic, or personal evolution. 'I'm in my villain era' means you're done being nice and taking no nonsense. 'Hot girl era', 'healing era', 'main character era' — eras are personal seasons you consciously step into and announce.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Gen Z / TikTok", origin: "TikTok / social media",
+    culturalContext: "Taylor Swift's album releases are called 'eras,' and the Eras Tour brought the concept of distinct life chapters to global mainstream. Gen Z adopted 'era' as the framework for narrating personal transformation and identity shifts.",
+    examples: [
+      { label: "💬 Self-declaration", them: "You've been so unbothered lately.", me: "Fully in my villain era. Nobody gets grace anymore." },
+      { label: "📸 Caption", them: "Posted a glow-up photo series", me: "Not the same person. New era, new me." },
+      { label: "🎭 Mood shift", them: "Why are you studying so hard this semester?", me: "Locked in era. No distractions, no excuses." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Music Framework", body: "Taylor Swift famously divided her career into distinct 'eras' — each album era had its own aesthetic, color palette, and emotional world. The Eras Tour made this framework legendary." },
+      { date: "2022", title: "TikTok Life Framework", body: "Gen Z adopted 'era' to describe personal life chapters. 'I'm in my healing era', 'entering my unbothered era' became standard self-narration vocabulary on TikTok." },
+      { date: "2023 Onward", title: "Universal Life Language", body: "Era became the go-to framework for life chapters across every demographic. Announcing your current era signals self-awareness and intentional personal evolution." }
+    ],
+    whyViral: [
+      { title: "Taylor Swift pipeline", desc: "One of the biggest artists in the world made 'eras' a narrative framework. When Taylor speaks, millions absorb the vocabulary." },
+      { title: "Self-narrative culture", desc: "Gen Z loves to narrate their own lives as stories. 'Era' is the chapter heading for that story." },
+      { title: "Infinite applications", desc: "Villain era, soft era, hot era, study era — any mood, any phase, any transformation gets its own era." },
+      { title: "Empowerment framing", desc: "Announcing your era is an act of intention. You're not just changing, you're entering something." }
+    ],
+    relatedSlangs: ["maincharacter", "glowup", "slay"],
+    seoKeywords: ["era meaning slang", "villain era meaning", "what does era mean gen z", "my era slang"]
+  },
+
+  {
+    id: "itsgiving", word: "It's Giving", slug: "itsgiving",
+    devanagari: null, pronunciation: "/ɪts ˈɡɪv.ɪŋ/",
+    shortMeaning: "This is giving off a specific vibe or energy. What it is.",
+    fullMeaning: "'It's giving' means something is radiating a certain vibe, aesthetic, or energy. 'It's giving royalty' means it looks elegant and regal. 'It's giving unhinged' means it's chaotic. You can finish the sentence or leave it open ('it's giving...') and let context complete the meaning. Often used as a compliment, sometimes ironic.",
+    tag: "trending", year: 2021, language: "English / AAVE / Drag", coinedBy: "Black drag culture / AAVE", origin: "Drag culture / Black Twitter / TikTok",
+    culturalContext: "Rooted in Black drag culture's tradition of describing the essence or vibe a person or look is projecting. 'She's giving' in ballroom meant she was embodying a specific energy or aesthetic. TikTok brought it to global audiences in 2021.",
+    examples: [
+      { label: "📸 Look description", them: "What's the vibe with this fit?", me: "It's giving old money. Very quiet luxury." },
+      { label: "💬 Ironic use", them: "His apology was three sentences long.", me: "It's giving... 'I'm sorry you were offended.' Classic non-apology." },
+      { label: "🎭 Open-ended", them: "I can't describe this painting.", me: "It's just giving. You know when you know." }
+    ],
+    originStory: [
+      { date: "Pre-2021", title: "Ballroom Origins", body: "In drag ballroom culture, 'giving' described what a look or performance was projecting. 'She's giving face', 'giving runway' — it meant embodying an aesthetic with conviction." },
+      { date: "2021", title: "TikTok Explosion", body: "'It's giving' went viral on TikTok as creators used it to describe aesthetics, moods, and vibes in a specific, playful way. The phrase's flexibility made it endlessly reusable." },
+      { date: "2022 Onward", title: "Universal Descriptor", body: "'It's giving' became one of the most versatile phrases in Gen Z vocabulary — usable for fashion, art, food, situations, people, and any feeling that has a distinct energy." }
+    ],
+    whyViral: [
+      { title: "Drag culture precision", desc: "Drag vocabulary is specificity elevated to art form. 'It's giving X' names a vibe with precision that standard English lacks." },
+      { title: "The incomplete sentence trick", desc: "Leaving 'It's giving...' open-ended is a comedic and stylistic move that invites the listener to complete it." },
+      { title: "Aesthetic era culture", desc: "A generation obsessed with aesthetics and vibes needed vocabulary to name them. 'It's giving' is perfect for that." },
+      { title: "Infinite completion", desc: "It's giving royalty. It's giving chaos. It's giving nothing. It works with any noun or concept." }
+    ],
+    relatedSlangs: ["vibecheck", "slay", "ate"],
+    seoKeywords: ["it's giving meaning slang", "what does it's giving mean", "its giving slang", "it's giving definition"]
+  },
+
+  {
+    id: "based", word: "Based", slug: "based",
+    devanagari: null, pronunciation: "/beɪst/",
+    shortMeaning: "Confidently yourself, unapologetic, and not caring about others' opinions.",
+    fullMeaning: "'Based' means being confidently yourself, holding your own opinions firmly, and not changing yourself to fit social expectations. Calling someone or something 'based' is high praise — it means they're authentic, self-assured, and unapologetically genuine. Originally popularized by rapper Lil B, it evolved from meaning 'self-accepting' to a broader internet compliment for any confidently held opinion or action.",
+    tag: "classic", year: 2010, language: "English", coinedBy: "Lil B 'The BasedGod'", origin: "Hip-hop / Lil B / 4chan / internet",
+    culturalContext: "Lil B The BasedGod coined 'based' as his personal philosophy: do what you want, be yourself, love yourself regardless of what others say. Internet culture absorbed it and 'based' became the compliment for any opinion or action taken with total authenticity and self-confidence.",
+    examples: [
+      { label: "💬 Strong opinion", them: "I don't care if people think my music taste is weird.", me: "That's incredibly based of you honestly." },
+      { label: "📱 Complimenting conviction", them: "She wore exactly what she wanted and didn't ask for approval.", me: "Based behavior. She doesn't owe anyone an explanation." },
+      { label: "🎯 Response to honesty", them: "I said what I said and I stand by it.", me: "Based. Absolutely based." }
+    ],
+    originStory: [
+      { date: "2009–2010", title: "Lil B Coins It", body: "Rapper Lil B The BasedGod developed 'based' as his personal philosophy — being yourself, not caring about judgment, living authentically. His 'Based movement' built a devoted following around this ideology." },
+      { date: "2012–2018", title: "Internet Spread", body: "Various internet communities adopted 'based' as shorthand for opinions or actions held with total confidence, regardless of social pressure. It became a compliment for authenticity." },
+      { date: "2020 Onward", title: "Mainstream Compliment", body: "'Based' became one of Gen Z's standard compliments for anyone who acts with genuine conviction. Being called based means you're respected for your authenticity." }
+    ],
+    whyViral: [
+      { title: "Lil B's philosophical foundation", desc: "A coherent, positive philosophy ('be yourself') gives a word staying power. Based has meaning beyond slang." },
+      { title: "Counterculture appeal", desc: "Based rewards non-conformity. In an era of social media performance, authenticity is precious." },
+      { title: "One-word verdict", desc: "One word that says 'you are confidently yourself and I respect it.' Unmatched efficiency." },
+      { title: "Cross-community adoption", desc: "Based escaped its original community and traveled across different internet cultures while keeping its core meaning." }
+    ],
+    relatedSlangs: ["nocap", "savage", "valid"],
+    seoKeywords: ["based meaning slang", "what does based mean", "based slang definition", "based gen z meaning"]
+  },
+
+  {
+    id: "ratio", word: "Ratio", slug: "ratio",
+    devanagari: null, pronunciation: "/ˈreɪ.ʃi.oʊ/",
+    shortMeaning: "When a reply gets more likes than the original post. A public defeat.",
+    fullMeaning: "On Twitter/X, being 'ratioed' means a reply to your tweet got significantly more likes than your original tweet — signaling widespread disagreement or mockery from the audience. To 'ratio' someone means to post a reply that outperforms the original. A ratio is a form of public humiliation: the internet has voted and your post lost. 'L + ratio' is the complete defeat combo.",
+    tag: "trending", year: 2017, language: "English", coinedBy: "Twitter culture", origin: "Twitter / social media discourse",
+    culturalContext: "Born entirely from Twitter's public metrics system where anyone can see exactly how many likes a post vs a reply has received. When a reply 'outperforms' an original, it signals broad public rejection of the original post's content.",
+    examples: [
+      { label: "📱 Post getting destroyed", them: "His hot take got 200 likes and the top reply has 50k.", me: "He got ratioed into the shadow realm. Devastating." },
+      { label: "💬 Calling it out", them: "Should I ratio this?", me: "The ratio is already happening naturally. It's over for him." },
+      { label: "🎭 Complete defeat", them: "L + ratio + you fell off", me: "The holy trinity of being finished on this app." }
+    ],
+    originStory: [
+      { date: "2017", title: "Twitter Mechanics", body: "Someone noticed that replies can outperform original posts in likes when the original tweet is widely disagreed with. The numeric 'ratio' of likes to replies became a metric of public disapproval." },
+      { date: "2018–2020", title: "Weapon Format", body: "Twitter users began intentionally trying to ratio posts they disagreed with. 'Ratio' became both a noun (that tweet got a ratio) and a verb (I'm going to ratio this)." },
+      { date: "2021 Onward", title: "L + Ratio Combo", body: "'L + ratio' became the ultimate Twitter defeat combo — calling someone's post a loss AND noting that the reply section agreed. Politicians, celebrities, and brands have all been famously ratioed." }
+    ],
+    whyViral: [
+      { title: "Platform-native", desc: "Ratio was born from Twitter's own metrics. It could only exist on a platform with public engagement counts." },
+      { title: "Public accountability", desc: "A ratio is evidence. You can't deny it — the numbers are visible to everyone." },
+      { title: "The L + ratio combo", desc: "Adding 'L + ratio' created a complete rhetorical combo. It's internet debate shorthand for total defeat." },
+      { title: "Celebrity ratioing", desc: "When famous people get ratioed, it becomes news. High-profile ratios kept the word in the cultural conversation." }
+    ],
+    relatedSlangs: ["wl", "nocap", "tea"],
+    seoKeywords: ["ratio meaning slang", "what does ratio mean", "getting ratioed meaning", "ratio twitter slang"]
+  },
+
+  {
+    id: "clout", word: "Clout", slug: "clout",
+    devanagari: null, pronunciation: "/klaʊt/",
+    shortMeaning: "Social media influence, fame, or the power that comes from a large following.",
+    fullMeaning: "Clout means influence, fame, or social power — specifically in the context of social media. Having clout means having a large following, being well-known, and having your opinions and actions carry weight. 'Clout chasing' means doing things purely to gain attention and followers, without genuine substance. Clout is the social media economy's currency.",
+    tag: "classic", year: 2017, language: "English / AAVE", coinedBy: "Hip-hop / social media culture", origin: "AAVE / Instagram / hip-hop",
+    culturalContext: "While 'clout' as a word for influence or a hit has existed for centuries, its modern usage as social media currency was amplified by hip-hop culture and the influencer economy. ASAP Mob's track 'Clout Cobain' and countless references in rap normalized clout as the metric of digital success.",
+    examples: [
+      { label: "💬 Influencer talk", them: "Why does he get invited everywhere?", me: "The clout. 2 million followers opens every door." },
+      { label: "📱 Calling out behavior", them: "She only dates athletes and posts about it immediately.", me: "Full clout chaser. Everything is content." },
+      { label: "🎭 Self-aware", them: "Are you only doing this for attention?", me: "Partially the clout, partially I genuinely care. Both can be true." }
+    ],
+    originStory: [
+      { date: "Pre-social media", title: "Old Meaning", body: "'Clout' in old English meant a blow or hit, and in American slang it meant political power or influence. Both meanings fed into its social media evolution." },
+      { date: "2016–2018", title: "Hip-hop and Instagram Era", body: "As Instagram's influencer economy matured, 'clout' became the word for the social currency that followers represented. Hip-hop tracks about 'clout' and 'clout chasers' normalized the term." },
+      { date: "2019 Onward", title: "Economy of Attention", body: "Clout became the standard word for social media influence and the sometimes desperate pursuit of it. 'Clout chasing' named a specific behavior pattern that social media had created." }
+    ],
+    whyViral: [
+      { title: "Names a real economy", desc: "Social media created a real influence economy. Clout named it precisely when people needed the word." },
+      { title: "Hip-hop amplification", desc: "Rap's constant engagement with status and influence made clout a natural vocabulary word for the genre." },
+      { title: "Clout chaser archetype", desc: "'Clout chaser' as a character type gave the word a narrative role — everyone could identify examples in their own life." },
+      { title: "Business language crossover", desc: "Clout crossed from slang into business — 'influencer clout' is now used in marketing briefs. That legitimization keeps words alive." }
+    ],
+    relatedSlangs: ["flex", "stan", "ratio"],
+    seoKeywords: ["clout meaning slang", "what does clout mean", "clout chaser meaning", "clout slang definition"]
+  },
+
+  {
+    id: "builtdifferent", word: "Built Different", slug: "builtdifferent",
+    devanagari: null, pronunciation: "/bɪlt ˈdɪf.ər.ənt/",
+    shortMeaning: "Someone who is exceptionally unique, strong, or operates on a different level.",
+    fullMeaning: "'Built different' means someone is constructed from a different blueprint — their resilience, talent, mindset, or physical attributes are so exceptional that they seem to operate by different rules than everyone else. It's the highest form of 'you're not like the rest.' Can be earnest praise or ironic humor ('he stayed on his phone the whole meeting, built different').",
+    tag: "trending", year: 2020, language: "English / AAVE", coinedBy: "Sports and fitness culture / Black American vernacular", origin: "Sports Twitter / fitness culture",
+    culturalContext: "Emerged from sports culture where exceptional athletes' performances seemed physically impossible for normal humans. Extended into mindset culture, meme culture, and everyday life. The ironic use — applying it to mundane or absurd behavior — added comedic depth.",
+    examples: [
+      { label: "⚽ Sports", them: "He played 90 minutes at that intensity without substitution.", me: "That man is just built different. Not human." },
+      { label: "💬 Ironic use", them: "He's been awake for 40 hours studying.", me: "Built different. Or just unwell. Hard to tell." },
+      { label: "📱 Admiration", them: "She forgave them AND still showed up for them.", me: "Built different. I could never. The strength required." }
+    ],
+    originStory: [
+      { date: "Pre-2020", title: "Sports Origins", body: "Sports commentary and training culture used 'built different' to describe athletes whose physical and mental attributes set them apart. Michael Jordan, Kobe Bryant, Serena Williams — players who seemed to have different internal architecture." },
+      { date: "2020", title: "Pandemic Meme", body: "During the pandemic, 'built different' became a meme format — applied to people who handled lockdown unusually well (or unusually badly). The ironic application expanded the phrase's range." },
+      { date: "2021 Onward", title: "Universal Exceptionalism", body: "Built different became the phrase for anyone operating at an unusual level — positive or negative. It's both the highest compliment and a versatile observation tool." }
+    ],
+    whyViral: [
+      { title: "Sports culture reach", desc: "Sports commentary reaches billions. When athletes and commentators adopted it, built different went global." },
+      { title: "Earnest and ironic simultaneously", desc: "Works as genuine admiration and as comedic observation of unusual behavior. Dual function." },
+      { title: "Human exceptionalism fascination", desc: "People are drawn to stories of exceptional capacity. Built different names that fascination in two words." },
+      { title: "Meme format versatility", desc: "Any unusual behavior can be 'built different.' The format has essentially infinite applications." }
+    ],
+    relatedSlangs: ["goat", "savage", "based"],
+    seoKeywords: ["built different meaning", "what does built different mean", "built different slang", "built different definition"]
+  },
+
+  {
+    id: "cap", word: "Cap", slug: "cap",
+    devanagari: null, pronunciation: "/kæp/",
+    shortMeaning: "A lie. Someone is capping if they are not telling the truth.",
+    fullMeaning: "'Cap' means a lie or exaggeration. If someone is 'capping,' they are lying. 'That's cap' means that statement is false. It is the direct counterpart to 'no cap' (no lie). The 🧢 (cap/baseball cap) emoji is the visual shorthand. Calling out someone's cap is calling out their dishonesty in the most efficient way possible.",
+    tag: "trending", year: 2017, language: "English / AAVE", coinedBy: "Young Thug / Black American slang", origin: "AAVE / Atlanta hip-hop",
+    culturalContext: "Rooted in African American Vernacular English where 'capping' meant lying or exaggerating. Paired with 'no cap' to create a complete truth/lie vocabulary system. Young Thug and Atlanta hip-hop culture cemented both terms into mainstream Gen Z vocabulary.",
+    examples: [
+      { label: "💬 Calling someone out", them: "I was first in the whole school on that test.", me: "Cap. You told me yesterday you hadn't even studied." },
+      { label: "📱 Emoji accusation", them: "Trust me, I'm never late.", me: "🧢" },
+      { label: "🎭 Strong denial", them: "She said she doesn't care what people think.", me: "Big cap. She refreshed the comments 40 times." }
+    ],
+    originStory: [
+      { date: "Pre-2017", title: "AAVE Foundation", body: "'Capping' — lying, exaggerating, or fronting — existed in African American vernacular for decades. The cap as metaphor for a lid on the truth: something covering up what's real." },
+      { date: "2017", title: "Young Thug and Quavo", body: "The track 'No Cap' by Young Thug and Quavo formally introduced 'cap' (lie) and 'no cap' (truth) as a binary system to mainstream hip-hop audiences." },
+      { date: "2018–2020", title: "The 🧢 Emoji", body: "The baseball cap emoji 🧢 became the perfect visual shorthand for 'that's a lie.' A single emoji that delivers an accusation — efficient and satisfying." }
+    ],
+    whyViral: [
+      { title: "Binary system with no cap", desc: "Cap and no cap work as a complete truth/lie vocabulary pair. Complete systems spread together." },
+      { title: "🧢 emoji shorthand", desc: "One emoji delivers a full accusation. Visual language is always faster than text." },
+      { title: "Universal human behavior", desc: "People lie constantly. Having a clean, cool word to call it out will always be useful." },
+      { title: "Hip-hop credibility", desc: "Atlanta trap gave cap its authenticity foundation. Words from credible cultural sources stick." }
+    ],
+    relatedSlangs: ["nocap", "fr", "based"],
+    seoKeywords: ["cap meaning slang", "what does cap mean", "capping meaning slang", "cap lie slang"]
+  },
+
+  {
+    id: "pressed", word: "Pressed", slug: "pressed",
+    devanagari: null, pronunciation: "/prɛst/",
+    shortMeaning: "Being worked up, upset, or overly bothered about something.",
+    fullMeaning: "To be 'pressed' means to be noticeably upset, stressed, or bothered — often about something that others think you should let go of. 'Why are you so pressed?' asks why you're so worked up. Being called pressed implies you're overreacting, dwelling on something, or visibly disturbed by a situation that doesn't warrant that level of concern.",
+    tag: "classic", year: 2016, language: "English / AAVE", coinedBy: "Black American culture", origin: "AAVE / social media",
+    culturalContext: "Pressed as in pressure — someone is under internal pressure and it's showing. In AAVE and Black internet culture, 'pressed' became the specific word for visibly, unnecessarily bothered. Being called pressed also implies others can see your distress, adding a social dimension.",
+    examples: [
+      { label: "💬 Calling someone out", them: "He's been talking about this for three days.", me: "Why is he so pressed about something that has nothing to do with him?" },
+      { label: "📱 Defending yourself", them: "Stop acting so pressed.", me: "I'm not pressed, I'm making a valid point. Different things." },
+      { label: "🎭 Unbothered response", them: "Don't you care what they said?", me: "Not even slightly. I refuse to be pressed over people who don't matter." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Pressure Metaphor", body: "The physical sensation of being pressed — squeezed, under pressure — translates directly to emotional distress. AAVE used 'pressed' to describe someone visibly under emotional pressure." },
+      { date: "2016–2018", title: "Twitter and Instagram", body: "Black Twitter and Instagram comment sections made 'pressed' a standard observation phrase. Calling someone pressed was both a roast and an invitation to calm down." },
+      { date: "2018 Onward", title: "Universal Emotion Label", body: "Pressed traveled from AAVE into general Gen Z vocabulary as the specific word for unnecessary, visible upset. It fills a gap between 'bothered' (neutral) and 'angry' (intense)." }
+    ],
+    whyViral: [
+      { title: "Fills a vocabulary gap", desc: "'Pressed' describes a specific emotional state that 'upset' or 'bothered' doesn't fully capture — visible, unnecessary worry." },
+      { title: "Social mirror function", desc: "Calling someone pressed names their emotional state from the outside, which is both clarifying and slightly humiliating." },
+      { title: "Unbothered culture", desc: "Gen Z values appearing unbothered. Having a word for the opposite (pressed) reinforces the cultural value of not being pressed." },
+      { title: "Concise observation", desc: "'Why are you so pressed?' delivers a full assessment in five words." }
+    ],
+    relatedSlangs: ["salty", "based", "vibecheck"],
+    seoKeywords: ["pressed meaning slang", "what does pressed mean", "pressed slang definition", "why are you so pressed meaning"]
+  },
+
+  {
+    id: "understood", word: "Understood the Assignment", slug: "understood",
+    devanagari: null, pronunciation: "/ˌʌn.də.ˈstʊd ðə əˈsaɪn.mənt/",
+    shortMeaning: "Did exactly what was needed, perfectly. Delivered completely.",
+    fullMeaning: "'Understood the assignment' means someone completely grasped what was expected and delivered it flawlessly. When someone understands the assignment, they read the room perfectly, met the brief, and executed. It's one of the highest compliments for effort, style, performance, or presence. The flip side: 'did NOT understand the assignment' means someone missed the mark entirely.",
+    tag: "trending", year: 2021, language: "English", coinedBy: "TikTok / Tay Money rap lyric", origin: "TikTok / Tay Money 'The Assignment'",
+    culturalContext: "The phrase exploded after rapper Tay Money's song 'The Assignment' in 2021. TikTok then turned 'understood the assignment' into a format — videos where people transformed an outfit, look, or moment to perfectly fit a brief. It became the phrase for any flawless execution.",
+    examples: [
+      { label: "📸 Outfit moment", them: "The theme was 'old Hollywood glamour.'", me: "She came in a full Audrey Hepburn moment. Understood the assignment completely." },
+      { label: "💬 Performance", them: "The speech at the gala was incredible.", me: "He understood the assignment. Room was silent by the end." },
+      { label: "🎭 Missed mark", them: "The theme was 'formal' and he wore jeans.", me: "Did NOT understand the assignment. At all." }
+    ],
+    originStory: [
+      { date: "2021 · Tay Money", title: "The Song That Launched It", body: "Rapper Tay Money released 'The Assignment' in 2021. TikTokers used the audio for transformation videos — before/after clips where someone perfectly executed a look or a brief. The phrase was born." },
+      { date: "2021", title: "TikTok Format", body: "The format spread rapidly: clip of a challenge or brief, cut to perfect execution, caption 'understood the assignment.' The phrase became the caption for any flawless delivery." },
+      { date: "2022 Onward", title: "Universal Excellence Marker", body: "Beyond TikTok, 'understood the assignment' became the phrase for any moment where someone perfectly met expectations — performances, speeches, outfits, business decisions." }
+    ],
+    whyViral: [
+      { title: "TikTok transformation format", desc: "Before/after transformation videos are TikTok's most reliable format. This phrase gave those videos their perfect caption." },
+      { title: "Academic metaphor clarity", desc: "Everyone understands the concept of an assignment and the satisfaction of doing it well. The metaphor is immediately clear." },
+      { title: "Negative version equally powerful", desc: "'Did NOT understand the assignment' is as useful as the positive. Both versions drive engagement." },
+      { title: "Versatility across contexts", desc: "Fashion, performance, cooking, speeches, relationship moves — every context has 'assignments' that can be understood or missed." }
+    ],
+    relatedSlangs: ["slay", "ate", "fire"],
+    seoKeywords: ["understood the assignment meaning", "what does understood the assignment mean", "understood assignment slang", "slayed the assignment meaning"]
+  },
+
+  {
+    id: "vibe", word: "Vibe", slug: "vibe",
+    devanagari: null, pronunciation: "/vaɪb/",
+    shortMeaning: "The feeling or energy something gives off. Also: to enjoy and feel in sync.",
+    fullMeaning: "'Vibe' as a noun describes the feeling, energy, or atmosphere of a place, person, or moment. 'The vibe here is off' means something feels wrong. 'This place has a vibe' means it has a distinct, good energy. As a verb, 'vibing' means relaxing, enjoying yourself, or being in pleasant sync with someone or something. It's both a feeling and an activity.",
+    tag: "classic", year: 2016, language: "English", coinedBy: "Music and youth culture", origin: "Music culture / slang evolution",
+    culturalContext: "Evolved from 'vibration' — the idea that places and people emit frequencies you can feel. Music culture has always talked about vibes. Social media amplified it into the universal word for atmosphere and energy, spawning 'good vibes only,' 'vibe check,' and 'vibing.'",
+    examples: [
+      { label: "💬 Place energy", them: "What's that coffee shop like?", me: "The vibe is incredible. Warm lights, good music, no rush." },
+      { label: "📱 Just existing peacefully", them: "What are you doing?", me: "Just vibing honestly. No plans, good music, window open." },
+      { label: "🎵 With someone", them: "How was the drive with them?", me: "We just vibed the whole way. No awkward silence, perfect playlist." }
+    ],
+    originStory: [
+      { date: "1970s–80s", title: "Musical Roots", body: "The concept of 'vibrations' — invisible energy frequencies you can feel from people and places — was central to soul, jazz, and later hip-hop. 'Good vibes' was already in use." },
+      { date: "2015–2017", title: "Social Media Standardization", body: "'Vibe' became the universal word for atmosphere and energy on social media. 'Good vibes only' became a caption philosophy. 'The vibe' became standard shorthand for any evaluative question about a place or person." },
+      { date: "2018 Onward", title: "Verb Adoption", body: "'Vibing' as a verb — hanging out peacefully, being in pleasant sync — became standard. 'We're vibing' means things are flowing naturally without tension or effort." }
+    ],
+    whyViral: [
+      { title: "Names the intangible", desc: "Atmosphere and energy are real experiences with no good English words. 'Vibe' filled that gap perfectly." },
+      { title: "Both noun and verb", desc: "'The vibe is good' and 'we're vibing' — the same word covers both the state and the activity." },
+      { title: "Universal human sensitivity", desc: "Everyone has felt a room or a person's energy. Vibe validated that sensitivity with language." },
+      { title: "Spawned a family", desc: "Vibe check, vibing, good vibes, bad vibes — one word became an entire vocabulary family." }
+    ],
+    relatedSlangs: ["vibecheck", "lowkey", "fire"],
+    seoKeywords: ["vibe meaning slang", "what does vibe mean", "vibing meaning", "vibe slang definition"]
+  }
+
 ];
 
 /* ════════════════════════════════════════════════════════════

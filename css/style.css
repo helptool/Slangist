@@ -897,16 +897,24 @@ input { font-family: inherit; }
   font-family: var(--ff-display);
   font-style: italic;
   color: var(--text-1);
-  opacity: 0.06;
+  opacity: 0.07;
   white-space: nowrap;
+  /* transform is set inline (includes translate(-50%,-50%) centering + rotation) */
   animation: float-drift linear infinite alternate;
   user-select: none;
-  transform-origin: center center;
+  pointer-events: none;
+}
+
+/* card-hidden: used for stagger-reveal on dynamically rendered cards */
+.card-hidden {
+  opacity: 0 !important;
+  transform: translateY(14px) !important;
+  transition: opacity 0.38s ease, transform 0.38s ease !important;
 }
 
 @keyframes float-drift {
-  from { transform: translateX(0) translateY(0) rotate(var(--r)); }
-  to   { transform: translateX(var(--tx)) translateY(var(--ty)) rotate(var(--r)); }
+  from { transform: translate(calc(-50% + 0px), calc(-50% + 0px)) rotate(var(--r, 0deg)); }
+  to   { transform: translate(calc(-50% + var(--tx, 0px)), calc(-50% + var(--ty, 0px))) rotate(var(--r, 0deg)); }
 }
 
 .hero-content {

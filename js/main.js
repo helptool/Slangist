@@ -425,7 +425,6 @@ function renderCardsIfNeeded() {
 }
 
 function renderCards(slangs, container, fromRoot = null) {
-  /* Auto-detect if we're in /slang/ subfolder */
   const inSlangDir = window.location.pathname.includes('/slang/');
   const useRoot = fromRoot !== null ? fromRoot : !inSlangDir;
   const prefix = useRoot ? 'slang/' : '';
@@ -440,12 +439,13 @@ function renderCards(slangs, container, fromRoot = null) {
     return;
   }
 
-  container.innerHTML = slangs.map((s, i) => `
+  /* Render WITHOUT reveal class — cards start hidden via .card-hidden,
+     then we stagger-reveal them via setTimeout (no 56x IntersectionObserver lag) */
+  container.innerHTML = slangs.map(s => `
     <a
       href="${prefix}${s.slug}.html"
-      class="slang-card reveal"
+      class="slang-card card-hidden"
       data-tag="${s.tag}"
-      style="transition-delay:${Math.min(i, 6) * 60}ms"
       aria-label="${s.word}: ${s.shortMeaning}"
     >
       <div class="card-header">
@@ -465,18 +465,10 @@ function renderCards(slangs, container, fromRoot = null) {
     </a>
   `).join('');
 
-  /* Re-observe new cards */
-  if (typeof initRevealAnimations === 'function') {
-    container.querySelectorAll('.reveal').forEach(el => {
-      /* Trigger observer for newly rendered elements */
-      const io = new IntersectionObserver((entries) => {
-        entries.forEach(e => {
-          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-        });
-      }, { threshold: 0.05 });
-      io.observe(el);
-    });
-  }
+  /* Stagger-reveal cards immediately — no scroll needed for grids */
+  container.querySelectorAll('.card-hidden').forEach((card, i) => {
+    setTimeout(() => card.classList.remove('card-hidden'), Math.min(i, 20) * 30);
+  });
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -557,17 +549,26 @@ function initFloatingWords() {
   const container = document.querySelector('.hero-floats');
   if (!container || typeof SLANGIST_DATA === 'undefined') return;
 
-  /* Grid-based placement — 6 columns × 4 rows = 24 cells.
-     One word per cell so nothing overlaps badly.           */
-  const COLS = 6;
-  const ROWS = 4;
-  const cellW = 100 / COLS;   // % width per cell
-  const cellH = 100 / ROWS;   // % height per cell
+  /* Use only single-word slangs to prevent long phrases overlapping */
+  const allWords = SLANGIST_DATA.map(s => s.word);
+  const shortWords = allWords.filter(w => !w.includes(' ')); /* no spaces */
+  const longWords  = allWords.filter(w => w.includes(' '));
 
-  /* Pick 24 words, shuffle them */
-  const pool = [...SLANGIST_DATA].map(s => s.word)
+  /* 7 columns × 5 rows = 35 cells — spread words evenly */
+  const COLS = 7;
+  const ROWS = 5;
+  const TOTAL = COLS * ROWS;
+
+  /* Prefer short words, pad with truncated long ones if needed */
+  const pool = [...shortWords]
     .sort(() => Math.random() - 0.5)
-    .slice(0, COLS * ROWS);
+    .slice(0, TOTAL);
+
+  /* If not enough short words, fill with long ones capped at first word */
+  while (pool.length < TOTAL && longWords.length) {
+    const w = longWords[Math.floor(Math.random() * longWords.length)];
+    pool.push(w.split(' ')[0]); /* use only first word of multi-word phrases */
+  }
 
   pool.forEach((word, i) => {
     const el = document.createElement('span');
@@ -577,27 +578,35 @@ function initFloatingWords() {
     const col = i % COLS;
     const row = Math.floor(i / COLS);
 
-    /* Anchor to cell centre then apply a small random jitter */
-    const jitterX = (Math.random() - 0.5) * cellW * 0.45;
-    const jitterY = (Math.random() - 0.5) * cellH * 0.45;
-    const left = col * cellW + cellW * 0.5 + jitterX;
-    const top  = row * cellH + cellH * 0.5 + jitterY;
+    /* Cell dimensions in % */
+    const cellW = 100 / COLS;
+    const cellH = 100 / ROWS;
 
-    /* Smaller, readable sizes — no 7–8 rem monsters */
-    const size = 1.6 + Math.random() * 1.8;   /* 1.6–3.4 rem */
+    /* Position at cell centre — transform:translate(-50%,-50%) centres the word there */
+    const left = col * cellW + cellW * 0.5;
+    const top  = row * cellH + cellH * 0.5;
 
-    const dur = 22 + Math.random() * 18;
-    const tx  = (Math.random() - 0.5) * 50 + 'px';
-    const ty  = (Math.random() - 0.5) * 35 + 'px';
-    const rot = (Math.random() - 0.5) * 12 + 'deg'; /* gentle tilt only */
+    /* Very small jitter — only 20% of cell size so words never reach cell boundary */
+    const jitterX = (Math.random() - 0.5) * cellW * 0.2;
+    const jitterY = (Math.random() - 0.5) * cellH * 0.2;
+
+    /* Tightly controlled sizes: 1.2–2.2rem max so words stay short enough */
+    const size = 1.2 + Math.random() * 1.0;
+
+    const dur = 25 + Math.random() * 20;
+    /* Drift only within ~40% of cell size — words never leave their zone */
+    const tx  = (Math.random() - 0.5) * (cellW * 0.35) + 'vw';
+    const ty  = (Math.random() - 0.5) * (cellH * 0.35) + 'vh';
+    const rot = (Math.random() - 0.5) * 8 + 'deg'; /* barely any tilt */
 
     el.style.cssText = `
       font-size: ${size}rem;
-      top: ${top}%;
-      left: ${left}%;
+      top: calc(${top + jitterY}%);
+      left: calc(${left + jitterX}%);
+      transform: translate(-50%, -50%) rotate(${rot});
       --tx: ${tx};
       --ty: ${ty};
-      --r: ${rot};
+      --r: 0deg;
       animation-duration: ${dur}s;
       animation-delay: -${Math.random() * dur}s;
     `;
