@@ -2369,6 +2369,630 @@ const SLANGIST_DATA = [
     relatedSlangs: ["velkamya", "salty", "crashout"],
     seoKeywords: ["ghee khatam meaning", "ghee khatam slang", "ghee khatam hindi meaning", "desi slang ghee khatam"]
   }
+,
+
+  /* ── BATCH 7 — 24 NEW ENTRIES ────────────────────────── */
+
+  {
+    id: "banger", word: "Banger", slug: "banger",
+    devanagari: null, pronunciation: "/ˈbæŋ.ər/",
+    shortMeaning: "An exceptionally good song, or sometimes, an outstanding piece of food.",
+    fullMeaning: "A banger is something that hits so hard it cannot be ignored — usually a song with incredible energy, production, and replay value, but also applied to food, moments, or anything that exceeds expectations dramatically. 'That song is a banger' means it is not just good, it is undeniably, aggressively great. Every party needs bangers. No skip albums are full of bangers.",
+    tag: "classic", year: 2016, language: "English / UK slang", coinedBy: "UK music and club culture", origin: "UK music culture / hip-hop",
+    culturalContext: "Originally from UK club culture where a 'banger' was a track that made the dance floor go wild. The word crossed into general music praise and then expanded to food and other excellent things. Distinct from 'bop' (catchy) — a banger has energy and impact.",
+    examples: [
+      { label: "🎵 Music", them: "Put on something good for the drive.", me: "I've got a playlist of pure bangers. No skips, I promise." },
+      { label: "🍕 Food", them: "How was that burger?", me: "Absolute banger. Best one I've had in this city." },
+      { label: "💬 Album reaction", them: "What do you think of the new project?", me: "Every track is a banger. No filler, no mid moments. Just bangers." }
+    ],
+    originStory: [
+      { date: "1990s", title: "UK Club Origins", body: "In UK rave and club culture, a 'banger' was a track so high-energy it made the floor move. The physical, almost violent impact of the bass gave it the name." },
+      { date: "2010–2016", title: "Hip-hop Adoption", body: "Hip-hop and mainstream music communities adopted 'banger' as the premium compliment for high-energy tracks with undeniable quality. It spread through music Twitter and streaming culture." },
+      { date: "2016 Onward", title: "Beyond Music", body: "Banger expanded from music to food, sports moments, and anything that delivers exceptional impact. 'That was a banger of a match' means it was thrilling. The word traveled with the energy it describes." }
+    ],
+    whyViral: [
+      { title: "Sounds like what it means", desc: "Banger has punch. The word itself sounds like something hitting hard." },
+      { title: "Music culture reach", desc: "Music is the most shared content online. Words from music discourse spread everywhere." },
+      { title: "No-skip culture", desc: "Playlist and album quality discourse made 'banger' the standard unit of quality measurement." },
+      { title: "Versatile application", desc: "Songs, food, matches, moments — anything excellent can be a banger." }
+    ],
+    relatedSlangs: ["bop", "slaps", "fire"],
+    seoKeywords: ["banger meaning slang", "what does banger mean", "banger slang definition", "banger song meaning"]
+  },
+
+  {
+    id: "beigeflag", word: "Beige Flag", slug: "beigeflag",
+    devanagari: null, pronunciation: "/beɪdʒ flæɡ/",
+    shortMeaning: "A quirky or odd personality trait that is neither a red flag nor a green flag. Just strange.",
+    fullMeaning: "A beige flag is a personality trait or behavior that is not alarming (red flag) or attractive (green flag) — it is just odd, neutral, or mildly quirky. Someone who eats cereal with orange juice instead of milk is giving beige flag energy. It is not dealbreaking, not attractive. It is just a little... beige. The dating discourse generated red, green, and beige as a complete flag spectrum.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "TikTok dating discourse", origin: "TikTok / dating culture",
+    culturalContext: "Emerged from dating culture's obsession with red flags (dealbreakers) and green flags (attractive qualities). Beige flags filled the gap for things that are neither — the mundane, slightly strange, or mildly quirky behaviors that do not affect attraction but do make you go 'huh.'",
+    examples: [
+      { label: "💬 Dating observation", them: "He always eats standing up. Never sits. Just stands at the counter.", me: "That is a beige flag. Strange but I would still date him." },
+      { label: "📱 Sharing quirks", them: "She alphabetizes her spice rack but her desk is chaos.", me: "Classic beige flag behavior. Inexplicable but harmless." },
+      { label: "🎭 Self-aware", them: "I sleep with the fan on regardless of temperature.", me: "I know that is a beige flag. I accept it about myself." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "The Flag Spectrum", body: "Dating culture on TikTok was already using red flags (bad signs) and green flags (good signs) extensively. The binary left a gap for neutral-but-odd behaviors." },
+      { date: "2023", title: "TikTok Fills the Gap", body: "Creator Caitlin MacPhail is often credited with popularising 'beige flag' on TikTok to describe her partner's odd neutral traits. The term filled a real vocabulary gap in dating discourse instantly." },
+      { date: "2023 Onward", title: "Mainstream Dating Vocabulary", body: "Beige flag became part of the standard dating discourse toolkit alongside red and green flags. The complete flag system gave people precise language for every type of trait." }
+    ],
+    whyViral: [
+      { title: "Fills the spectrum gap", desc: "Red and green flags existed. Beige flags completed the set. Systems spread faster than isolated words." },
+      { title: "Dating discourse is huge", desc: "Relationship and dating content is some of TikTok's most engaged. New vocabulary in that space travels fast." },
+      { title: "Everyone has beige flags", desc: "The fun of beige flags is identifying your own and others'. The format is immediately participatory." },
+      { title: "Judgment-free zone", desc: "Beige flags are not bad. That neutrality makes people comfortable sharing them without shame." }
+    ],
+    relatedSlangs: ["ick", "situationship", "rizz"],
+    seoKeywords: ["beige flag meaning slang", "what does beige flag mean", "beige flag dating meaning", "beige flag definition"]
+  },
+
+  {
+    id: "bestie", word: "Bestie", slug: "bestie",
+    devanagari: null, pronunciation: "/ˈbɛs.ti/",
+    shortMeaning: "A best friend. Also used sarcastically for strangers or acquaintances.",
+    fullMeaning: "Bestie is a casual, affectionate term for a best friend — someone you are extremely close to. But Gen Z also uses it sarcastically or ironically for complete strangers, customer service workers, or anyone you are addressing with fake warmth. 'Okay bestie' said to a stranger means 'okay, person I do not know.' The word has both genuine and ironic registers that flip constantly.",
+    tag: "classic", year: 2017, language: "English", coinedBy: "LGBTQ+ community / Black culture / social media", origin: "Social media / LGBTQ+ culture",
+    culturalContext: "Bestie evolved from 'best friend' through abbreviation culture. The ironic use — addressing strangers as bestie — came from drag and LGBTQ+ culture's tradition of calling everyone 'honey,' 'darling,' or similar affectionate terms regardless of relationship.",
+    examples: [
+      { label: "💬 Genuine use", them: "She's been there for everything this year.", me: "She is genuinely my bestie. Cannot imagine navigating life without her." },
+      { label: "📱 Ironic use", them: "The barista just called me bestie.", me: "She calls everyone bestie. It is still nice though." },
+      { label: "🎭 Customer service", them: "Okay bestie have a great day!", me: "They just called me bestie and I felt genuinely seen." }
+    ],
+    originStory: [
+      { date: "Pre-2017", title: "Natural Abbreviation", body: "'Bestie' as a shortening of 'best friend' existed informally for years before going viral. Affectionate abbreviations are natural in close-knit communities." },
+      { date: "2017–2019", title: "Social Media Spread", body: "Instagram and Twitter captions using 'bestie' to describe close friends normalized the term widely. LGBTQ+ and Black communities gave it ironic warmth when applied to strangers." },
+      { date: "2020 Onward", title: "Universal Warmth Marker", body: "Bestie became the go-to address for anyone you want to speak to warmly — genuine or ironic. Customer service workers, content creators, and strangers all became besties." }
+    ],
+    whyViral: [
+      { title: "Warmth without commitment", desc: "Calling someone bestie is warm and friendly without implying deep relationship. Perfect for social media's parasocial culture." },
+      { title: "Irony and sincerity coexist", desc: "Works genuinely for close friends and ironically for strangers. The flexibility is rare." },
+      { title: "Creator-audience language", desc: "Content creators calling their audience 'besties' built parasocial closeness at scale." },
+      { title: "LGBTQ+ culture pipeline", desc: "The ironic warmth register comes directly from queer culture's tradition of addressing everyone affectionately." }
+    ],
+    relatedSlangs: ["pookie", "slay", "fr"],
+    seoKeywords: ["bestie meaning slang", "what does bestie mean", "bestie slang definition", "bestie gen z meaning"]
+  },
+
+  {
+    id: "sigma", word: "Sigma", slug: "sigma",
+    devanagari: null, pronunciation: "/ˈsɪɡ.mə/",
+    shortMeaning: "A lone wolf archetype. Cool, successful, and independent without needing validation.",
+    fullMeaning: "The Sigma is a social archetype — someone who is successful, confident, and self-sufficient but operates outside traditional social hierarchies. Where the Alpha seeks dominance and social recognition, the Sigma simply does not care about that game. They follow their own path, do not need approval, and their indifference to status is itself a form of status. Often self-applied ironically, but also a genuine aspirational identity.",
+    tag: "trending", year: 2020, language: "English", coinedBy: "Incel / manosphere communities / meme culture", origin: "Self-improvement communities / meme culture",
+    culturalContext: "Emerged from the 'socio-sexual hierarchy' framework in male self-improvement communities. The Sigma was positioned as superior to Alpha because they did not even participate in status competitions. Meme culture adopted and largely satirized it, with 'Sigma grindset' and 'Sigma male' becoming ironic content formats.",
+    examples: [
+      { label: "💬 Ironic use", them: "He left the party early without telling anyone.", me: "Sigma move. He does not explain himself to anyone." },
+      { label: "📱 Self-description", them: "Why don't you ever come to group events?", me: "I'm on my sigma grindset. Solo mode until further notice." },
+      { label: "🎵 Meme content", them: "What is that music playing?", me: "Sigma male phonk. It is required for the aesthetic." }
+    ],
+    originStory: [
+      { date: "2010–2019", title: "Manosphere Origins", body: "The Greek letter hierarchy (Alpha, Beta, Sigma etc.) emerged in online male self-improvement spaces as a framework for social status. Sigma was defined as the outsider who transcended the hierarchy." },
+      { date: "2020–2021", title: "Meme Explosion", body: "YouTube and TikTok turned the Sigma male into massive ironic content. 'Sigma grindset' videos featuring lone wolves, phonk music, and stoic quotes became a wildly popular parody format." },
+      { date: "2022 Onward", title: "Earnest and Ironic Coexistence", body: "Sigma now exists in both registers: genuine aspiration for some and ironic meme fodder for others. Both uses are widespread." }
+    ],
+    whyViral: [
+      { title: "Meme format perfection", desc: "Sigma grindset videos have a clear, reproducible aesthetic. Easy formats spread fast." },
+      { title: "Aspiration plus irony", desc: "Works as genuine identity and as self-aware parody. Both audiences are large." },
+      { title: "Counter-narrative appeal", desc: "Not wanting validation is itself compelling. The Sigma narrative appeals to people who feel outside social hierarchies." },
+      { title: "Phonk music pairing", desc: "The Sigma aesthetic came with a soundtrack. Music-visual pairings spread cultural moments faster." }
+    ],
+    relatedSlangs: ["based", "chad", "rizz"],
+    seoKeywords: ["sigma meaning slang", "what does sigma mean", "sigma male meaning", "sigma grindset meaning"]
+  },
+
+  {
+    id: "pickme", word: "Pick Me", slug: "pickme",
+    devanagari: null, pronunciation: "/pɪk miː/",
+    shortMeaning: "Someone who puts others down or acts against their own group to gain approval from a specific crowd.",
+    fullMeaning: "A pick-me is someone who seeks approval or attention from a specific group — usually the opposite gender — by putting other members of their own group down, acting excessively agreeable, or performing a persona that says 'pick me, I'm not like the others.' The core of pick-me behavior is prioritizing external validation over authenticity or group solidarity.",
+    tag: "trending", year: 2019, language: "English / AAVE", coinedBy: "Black Twitter / feminist internet discourse", origin: "Black Twitter / social media",
+    culturalContext: "Originated in Black feminist internet discourse to describe women who sought male approval by criticizing other women. Evolved to apply to any gender and any group. The 'not like other girls' trope is classic pick-me behavior. Pick-me behavior prioritizes being chosen over being authentic.",
+    examples: [
+      { label: "💬 Calling out", them: "She said she doesn't get along with other girls, only guys.", me: "Pick-me behavior. The classic 'I'm not like the others' script." },
+      { label: "📱 Observation", them: "He agrees with literally everything the group says even when it contradicts his values.", me: "Full pick-me. He just wants them to like him." },
+      { label: "🎭 Self-awareness", them: "Am I being a pick-me right now?", me: "A little. But the fact that you're asking means you can fix it." }
+    ],
+    originStory: [
+      { date: "Pre-2019", title: "The Concept Existed", body: "The behavior of betraying your own group for external approval has always existed. Black feminist discourse had language for women who criticized other women to gain male approval for years before the internet formalized it." },
+      { date: "2019", title: "Black Twitter Codification", body: "Black Twitter crystallized 'pick-me' as the label for this specific approval-seeking dynamic. The clarity of the term and the universality of the behavior it described made it spread immediately." },
+      { date: "2020 Onward", title: "Universal Application", body: "Pick-me expanded beyond gender dynamics to describe anyone prioritizing external validation over authenticity or group loyalty. It became one of social media's most-used character assessments." }
+    ],
+    whyViral: [
+      { title: "Universal behavior recognition", desc: "Everyone has encountered pick-me behavior. The instant recognition made the label immediately useful." },
+      { title: "Black Twitter clarity", desc: "Black Twitter gave the term precision and cultural authority. When Black Twitter names something, it usually sticks." },
+      { title: "Accountability culture", desc: "Social media's tendency to call out inauthentic behavior gave pick-me constant new material." },
+      { title: "Not like other girls meme", desc: "The 'not like other girls' trope is one of the internet's most recognizable. Pick-me gave it a name." }
+    ],
+    relatedSlangs: ["simp", "based", "valid"],
+    seoKeywords: ["pick me meaning slang", "what does pick me mean", "pick me girl meaning", "pick me behavior slang"]
+  },
+
+  {
+    id: "chad", word: "Chad", slug: "chad",
+    devanagari: null, pronunciation: "/tʃæd/",
+    shortMeaning: "The ultimate confident, attractive, successful man. Also used ironically for anyone acting bold.",
+    fullMeaning: "Chad started as the archetype of the ideal masculine man — extremely attractive, confident, socially dominant, and effortlessly successful. 'Gigachad' is the maximum intensity version. Meme culture gave Chad an exaggerated, ultra-angular face as its visual symbol. Now used both earnestly (genuine admiration) and ironically (calling anyone confident a chad, regardless of actual attributes).",
+    tag: "classic", year: 2016, language: "English", coinedBy: "Internet meme culture / 4chan", origin: "4chan / incel and meme communities",
+    culturalContext: "Originated in internet communities discussing male social hierarchies. Chad was positioned as the opposite of the 'incel' or 'beta' — someone who effortlessly achieves what others struggle for. Meme culture then turned it into a general-purpose compliment for bold, confident behavior, largely detaching it from its origins.",
+    examples: [
+      { label: "💬 Genuine compliment", them: "He just walked up and introduced himself to everyone at the party.", me: "That is full chad energy. No hesitation whatsoever." },
+      { label: "📱 Ironic use", them: "She sent her food back because it was wrong. Twice.", me: "Gigachad move. Standing her ground. Respect." },
+      { label: "🎮 Gaming", them: "He went into a 1v4 situation without hesitating.", me: "Chad behavior. Did not even pause to think." }
+    ],
+    originStory: [
+      { date: "2016", title: "4chan and Incel Communities", body: "Chad emerged in online male communities as the counterpart to the incel — someone who effortlessly achieves social and romantic success. The archetype was initially used with resentment but meme culture quickly flipped it into aspiration." },
+      { date: "2017–2019", title: "Meme Face Emerges", body: "The 'Chad' face meme — an extremely angular, confident expression — became one of the internet's most used reaction images. The visual made Chad recognizable across communities that had never engaged with its origin." },
+      { date: "2020 Onward", title: "Universal Bold Behavior", body: "Chad lost most of its original context and became simply a compliment for confident, bold behavior from anyone. 'That was a chad move' is now standard internet English." }
+    ],
+    whyViral: [
+      { title: "The meme face", desc: "A distinctive visual identity made Chad immediately recognizable across every internet community." },
+      { title: "Origin detachment", desc: "Chad escaped its incel community origins and became a mainstream compliment for confidence. Words that can evolve away from toxic origins tend to survive." },
+      { title: "Gigachad escalation", desc: "Gigachad as an intensification of Chad gave the concept a comedic extreme that generated enormous meme content." },
+      { title: "Universal aspiration", desc: "Confidence and social ease are universally desired. Chad named the ideal clearly." }
+    ],
+    relatedSlangs: ["sigma", "rizz", "based"],
+    seoKeywords: ["chad meaning slang", "what does chad mean", "gigachad meaning", "chad slang definition"]
+  },
+
+  {
+    id: "bffr", word: "BFFR", slug: "bffr",
+    devanagari: null, pronunciation: "/biː fɔːr rɪəl/",
+    shortMeaning: "Be For Real. A direct call-out for delusional, dishonest, or ridiculous behavior.",
+    fullMeaning: "'BFFR' stands for 'Be For Real' and is used to call someone out when they are being delusional, lying, exaggerating, or saying something completely unreasonable. It is slightly more confrontational than 'no cap' — where no cap asserts truth, BFFR challenges someone else's claim to reality. 'BFFR right now' means your statement is so out of touch I need you to stop and think.",
+    tag: "trending", year: 2022, language: "English / AAVE", coinedBy: "Black Twitter / TikTok", origin: "Black Twitter / Gen Z internet",
+    culturalContext: "BFFR emerged from Black Twitter's tradition of sharp, direct call-outs delivered in minimal words. 'Be for real' as an expression of disbelief has existed in AAVE for generations — BFFR is simply the text-efficient version.",
+    examples: [
+      { label: "💬 Calling out delusion", them: "I think I could make a living as a professional napper.", me: "BFFR. That is not a career path. Be for real." },
+      { label: "📱 Challenging a claim", them: "She said that relationship was totally healthy and fine.", me: "BFFR. We all saw those texts. That was not fine." },
+      { label: "🎭 Self-application", them: "Okay I need someone to BFFR me right now.", me: "Okay BFFR — you cannot afford that trip right now. Wait three months." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "AAVE Foundation", body: "'Be for real' as a call-out expression has roots in Black American vernacular — an instruction to stop performing and engage honestly with reality. It has been used in Black communities for decades." },
+      { date: "2022", title: "BFFR Abbreviation", body: "Black Twitter compressed 'be for real' into BFFR for speed and impact. The abbreviation spread rapidly as a sharper, more direct version of the same sentiment." },
+      { date: "2023 Onward", title: "TikTok Mainstream", body: "TikTok brought BFFR to audiences unfamiliar with Black Twitter. It became a standard call-out phrase in Gen Z vocabulary, used to challenge anyone saying something that strains credibility." }
+    ],
+    whyViral: [
+      { title: "Direct confrontation energy", desc: "BFFR does not soften the call-out. It is direct and immediate, which is exactly the energy the situation requires." },
+      { title: "Four letters, full sentence", desc: "BFFR replaces an entire sentence. Text efficiency in an era of short-form communication." },
+      { title: "AAVE prestige", desc: "Expressions from Black American vernacular consistently drive internet language. BFFR traveled the standard path." },
+      { title: "Call-out culture", desc: "Social media rewards calling out nonsense. BFFR is the perfectly efficient tool for that." }
+    ],
+    relatedSlangs: ["nocap", "cap", "fr"],
+    seoKeywords: ["BFFR meaning slang", "what does BFFR mean", "be for real slang", "BFFR gen z definition"]
+  },
+
+  {
+    id: "doomscrolling", word: "Doomscrolling", slug: "doomscrolling",
+    devanagari: null, pronunciation: "/duːm skroʊ.lɪŋ/",
+    shortMeaning: "Endlessly scrolling through negative or distressing news even when it worsens your mood.",
+    fullMeaning: "Doomscrolling is the compulsive habit of scrolling through negative, distressing, or alarming content — news, social media, disaster coverage — even when you know it is making you feel worse. The psychology is a mix of anxiety, news addiction, and the fear of missing important information. You cannot stop even when you want to. The scroll continues.",
+    tag: "trending", year: 2020, language: "English", coinedBy: "Karen Ho / Twitter", origin: "Twitter / pandemic media culture",
+    culturalContext: "The term exploded during the COVID-19 pandemic when people were stuck at home with nothing but social media and 24-hour news cycles. Journalist Karen Ho is often credited with popularizing the term on Twitter. Merriam-Webster added it in 2020.",
+    examples: [
+      { label: "💬 Recognizing the pattern", them: "Why are you still awake at 2am?", me: "Doomscrolling. Started with one news article and now I'm reading about three different global crises." },
+      { label: "📱 Self-diagnosis", them: "You seem stressed.", me: "Two hours of doomscrolling before bed. My fault entirely." },
+      { label: "🎭 Breaking the cycle", them: "Put the phone down.", me: "I know I know. Doomscrolling again. Closing it now." }
+    ],
+    originStory: [
+      { date: "Pre-2020", title: "The Behavior Existed", body: "Compulsive consumption of negative news has existed since 24-hour news channels began. The internet made it infinitely accessible." },
+      { date: "2020 · Pandemic", title: "Karen Ho Coins It", body: "During COVID-19 lockdowns, journalist Karen Ho started tweeting reminders to stop doomscrolling, popularizing the term. Merriam-Webster added 'doomscrolling' to their word watch list in 2020." },
+      { date: "2020 Onward", title: "Universal Digital Experience", body: "Doomscrolling became one of the defining behaviors of the pandemic era. It described something millions of people were doing without previously having the word for it." }
+    ],
+    whyViral: [
+      { title: "Pandemic universality", desc: "An entire global population stuck at home with anxiety and infinite news feeds. Doomscrolling described everyone's reality simultaneously." },
+      { title: "Dictionary validation", desc: "Merriam-Webster recognition signaled the word filled a real vocabulary gap." },
+      { title: "Describes an addiction pattern", desc: "Compulsive behavior is more understandable when named. Doomscrolling gave people language for what was happening to them." },
+      { title: "Journalists and media adoption", desc: "Media professionals adopted the term quickly, giving it mainstream credibility and reach." }
+    ],
+    relatedSlangs: ["brainrot", "touchgrass", "npc"],
+    seoKeywords: ["doomscrolling meaning", "what is doomscrolling", "doomscrolling slang definition", "doomscrolling psychology"]
+  },
+
+  {
+    id: "ragebait", word: "Rage Bait", slug: "ragebait",
+    devanagari: null, pronunciation: "/reɪdʒ beɪt/",
+    shortMeaning: "Content deliberately designed to provoke anger in order to drive engagement.",
+    fullMeaning: "Rage bait is content — posts, videos, headlines, takes — that is specifically engineered to make people angry. The anger drives comments, shares, and engagement metrics, which algorithms reward. The content creators may not even believe what they are posting. They are simply optimizing for outrage because outrage is engagement. Recognizing rage bait is a media literacy skill.",
+    tag: "trending", year: 2021, language: "English", coinedBy: "Media literacy discourse / internet culture", origin: "Social media / content creator culture",
+    culturalContext: "As algorithms prioritized engagement over quality, creators discovered that anger drove more comments and shares than positive content. Rage bait became a deliberate content strategy. Identifying it became a form of internet sophistication.",
+    examples: [
+      { label: "📱 Calling it out", them: "This take is making everyone in the comments furious.", me: "Do not engage. Pure rage bait. They want the comments." },
+      { label: "💬 Media literacy", them: "Should I respond to this?", me: "That is rage bait. Responding is exactly what they want. Scroll past." },
+      { label: "🎭 Self-aware", them: "Am I being rage bait-ed right now?", me: "Yes. Classic rage bait. The headline is designed to make you click angry." }
+    ],
+    originStory: [
+      { date: "Pre-2021", title: "Algorithm Discovery", body: "Content creators discovered through data that anger drove more engagement than almost any other emotion. Negative reactions — comments, shares, angry responses — counted as engagement and boosted algorithmic distribution." },
+      { date: "2021", title: "Naming the Strategy", body: "Internet media literacy communities began naming 'rage bait' as a specific content strategy. Identifying it became part of the social media education discourse." },
+      { date: "2022 Onward", title: "Mainstream Awareness", body: "Rage bait became a recognized term across journalism, media criticism, and casual social media discussion. People now identify and call out rage bait in real time." }
+    ],
+    whyViral: [
+      { title: "Algorithm transparency", desc: "As people understood how algorithms work, rage bait gave a name to the behavior it incentivizes." },
+      { title: "Media literacy moment", desc: "Gen Z is relatively sophisticated about media. Rage bait naming is part of that sophistication." },
+      { title: "Parasocial observation", desc: "Watching creators farm outrage for views is frustrating. Having a name for it makes calling it out easier." },
+      { title: "Everywhere, always", desc: "Rage bait is endemic to every platform. The term applies constantly and everywhere." }
+    ],
+    relatedSlangs: ["ratio", "tea", "npc"],
+    seoKeywords: ["rage bait meaning", "what is rage bait", "rage bait slang definition", "rage bait content meaning"]
+  },
+
+  {
+    id: "aurafarming", word: "Aura Farming", slug: "aurafarming",
+    devanagari: null, pronunciation: "/ˈɔː.rə fɑːr.mɪŋ/",
+    shortMeaning: "Deliberately doing cool or mysterious things specifically to accumulate aura points.",
+    fullMeaning: "Aura farming is the intentional, calculated performance of cool, impressive, or mysterious actions in order to build up your aura — your social presence and perceived magnetism. Where aura is the natural energy you project, aura farming is the deliberate cultivation of it. Walking away dramatically at the right moment, staying silent when everyone expects you to speak, making enigmatic choices — all aura farming.",
+    tag: "trending", year: 2024, language: "English", coinedBy: "Gen Z / TikTok gaming culture", origin: "TikTok / aura point culture",
+    culturalContext: "A natural extension of the aura points meme. If aura is a social score, aura farming is min-maxing it — the gaming term for optimizing your stats in a game. Applied to real life, it describes someone who has gamified their social presence.",
+    examples: [
+      { label: "💬 Spotting it", them: "He left without saying goodbye to anyone. Just walked out.", me: "Aura farming. He knows exactly what he is doing." },
+      { label: "📱 Strategy", them: "What is your approach to this party?", me: "Arrive slightly late, leave before it is over. Classic aura farming." },
+      { label: "🎭 Self-aware", them: "Why did you not answer that question?", me: "Deliberate aura farming. The silence adds points." }
+    ],
+    originStory: [
+      { date: "2023–2024", title: "Aura Points Culture", body: "Once the aura points meme established that social presence could be scored, the logical next step was asking: can you farm aura deliberately? The answer became its own vocabulary." },
+      { date: "2024", title: "Gaming Metaphor", body: "Gaming culture's 'farming' concept — grinding for resources or stats — applied perfectly to the aura points framework. Aura farming described the min-max approach to social presence." },
+      { date: "2024", title: "Self-Aware Behavior", body: "The fun of aura farming content is the self-awareness. Explicitly calling out aura farming behavior while also doing it is itself a form of sophisticated aura farming." }
+    ],
+    whyViral: [
+      { title: "Gaming vocabulary applied to life", desc: "Farming as a concept comes from RPGs. Applying it to social presence is clever and immediately understood by gaming audiences." },
+      { title: "Builds on aura meme", desc: "Aura farming extends the aura points framework logically. Extended meme ecosystems retain engagement longer." },
+      { title: "Self-aware comedy", desc: "Calling your own behavior aura farming while doing it is funny. Self-awareness is comedic gold." },
+      { title: "Aspirational and ironic", desc: "You can genuinely aspire to good aura and also laugh at the concept simultaneously." }
+    ],
+    relatedSlangs: ["aura", "sigma", "rizz"],
+    seoKeywords: ["aura farming meaning slang", "what does aura farming mean", "aura farming definition", "aura points farming"]
+  },
+
+  {
+    id: "softlaunch", word: "Soft Launch", slug: "softlaunch",
+    devanagari: null, pronunciation: "/sɒft lɔːntʃ/",
+    shortMeaning: "Subtly hinting at a new relationship through small clues without a direct announcement.",
+    fullMeaning: "A soft launch is when you subtly introduce a new relationship on social media without explicitly announcing it — a photo showing two mugs of coffee, a shadow with a second person, a caption mentioning 'someone special' with no details. It tests the waters before committing to a full hard launch. The goal is to acknowledge something exists while maintaining deniability if it does not work out.",
+    tag: "trending", year: 2021, language: "English", coinedBy: "Dating discourse / social media culture", origin: "Instagram / Twitter dating culture",
+    culturalContext: "Borrowed from tech and business where a soft launch is a limited initial release before full rollout. Applied to dating, it describes the cautious social media ritual of hinting at a relationship without committing to its public existence — emotional hedging through content strategy.",
+    examples: [
+      { label: "📸 Noticing the signs", them: "She posted a photo with someone's hand visible but no name.", me: "Classic soft launch. We will know more in three weeks." },
+      { label: "💬 Strategy discussion", them: "Should I post about him yet?", me: "Start with a soft launch. One blurry photo. Let the comments speculate." },
+      { label: "🎭 Observation", them: "His story has been showing two plates for three weeks now.", me: "The soft launch is ongoing. He is not ready for the hard launch yet." }
+    ],
+    originStory: [
+      { date: "Pre-2021", title: "Tech Vocabulary", body: "In business, a soft launch releases a product to a limited audience before full release — testing without full commitment. The relationship parallel is obvious: introduce without fully committing." },
+      { date: "2021", title: "Dating Discourse Adoption", body: "Instagram and dating Twitter adopted soft and hard launch as vocabulary for the social media ritual of making relationships public. The pair completed a spectrum from hidden to fully announced." },
+      { date: "2022 Onward", title: "Relationship Milestone", body: "The soft launch became a recognized stage in modern relationship progression — between 'nobody knows' and 'hard launched.' Gen Z documented and analyzed the ritual extensively." }
+    ],
+    whyViral: [
+      { title: "Counterpart to hard launch", desc: "Soft and hard launch work as a pair. Complete systems spread together." },
+      { title: "Modern relationship ritual", desc: "The soft launch describes a genuinely new social behavior that social media created. Naming new behaviors is always valuable." },
+      { title: "Detective-game engagement", desc: "Spotting someone's soft launch in the wild and analyzing the clues is its own entertainment genre." },
+      { title: "Strategic vulnerability", desc: "The soft launch is emotionally intelligent — letting something breathe before fully committing. That resonates." }
+    ],
+    relatedSlangs: ["hardlaunch", "situationship", "rizz"],
+    seoKeywords: ["soft launch meaning slang", "what does soft launch mean", "soft launch relationship meaning", "soft launch vs hard launch"]
+  },
+
+  {
+    id: "finsta", word: "Finsta", slug: "finsta",
+    devanagari: null, pronunciation: "/ˈfɪn.stə/",
+    shortMeaning: "A private secondary Instagram account for close friends only. The real, unfiltered version.",
+    fullMeaning: "Finsta is a portmanteau of 'fake Instagram' — a secondary, private Instagram account kept separate from your public main account. On a finsta, you post the real, unfiltered, chaotic version of your life that you would never put on your main — embarrassing photos, venting, true opinions, and content for close friends only. The 'fake' in finsta is ironic: it is actually more authentic than the curated main account.",
+    tag: "classic", year: 2015, language: "English", coinedBy: "Instagram user culture / Gen Z", origin: "Instagram / teen social media culture",
+    culturalContext: "Emerged as Instagram's public nature created pressure to perform a curated identity. Teenagers created secondary accounts to escape the performance — a private space for authentic content. The finsta became a sociological marker of Gen Z's dual digital identity.",
+    examples: [
+      { label: "📱 Inner circle content", them: "Did you see what she posted?", me: "That was on her finsta. You must be an approved follower. Consider yourself trusted." },
+      { label: "💬 Explaining the system", them: "Why do you have two Instagram accounts?", me: "Main is for everyone. Finsta is for people I actually trust. Different content entirely." },
+      { label: "🎭 Getting access", them: "She added me to her finsta!", me: "You have arrived. That is inner circle status." }
+    ],
+    originStory: [
+      { date: "2013–2015", title: "Instagram Pressure Era", body: "As Instagram became a curated identity platform with real social stakes, users — particularly teenagers — began feeling pressure to post only their best. The finsta emerged as an escape valve." },
+      { date: "2015–2017", title: "Teen Culture Standard", body: "Having a finsta became standard practice among Gen Z. The dual account system — performative main and authentic finsta — became a recognized feature of teenage social media life." },
+      { date: "2018 Onward", title: "Cultural Conversation", body: "Finstas entered mainstream conversation through media coverage of teen social media habits, congressional hearings about Instagram, and documentary discussions about digital identity." }
+    ],
+    whyViral: [
+      { title: "Dual identity observation", desc: "Finsta named the double life that social media creates — the curated public self and the authentic private self." },
+      { title: "Exclusivity culture", desc: "Being on someone's finsta is a mark of genuine closeness. Exclusivity has social value." },
+      { title: "Teen culture documentation", desc: "Teen social media culture generates enormous media attention. Finsta was always going to be covered." },
+      { title: "Instagram's own irony", desc: "A 'fake' account that is more real than the 'real' account — the irony is culturally rich." }
+    ],
+    relatedSlangs: ["lowkey", "iykyk", "tea"],
+    seoKeywords: ["finsta meaning", "what is a finsta", "finsta slang definition", "finsta instagram meaning"]
+  },
+
+  {
+    id: "clocked", word: "Clocked", slug: "clocked",
+    devanagari: null, pronunciation: "/klɒkt/",
+    shortMeaning: "To be immediately seen through, identified, or caught when trying to hide something.",
+    fullMeaning: "To be 'clocked' means someone immediately saw through your disguise, performance, or deception — they recognized you for what you are before you expected. Originally from LGBTQ+ culture where 'clocking' a trans person meant identifying them as trans before they disclosed it. Now used more broadly for any situation where someone is instantly seen through or caught.",
+    tag: "trending", year: 2018, language: "English / LGBTQ+ slang", coinedBy: "LGBTQ+ community / drag culture", origin: "LGBTQ+ culture / drag community",
+    culturalContext: "The original meaning — identifying a trans or drag person — carries specific sensitivity. The broader internet use captures the same core meaning: being seen through instantly. Both uses are active simultaneously.",
+    examples: [
+      { label: "💬 Being seen through", them: "She immediately knew I was nervous even though I tried to hide it.", me: "You got clocked. She reads people instantly." },
+      { label: "📱 Lie exposed", them: "He said he was sick but someone saw him at the concert.", me: "Clocked immediately. Should have had a better cover story." },
+      { label: "🎭 Performance failed", them: "I was trying to act unbothered but apparently it showed.", me: "You were clocked. Your face gives you away every time." }
+    ],
+    originStory: [
+      { date: "Pre-2018", title: "LGBTQ+ Origins", body: "In LGBTQ+ and specifically trans communities, 'clocking' meant detecting or identifying someone as trans or drag before they disclosed it. The term carried weight about visibility, safety, and recognition." },
+      { date: "2018–2021", title: "Drag Culture Crossover", body: "RuPaul's Drag Race and wider drag culture adoption brought 'clocked' to mainstream audiences who absorbed it as a recognition/detection term in any context." },
+      { date: "2021 Onward", title: "General Detection Meaning", body: "Clocked became a general slang term for being immediately seen through, identified, or caught — regardless of the specific context. It retained the sense of unwanted recognition." }
+    ],
+    whyViral: [
+      { title: "LGBTQ+ culture prestige", desc: "LGBTQ+ vocabulary consistently crosses over into mainstream internet culture through drag, activism, and media." },
+      { title: "Precise meaning", desc: "Clocked describes immediate, accurate recognition through someone's performance or disguise — a specific experience with no previous English word." },
+      { title: "RuPaul pipeline", desc: "Drag Race introduced clocked to millions of viewers who absorbed it as general vocabulary." },
+      { title: "Universal deception dynamic", desc: "Everyone has tried to hide something and been caught. Clocked named that specific failure." }
+    ],
+    relatedSlangs: ["caughtin4k", "cap", "based"],
+    seoKeywords: ["clocked meaning slang", "what does clocked mean", "clocked slang definition", "getting clocked meaning"]
+  },
+
+  {
+    id: "yassified", word: "Yassified", slug: "yassified",
+    devanagari: null, pronunciation: "/ˈjæs.ɪ.faɪd/",
+    shortMeaning: "Something made extremely glamorous, fabulous, and over-the-top through editing or makeover.",
+    fullMeaning: "To yassify something is to take it and apply maximum glamour — sharpened features, full glam makeup, fabulous energy — usually through photo editing. The result is 'yassified.' Famous statues, cartoon characters, historical figures, pets — everything can be yassified. The humor comes from applying extreme glamour to things that had no glamour, and the result is always delightfully absurd.",
+    tag: "trending", year: 2021, language: "English / LGBTQ+ slang", coinedBy: "LGBTQ+ meme culture / TikTok", origin: "TikTok / gay internet culture",
+    culturalContext: "Came from LGBTQ+ internet culture's tradition of applying 'yasss' (extreme approval/glamour) to things. Face App and similar editing tools made yassifying any image easy and shareable, creating a meme format where anything could receive the glamour treatment.",
+    examples: [
+      { label: "📱 Meme format", them: "Someone yassified the Mona Lisa.", me: "She looks incredible. The jawline, the highlight. She would eat." },
+      { label: "💬 Making something fabulous", them: "What did they do to that logo?", me: "They yassified it. Added glam, sharpened the features. It is too much in the best way." },
+      { label: "🎭 Self-application", them: "Put me through the yassify filter.", me: "Oh you are already yassified honestly but let us see what happens." }
+    ],
+    originStory: [
+      { date: "Pre-2021", title: "Yasss Culture", body: "'Yasss' as an exaggerated expression of fabulous approval originated in LGBTQ+ and ballroom culture. 'Yasss queen' was the peak of enthusiastic glamour approval." },
+      { date: "2021", title: "The Yassify Bot", body: "A Twitter bot called 'yassify' applied Face App's beautify filter to submitted images, creating a viral format of over-glamourized versions of anything. The bot's outputs went massively viral." },
+      { date: "2021–2022", title: "Universal Meme Format", body: "Yassified became the label for any over-glamourized, face-tuned, maximum-beauty version of anything. The format spread to art history, cartoons, mascots, and politicians." }
+    ],
+    whyViral: [
+      { title: "The bot format", desc: "The yassify Twitter bot made participation effortless. Anyone could submit and get a yassified result." },
+      { title: "Absurd glamour application", desc: "Applying maximum glamour to statues and cartoons is absurd and therefore funny. Absurdity drives shares." },
+      { title: "LGBTQ+ culture energy", desc: "The fabulous, over-the-top energy of LGBTQ+ culture is inherently shareable and joyful." },
+      { title: "Before/after format", desc: "Before/after visual content is one of social media's strongest formats. Yassify is before/after maximum glamour." }
+    ],
+    relatedSlangs: ["slay", "ate", "era"],
+    seoKeywords: ["yassified meaning slang", "what does yassified mean", "yassify meaning", "yassified slang definition"]
+  },
+
+  {
+    id: "bedrotting", word: "Bed Rotting", slug: "bedrotting",
+    devanagari: null, pronunciation: "/bɛd ˈrɒt.ɪŋ/",
+    shortMeaning: "Spending an entire day in bed doing nothing as self-care or from burnout.",
+    fullMeaning: "Bed rotting is the practice of spending an entire day — or significant portion of it — in bed, usually scrolling on your phone, watching videos, and doing nothing productive. It is framed either as self-care (intentional rest after exhaustion) or acknowledged as unhealthy avoidance behavior depending on who is talking. The name is deliberately unglamorous — you are not resting, you are rotting.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "TikTok / Gen Z wellness discourse", origin: "TikTok wellness culture",
+    culturalContext: "Emerged from the tension in Gen Z wellness culture between genuine rest needs and the guilt of unproductivity. Bed rotting legitimized doing nothing as a valid response to burnout — while also acknowledging with black humor that you are not exactly thriving.",
+    examples: [
+      { label: "📱 Weekend plan", them: "What are you doing this weekend?", me: "Bed rotting. I need it. This week was too much." },
+      { label: "💬 Checking in", them: "How are you doing?", me: "Currently bed rotting and I have chosen to feel no shame about it." },
+      { label: "🎭 Self-awareness", them: "Have you eaten today?", me: "I am in full bed rot mode. Food requires leaving the bed." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "The Behavior Existed", body: "Spending days in bed during depression, exhaustion, or burnout is a well-documented behavior. What changed was Gen Z's decision to name it without shame and discuss it openly." },
+      { date: "2023", title: "TikTok Discourse", body: "TikTok creators began posting about bed rotting days as both self-care content and honest acknowledgment of mental exhaustion. The unglamorous name was deliberately chosen to contrast with wellness culture's typical aesthetic." },
+      { date: "2023 Onward", title: "Wellness vs Productivity Debate", body: "Bed rotting sparked genuine debate: is it legitimate rest or unhealthy avoidance? The discourse kept the term visible and relevant across mental health, productivity, and wellness communities." }
+    ],
+    whyViral: [
+      { title: "Unglamorous honesty", desc: "Calling it 'rotting' rather than 'resting' is refreshingly honest about what is actually happening. That honesty resonates." },
+      { title: "Burnout epidemic", desc: "Gen Z is experiencing significant burnout. Content that names and validates rest without productivity pressure spreads." },
+      { title: "Wellness discourse tension", desc: "The debate between rest and avoidance generates engagement. Controversial wellness topics perform well." },
+      { title: "Universal tired experience", desc: "Everyone has had a bed rotting day. The recognition is instant and the identification is immediate." }
+    ],
+    relatedSlangs: ["brainrot", "doomscrolling", "era"],
+    seoKeywords: ["bed rotting meaning slang", "what does bed rotting mean", "bed rot slang definition", "bed rotting self care"]
+  },
+
+  {
+    id: "skibidi", word: "Skibidi", slug: "skibidi",
+    devanagari: null, pronunciation: "/ˈskɪb.ɪ.di/",
+    shortMeaning: "Originally a nonsense word from a viral meme. Now an all-purpose modifier for chaotic or absurd things.",
+    fullMeaning: "Skibidi originated from the 'Skibidi Toilet' YouTube series — absurdist animated content featuring singing heads in toilets fighting cameraman soldiers. The word itself means nothing but has become an all-purpose modifier for Gen Z's most chaotic and absurdist content. 'Skibidi' added to anything makes it more chaotic or ridiculous. 'Skibidi rizz' means chaotically effective charm.",
+    tag: "trending", year: 2023, language: "English (nonsense)", coinedBy: "DaFuq!?Boom! (YouTube creator)", origin: "YouTube / Skibidi Toilet series",
+    culturalContext: "The Skibidi Toilet series became one of YouTube's most viewed series among younger audiences. The word entered broader discourse as an all-purpose chaotic modifier — a Gen Alpha import into Gen Z vocabulary, representing the most internet-brained form of humor possible.",
+    examples: [
+      { label: "📱 All-purpose modifier", them: "What is even happening in this video?", me: "Pure skibidi energy. There is no explanation. That is the point." },
+      { label: "💬 Using it", them: "How would you describe his rizz?", me: "Skibidi rizz. Completely unhinged but somehow it works." },
+      { label: "🎭 Gen Alpha content", them: "My little brother keeps saying skibidi.", me: "He has arrived at peak brain rot content. Welcome to the skibidi era." }
+    ],
+    originStory: [
+      { date: "2023", title: "Skibidi Toilet Series", body: "YouTube creator DaFuq!?Boom! released the Skibidi Toilet series — animated shorts featuring human heads in toilets fighting against characters with cameras for heads. The series accumulated billions of views among young audiences." },
+      { date: "2023", title: "Word Escapes Series", body: "'Skibidi' escaped the series and became a standalone modifier for anything chaotic, absurd, or deeply internet-brained. It became the defining word of Gen Alpha's online culture." },
+      { date: "2024", title: "Gen Z Adoption and Irony", body: "Gen Z adopted skibidi ironically — using it to describe the most unhinged content and situations. It became both a marker of Gen Alpha influence on internet culture and a term of ironic appreciation for pure chaos." }
+    ],
+    whyViral: [
+      { title: "Billions of views", desc: "Skibidi Toilet is one of the most-viewed YouTube series of its era. Scale creates vocabulary inevitability." },
+      { title: "Nonsense has power", desc: "A word that means nothing can mean anything. That flexibility makes skibidi endlessly usable." },
+      { title: "Gen Alpha emergence", desc: "Skibidi represents the first major vocabulary import from Gen Alpha to Gen Z — a cultural generation crossover." },
+      { title: "Brain rot absurdism", desc: "Skibidi is the perfect companion word to brain rot culture. They describe the same phenomenon from different angles." }
+    ],
+    relatedSlangs: ["brainrot", "ohio", "npc"],
+    seoKeywords: ["skibidi meaning slang", "what does skibidi mean", "skibidi toilet meaning", "skibidi gen z slang"]
+  },
+
+  {
+    id: "hitsdifferent", word: "Hits Different", slug: "hitsdifferent",
+    devanagari: null, pronunciation: "/hɪts ˈdɪf.ər.ənt/",
+    shortMeaning: "Something that is uniquely more impactful or better than usual because of specific circumstances.",
+    fullMeaning: "'Hits different' describes when something — a song, a food, an experience — affects you more intensely than it normally would because of the specific context, mood, or circumstances you are in. Coffee hits different at 6am after no sleep. A song hits different after a heartbreak. The thing has not changed — your circumstances have made it land harder.",
+    tag: "trending", year: 2019, language: "English / AAVE", coinedBy: "Black American culture / social media", origin: "AAVE / Twitter / Instagram",
+    culturalContext: "Emerged from Black American vernacular where 'hitting different' described the contextual intensification of an experience. The phrase captures something precise that no other English expression does: the same thing, in different circumstances, creating a different emotional impact.",
+    examples: [
+      { label: "🎵 Music context", them: "Why are you listening to that song again?", me: "It hits different at 2am when you're overthinking. Cannot explain it." },
+      { label: "☕ Food", them: "Why is this coffee so good right now?", me: "Coffee always hits different when you genuinely needed it." },
+      { label: "💬 Situational", them: "That movie is just okay.", me: "Watch it after a hard week and it will hit different. Trust." }
+    ],
+    originStory: [
+      { date: "Pre-2019", title: "AAVE Roots", body: "The concept of context changing how something hits you has existed in Black American vernacular — 'that hit different' describing situational intensification of an experience." },
+      { date: "2019–2020", title: "Social Media Spread", body: "Twitter and Instagram made 'hits different' the standard phrase for situational intensification. Music listeners used it constantly — a song you liked became a song that hits different under specific emotional circumstances." },
+      { date: "2020 Onward", title: "Universal Context Phrase", body: "Hits different became one of Gen Z's most used phrases for contextual experience. Everything from food to songs to movies to conversations can hit different under the right circumstances." }
+    ],
+    whyViral: [
+      { title: "Fills a unique vocabulary gap", desc: "English had no precise phrase for 'the same thing is more impactful right now because of context.' Hits different filled it perfectly." },
+      { title: "Universal experiential truth", desc: "Context changes experience. Everyone knows this feeling. The word named something real." },
+      { title: "Music culture centrality", desc: "Music is perhaps the clearest example of something that hits different under circumstances. Music communities spread the phrase." },
+      { title: "Emotionally resonant", desc: "The phrase often comes with a quiet melancholy — 2am listening, post-heartbreak playlists. That emotional register is deeply relatable." }
+    ],
+    relatedSlangs: ["vibe", "slaps", "bop"],
+    seoKeywords: ["hits different meaning slang", "what does hits different mean", "hits different slang definition", "hits different song meaning"]
+  },
+
+  {
+    id: "sayless", word: "Say Less", slug: "sayless",
+    devanagari: null, pronunciation: "/seɪ lɛs/",
+    shortMeaning: "I understand completely. I'm in. No further explanation needed.",
+    fullMeaning: "'Say less' is a response that means 'I completely understand, I'm already on board, you don't need to explain any further.' It signals total comprehension and immediate agreement. When someone says 'say less,' they are conveying that the situation has been understood so thoroughly that additional words are unnecessary — and potentially wasteful.",
+    tag: "trending", year: 2018, language: "English / AAVE", coinedBy: "Black American vernacular / hip-hop", origin: "AAVE / hip-hop culture",
+    culturalContext: "Rooted in AAVE's tradition of minimal-word communication that carries maximum understanding. 'Say less' signals both intelligence (I already understand) and decisiveness (I'm in without needing convincing). It is confidence and comprehension compressed into two words.",
+    examples: [
+      { label: "💬 Instant agreement", them: "I'll bring food if you handle the drinks.", me: "Say less. Done." },
+      { label: "📱 No explanation needed", them: "Can you cover for me tonight? I'll explain later.", me: "Say less. I've got you." },
+      { label: "🎯 Complete understanding", them: "You know what I mean right?", me: "Say less, I already know exactly what you're going to say." }
+    ],
+    originStory: [
+      { date: "Pre-2018", title: "AAVE Roots", body: "The concept of understanding so completely that further words are unnecessary has roots in AAVE communication culture — minimal, efficient, high-comprehension exchange." },
+      { date: "2018–2020", title: "Hip-hop and Rap", body: "Say less appeared in hip-hop lyrics and artist interviews as a marker of effortless comprehension. The phrase spread through music culture into broader social media vocabulary." },
+      { date: "2020 Onward", title: "Universal Agreement Phrase", body: "Say less became one of Gen Z's standard agreement phrases — used when understanding is instant and commitment is immediate. It replaced longer affirmations with maximum efficiency." }
+    ],
+    whyViral: [
+      { title: "Maximum efficiency", desc: "Two words. Complete agreement, understanding, and commitment conveyed. Linguistic economy at its finest." },
+      { title: "Signals intelligence", desc: "Saying 'say less' implies you understood before the full explanation. That is socially valuable." },
+      { title: "Hip-hop pipeline", desc: "Hip-hop culture carries vocabulary into mainstream faster than almost any other cultural source." },
+      { title: "Decisiveness appeal", desc: "Say less sounds decisive and cool. In a culture that often hedges, decisive language is refreshing." }
+    ],
+    relatedSlangs: ["bet", "fr", "nocap"],
+    seoKeywords: ["say less meaning slang", "what does say less mean", "say less slang definition", "say less gen z meaning"]
+  },
+
+  {
+    id: "guap", word: "Guap", slug: "guap",
+    devanagari: null, pronunciation: "/ɡwæp/",
+    shortMeaning: "A large amount of money. Getting paid, making bank.",
+    fullMeaning: "Guap means a significant amount of money — making guap, having guap, spending guap. It does not refer to any specific denomination but conveys substantial wealth or earnings. 'He's making guap' means he's earning significant money. The word has the weight of hip-hop's celebration of financial success compressed into one punchy sound.",
+    tag: "classic", year: 2012, language: "English / AAVE", coinedBy: "New York hip-hop / Black American culture", origin: "NY hip-hop / AAVE",
+    culturalContext: "Rooted in New York hip-hop slang where money vocabulary has always been creative and prolific. Guap joined a long tradition of AAVE money words (bread, bands, racks, stacks) each with slightly different connotations but all describing financial success.",
+    examples: [
+      { label: "🎵 Hip-hop reference", them: "How did the show go?", me: "We made guap. Best night this year." },
+      { label: "💬 Financial success", them: "Is the business doing well?", me: "She is pulling guap now. Completely turned it around." },
+      { label: "📱 Motivation", them: "What is the goal?", me: "Secure the guap. That is the only goal right now." }
+    ],
+    originStory: [
+      { date: "Pre-2012", title: "NY Slang Roots", body: "Guap emerged from New York hip-hop slang, part of the city's rich tradition of creative money vocabulary. New York's specific slang ecosystem produces words that eventually go national through music." },
+      { date: "2012–2016", title: "Hip-hop Amplification", body: "New York and drill artists used guap in lyrics and interviews, spreading the word through streaming and music culture to national and then global audiences." },
+      { date: "2016 Onward", title: "Social Media Standard", body: "Guap became standard money vocabulary in social media culture, used to describe significant earnings across every context — from side hustle income to celebrity payments." }
+    ],
+    whyViral: [
+      { title: "Sound and energy", desc: "Guap sounds like what it means — it has weight, punch, and presence. Good money words sound valuable." },
+      { title: "NY hip-hop prestige", desc: "New York's hip-hop legacy gives its vocabulary authority. Words from NY music travel far." },
+      { title: "Money vocabulary demand", desc: "Every culture needs money words. AAVE's creativity in this area consistently fills gaps." },
+      { title: "Motivation content", desc: "Financial success content is huge. Guap fits naturally into hustle culture vocabulary." }
+    ],
+    relatedSlangs: ["flex", "clout", "fire"],
+    seoKeywords: ["guap meaning slang", "what does guap mean", "guap slang definition", "guap money slang"]
+  },
+
+  {
+    id: "letthemcook", word: "Let Them Cook", slug: "letthemcook",
+    devanagari: null, pronunciation: "/lɛt ðɛm kʊk/",
+    shortMeaning: "Give someone space to finish what they are doing because they are on a roll.",
+    fullMeaning: "'Let them cook' means give someone the space and time to do their thing — they are in a flow state, building toward something impressive, and interrupting would be a mistake. The metaphor: when a chef is cooking something great, you do not interrupt or second-guess them. You wait and let them finish. Applied to anyone who is clearly in a moment of inspiration or peak performance.",
+    tag: "trending", year: 2022, language: "English / AAVE", coinedBy: "Black American internet culture", origin: "Black Twitter / cooking metaphor culture",
+    culturalContext: "The cooking metaphor for creative flow has existed in AAVE and Black culture for a long time — 'cooking' meaning performing at a high level comes from jazz and music. 'Let them cook' formalized it as an instruction to give someone space when they are clearly thriving.",
+    examples: [
+      { label: "💬 Creative flow", them: "Should we give her notes on the draft?", me: "Let her cook. She is in the middle of something. We give notes after." },
+      { label: "📱 Performance", them: "He has been posting non-stop for two weeks.", me: "Let him cook. The content is good and he is in his zone." },
+      { label: "🎭 Defending someone", them: "Everyone is criticizing his approach already.", me: "Let him cook first. You cannot judge the dish before it is done." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Jazz and Music Roots", body: "In jazz and Black music culture, 'cooking' has long meant playing at an exceptional, inspired level. 'The band was cooking tonight' meant they were at their peak." },
+      { date: "2022", title: "Black Twitter Standardization", body: "Black Twitter crystallized 'let them cook' as a specific instruction for when someone is clearly in their moment and needs space to finish. The instruction became viral vocabulary for supporting creative flow." },
+      { date: "2023 Onward", title: "Universal Support Phrase", body: "'Let them cook' became one of Gen Z's standard phrases for defending someone mid-process against premature judgment. Applied to anyone in a flow state — artist, athlete, creator, or friend." }
+    ],
+    whyViral: [
+      { title: "Cooking metaphor clarity", desc: "You do not interrupt someone cooking something great. The metaphor is immediately understood." },
+      { title: "Anti-rush culture", desc: "In an era of instant takes and premature judgments, 'let them cook' defends the creative process." },
+      { title: "Support framework", desc: "Defending someone against early criticism is socially valuable. The phrase gives that defense a clean, confident form." },
+      { title: "Black culture pipeline", desc: "Black Twitter vocabulary consistently becomes internet-wide vocabulary. Let them cook traveled the standard path." }
+    ],
+    relatedSlangs: ["understood", "based", "fire"],
+    seoKeywords: ["let them cook meaning slang", "what does let them cook mean", "let them cook definition", "let him cook meaning"]
+  },
+
+  {
+    id: "coded", word: "Coded", slug: "coded",
+    devanagari: null, pronunciation: "/ˈkoʊ.dɪd/",
+    shortMeaning: "Something that shares the vibe, aesthetic, or essence of a specific thing. [X]-coded.",
+    fullMeaning: "'[Word]-coded' means something has the energy, aesthetic, or essence of the word in front of it. 'Villain-coded' means something or someone gives off villain vibes. 'Main character-coded' means everything they do feels like it belongs in a movie. 'That song is sad-coded' means its vibe is inherently melancholic. It is an aesthetic assignment — labeling the essence of something by what it most resembles.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "TikTok / Gen Z internet", origin: "TikTok aesthetic culture",
+    culturalContext: "Emerged from Gen Z's obsession with aesthetic categorization and vibe assignment. The 'coded' suffix let users assign complex aesthetic essences quickly and precisely. 'Cottagecore-coded' says more about a film's atmosphere than three sentences of description.",
+    examples: [
+      { label: "💬 Aesthetic assignment", them: "What is the vibe of that movie?", me: "It is deeply autumn-coded. Warm colors, cozy tension, late afternoon light." },
+      { label: "📱 Person description", them: "What is he like?", me: "He is library-coded. Quiet intensity, probably has opinions about book editions." },
+      { label: "🎵 Music", them: "What genre is this?", me: "It is midnight-drive-coded. Windows down, empty road, something heavy on your mind." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Aesthetic Vocabulary Need", body: "The internet's aesthetics era — cottagecore, dark academia, goblincore — created a need for vocabulary that could quickly assign complex aesthetic essences to things." },
+      { date: "2022", title: "TikTok Coded Format", body: "TikTok users began using '-coded' as a suffix to assign aesthetic essence to films, music, people, and places. The format was immediately useful and endlessly flexible." },
+      { date: "2023 Onward", title: "Universal Aesthetic Shorthand", body: "Coded became one of Gen Z's most versatile aesthetic tools. Anything can be coded as anything. The framework generates infinite creative descriptions." }
+    ],
+    whyViral: [
+      { title: "Infinite flexibility", desc: "Any word can precede coded. Villain-coded, autumn-coded, chaos-coded. The framework never runs out of applications." },
+      { title: "Aesthetic culture fit", desc: "Gen Z is obsessed with aesthetics and vibes. Coded is the perfect vocabulary for that obsession." },
+      { title: "Precision through reference", desc: "Saying something is 'villain-coded' conveys more than a description. Reference-based communication is efficient and evocative." },
+      { title: "Participatory format", desc: "Assigning codes to things and asking others 'what are you coded as?' generates enormous engagement." }
+    ],
+    relatedSlangs: ["core", "itsgiving", "vibe"],
+    seoKeywords: ["coded meaning slang", "what does coded mean gen z", "villain coded meaning", "coded slang definition"]
+  },
+
+  {
+    id: "core", word: "Core", slug: "core",
+    devanagari: null, pronunciation: "/kɔːr/",
+    shortMeaning: "A suffix creating niche aesthetic categories. Cottagecore, goblincore, barbiecore, etc.",
+    fullMeaning: "'-core' is a suffix added to any word to create a niche aesthetic or subculture category. Cottagecore (pastoral, rustic, soft nature aesthetic). Goblincore (dark, forest, found-objects, fungi). Barbiecore (maximalist pink, hyper-feminine). Normcore (deliberately ordinary). The core suffix signals: this is an intentional, defined aesthetic with recognizable elements — not just a vibe, but a whole visual language.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Tumblr / internet aesthetic culture", origin: "Tumblr / TikTok aesthetic communities",
+    culturalContext: "Evolved from 'hardcore' and 'emo/scene' culture's tradition of aesthetic subculture naming. Tumblr's aesthetic communities began using '-core' to create precise subculture labels. TikTok exploded the format into mainstream culture where new cores appear weekly.",
+    examples: [
+      { label: "💬 Aesthetic description", them: "What is your decorating style?", me: "Dark academia core. Wood, brass, books, candlelight." },
+      { label: "📱 Outfit description", them: "What is the vibe today?", me: "Full cottagecore. Linen dress, wildflowers, I am one with the field." },
+      { label: "🎵 Music aesthetic", them: "What genre is that?", me: "Very dreamcore. Soft sounds, surreal imagery, makes you feel like you are inside a memory." }
+    ],
+    originStory: [
+      { date: "2013–2018", title: "Tumblr Aesthetics Era", body: "Tumblr's aesthetic communities began creating -core labels to precisely describe visual subcultures. Softcore, normcore, cottagecore — each with distinct visual vocabularies that communities developed together." },
+      { date: "2019–2021", title: "TikTok Explosion", body: "TikTok brought aesthetics to the largest possible audience. New cores emerged weekly — any distinctive visual identity could become a core. The format's flexibility made it inexhaustible." },
+      { date: "2022 Onward", title: "Mainstream Aesthetic Language", body: "Cores entered mainstream fashion, interior design, and cultural discourse. Barbiecore dominated 2023. Every aesthetic moment in pop culture gets a core label." }
+    ],
+    whyViral: [
+      { title: "Infinite creation", desc: "Any word plus core creates a new aesthetic category. The format never runs out of material." },
+      { title: "Precision aesthetics", desc: "Cores are more precise than vague aesthetic labels. 'Cottagecore' says more than 'natural vibes.'" },
+      { title: "Community building", desc: "Aesthetic categories create communities. Core aesthetics gather people who share visual sensibilities." },
+      { title: "Fashion and design adoption", desc: "When fashion industry and interior design media adopt a vocabulary, it achieves permanence. Cores did this." }
+    ],
+    relatedSlangs: ["coded", "vibe", "era"],
+    seoKeywords: ["core meaning slang", "aesthetic core meaning", "cottagecore meaning", "what does core mean gen z"]
+  },
+
+  {
+    id: "cleangirl", word: "Clean Girl", slug: "cleangirl",
+    devanagari: null, pronunciation: "/kliːn ɡɜːl/",
+    shortMeaning: "An aesthetic of effortless, natural, minimalist beauty. Slicked-back bun, no-makeup makeup, healthy glow.",
+    fullMeaning: "The Clean Girl aesthetic describes a look that is minimalist, fresh, and effortlessly polished — but requires significant effort to achieve. Slicked-back bun or sleek low ponytail, gold jewelry, glowy skin with minimal product visible, fitted neutral clothing, water bottle always present. It is the aesthetic of someone who appears to simply wake up looking healthy and put-together.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "TikTok beauty community", origin: "TikTok aesthetic culture",
+    culturalContext: "Emerged from TikTok's beauty discourse as a reaction against heavy makeup and overdone aesthetics. The clean girl aesthetic celebrates natural features and minimalist style — but the 'effortless' appearance often requires expensive skincare, quality basics, and significant maintenance work.",
+    examples: [
+      { label: "📸 Getting ready", them: "What is the look today?", me: "Going full clean girl. Bun, gold hoops, SPF, and I am out the door." },
+      { label: "💬 Aspiration", them: "She always looks so put-together without trying.", me: "She has perfected the clean girl aesthetic. It takes work to look that effortless." },
+      { label: "🛍️ Shopping", them: "What are you looking for?", me: "Neutral linen pieces. Building my clean girl wardrobe." }
+    ],
+    originStory: [
+      { date: "2021", title: "TikTok Beauty Shift", body: "As heavy contouring and overdone makeup aesthetics peaked, TikTok beauty creators began celebrating a more natural, minimalist look. The 'clean girl' label emerged to describe this style direction." },
+      { date: "2022", title: "Viral Aesthetic", body: "Clean girl became one of TikTok's dominant beauty aesthetics. Get-ready-with-me videos showcasing the clean girl routine accumulated millions of views. The aesthetic was aspirational and achievable-seeming." },
+      { date: "2022–2023", title: "Criticism and Nuance", body: "The clean girl aesthetic faced criticism for promoting expensive standards as 'natural' and for centering Eurocentric features in the original archetype. The discourse complicated and enriched the conversation around the aesthetic." }
+    ],
+    whyViral: [
+      { title: "Aspiration plus accessibility", desc: "The clean girl look seems achievable. It does not require professional makeup skills, just the right basics and good skin." },
+      { title: "Anti-overdone reaction", desc: "As maximalist makeup peaked, the minimalist clean girl was a refreshing counterpoint. Fashion has pendulum dynamics." },
+      { title: "GRWM format perfect", desc: "Get Ready With Me content is one of TikTok's strongest formats. Clean girl GRWM videos performed extremely well." },
+      { title: "Lifestyle aspirational", desc: "Clean girl is not just makeup. It is a lifestyle aesthetic — health, organization, calm morning routines. That wholeness is aspirational." }
+    ],
+    relatedSlangs: ["baddie", "looksmaxxing", "era"],
+    seoKeywords: ["clean girl aesthetic meaning", "what is clean girl aesthetic", "clean girl slang definition", "clean girl makeup meaning"]
+  }
 
 ];
 
