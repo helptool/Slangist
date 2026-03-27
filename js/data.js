@@ -2257,6 +2257,118 @@ const SLANGIST_DATA = [
     relatedSlangs: ["mogging", "mewing", "glowup"],
     seoKeywords: ["looksmaxxing meaning", "what is looksmaxxing", "looksmaxxing slang", "how to looksmax meaning"]
   }
+,
+
+  /* ── BATCH 6 — 4 NEW ENTRIES ─────────────────────────── */
+
+  {
+    id: "gyatt", word: "Gyatt", slug: "gyatt",
+    devanagari: null, pronunciation: "/dʒæt/ or /ɡjæt/",
+    shortMeaning: "An exclamation of appreciation for an extremely attractive physique. Specifically, a large backside.",
+    fullMeaning: "Gyatt (also spelled 'gyat' or 'GYAT') is an exclamation — an intensified version of 'God damn' compressed into one punchy sound — used to express extreme appreciation for an attractive physique, specifically a large, well-defined backside. It went from a niche streaming reaction to one of the most recognized Gen Z exclamations. It is yelled, typed in caps, and used as both genuine reaction and ironic meme.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "YourRAGE / Twitch streaming culture", origin: "Twitch / YourRAGE streams",
+    culturalContext: "Popularized by Twitch streamer YourRAGE whose involuntary, extremely loud reaction to attractive women on stream became iconic meme content. The clipped reaction was shared millions of times, turning his exclamation into a universal internet vocabulary word for appreciation of physical attractiveness.",
+    examples: [
+      { label: "📱 React content", them: "Did you see her in that video?", me: "BRO. GYATT. I was not prepared for that." },
+      { label: "💬 Meme use", them: "Why is he just yelling randomly?", me: "He saw someone walk by. Classic gyatt moment, fully justified." },
+      { label: "🎮 Stream clip", them: "Why does everyone keep clipping this streamer?", me: "His gyatt reactions are cinema. Every single time." }
+    ],
+    originStory: [
+      { date: "2022", title: "YourRAGE's Reaction", body: "Twitch streamer YourRAGE became known for extremely loud, involuntary reactions to attractive women appearing on his stream. His exaggerated 'GYAT' exclamation was clipped and shared repeatedly, becoming recognizable meme content." },
+      { date: "2023", title: "TikTok Spread", body: "The clips spread to TikTok where the format of reacting dramatically to attractive people already had a large audience. 'Gyatt' became the vocabulary for that specific type of enthusiastic, unfiltered appreciation." },
+      { date: "2023–2024", title: "Universal Exclamation", body: "Gyatt crossed from streaming culture into mainstream Gen Z vocabulary. It now appears in comment sections, group chats, and reaction content across every platform where attractive people are being discussed." }
+    ],
+    whyViral: [
+      { title: "YourRAGE's delivery", desc: "The original clips are funny because of the extreme, involuntary nature of the reaction. Great content creates vocabulary." },
+      { title: "Onomatopoeic punch", desc: "Gyatt sounds like what it is — an involuntary exclamation. The sound does the emotional work before the meaning registers." },
+      { title: "Streaming clip culture", desc: "Twitch clips are one of the fastest vocabulary transmission systems online. One great reaction creates thousands of shares." },
+      { title: "Reaction content is eternal", desc: "Attractive people will always exist. Gyatt as a reaction format will always have material." }
+    ],
+    relatedSlangs: ["rizz", "snatched", "baddie"],
+    seoKeywords: ["gyatt meaning slang", "what does gyatt mean", "gyat slang definition", "gyatt gen z meaning"]
+  },
+
+  {
+    id: "ohio", word: "Ohio", slug: "ohio",
+    devanagari: null, pronunciation: "/oʊˈhaɪ.oʊ/",
+    shortMeaning: "Used to describe something extremely bizarre, absurd, or unhinged. Only in Ohio.",
+    fullMeaning: "In internet culture, 'Ohio' has become shorthand for anything so bizarre, chaotic, or inexplicable that it could only happen in some alternate reality. 'Only in Ohio' or 'this is Ohio' describes an event so surreal it breaks normal logic. Ohio itself did nothing wrong — it was simply selected as the internet's designated location for all things unhinged, weird, and impossible to explain.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Internet meme culture / Gen Z", origin: "Meme culture / TikTok / YouTube",
+    culturalContext: "The 'Only in Ohio' meme started with genuinely weird videos tagged from Ohio, but quickly became a format where any bizarre content was labeled as Ohio behavior regardless of origin. Ohio became the internet's fictional capital of the strange and unexplainable.",
+    examples: [
+      { label: "📱 Bizarre video", them: "Why is there a man in a full suit dancing with a raccoon in a Walmart?", me: "This is so Ohio. Only in Ohio could this happen." },
+      { label: "💬 Unhinged situation", them: "Our teacher started class by yelling at a ceiling tile for ten minutes.", me: "Your school is genuinely Ohio. No other explanation." },
+      { label: "🎮 Gaming chaos", them: "Three things just happened at the same time that should be physically impossible.", me: "The game is in Ohio mode rn. Anything is possible." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Real Ohio Videos", body: "A genuine collection of bizarre, unusual, and unexplainable videos from Ohio started circulating online. The state's actual geography and culture contributed to some genuinely odd footage that tagged locations." },
+      { date: "2022", title: "The Format Takes Off", body: "The 'Only in Ohio' caption became a meme format applied to any bizarre content, regardless of where it actually happened. Ohio became a fictional place where all internet weirdness originates." },
+      { date: "2023–2024", title: "Ohio as a Concept", body: "Ohio escaped its geographical meaning entirely. 'Very Ohio' or 'this is Ohio' now describes any situation that is inexplicably surreal, chaotic, or defies normal logic." }
+    ],
+    whyViral: [
+      { title: "A real state became a concept", desc: "When a real place becomes a metaphor for an entire category of experience, it achieves rare cultural weight." },
+      { title: "Applies to everything absurd", desc: "Any bizarre video, situation, or person can be Ohio. The format has infinite material." },
+      { title: "Innocent target", desc: "Ohio is a relatively unremarkable US state that took the meme well. The lack of malice made it funnier." },
+      { title: "Gen Z absurdist humor", desc: "Gen Z's dominant comedic mode is absurdism. Ohio is the physical location of all absurdism." }
+    ],
+    relatedSlangs: ["brainrot", "npc", "vibecheck"],
+    seoKeywords: ["ohio meaning slang", "only in ohio meaning", "what does ohio mean meme", "ohio slang definition"]
+  },
+
+  {
+    id: "dih", word: "Dih", slug: "dih",
+    devanagari: null, pronunciation: "/dɪh/",
+    shortMeaning: "A softened, internet-safe version of a crude exclamation. Used to emphasize attraction or reaction.",
+    fullMeaning: "'Dih' is an internet-sanitized shorthand used as an exclamation, typically in reaction to something impressive or attractive. It functions as a softened stand-in for a more explicit phrase, allowing the emotional weight of the original to be conveyed without explicit content. Common in comment sections, reaction content, and live streams where direct language is moderated.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Streaming and social media communities", origin: "Twitch / TikTok moderation culture",
+    culturalContext: "Emerged from streaming and social media communities where explicit language is filtered or banned. Euphemistic spelling tricks allow the emotional content of explicit expressions to survive content moderation. 'Dih' became a recognizable coded expression in communities that communicate around platform restrictions.",
+    examples: [
+      { label: "📱 Reaction", them: "Posted an attractive photo", me: "DIH. Not okay. Not prepared for this." },
+      { label: "💬 Stream chat", them: "Chat is going wild in the comments", me: "Everyone typing dih at the same time. Chat cannot handle it." },
+      { label: "🎭 Exclamation", them: "How did you react when you saw her?", me: "Literally said dih out loud. My brain short circuited." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Platform Moderation Context", body: "As social media and streaming platforms increased content moderation, users developed euphemistic spellings and phonetic substitutes for language that would trigger filters. This is a long-standing internet tradition." },
+      { date: "2023", title: "Streaming Community Adoption", body: "Streaming communities, particularly on Twitch and TikTok live, adopted 'dih' as a recognizable coded reaction. The community understood the meaning without triggering automated moderation." },
+      { date: "2023–2024", title: "General Use", body: "Dih spread beyond moderated contexts into general Gen Z vocabulary as a reaction exclamation, carrying the energy of its source expression without the explicit content." }
+    ],
+    whyViral: [
+      { title: "Moderation workaround culture", desc: "Internet communities have always found ways around content filters. Coded language creates community insider knowledge." },
+      { title: "Streaming culture pipeline", desc: "Stream chat vocabulary travels extremely fast due to the scale of live viewership." },
+      { title: "Phonetic clarity", desc: "The meaning is clear from the sound alone. Effective coded language sounds like what it replaces." },
+      { title: "Reaction content demand", desc: "Platforms reward reaction content. Vocabulary that powers reactions spreads with that content." }
+    ],
+    relatedSlangs: ["gyatt", "rizz", "sheesh"],
+    seoKeywords: ["dih meaning slang", "what does dih mean", "dih slang definition", "dih internet slang"]
+  },
+
+  {
+    id: "gheekhatam", word: "Ghee Khatam", slug: "gheekhatam",
+    devanagari: "घी खत्म",
+    pronunciation: "/ɡiː kʌ.tʌm/",
+    shortMeaning: "Literally 'ghee is finished'. Used when someone has completely overstayed their welcome or used up all goodwill.",
+    fullMeaning: "Ghee Khatam (घी खत्म) literally means 'the ghee is finished' in Hindi. In desi internet slang, it is used when someone has completely exhausted the goodwill, patience, or tolerance of those around them. When the ghee is khatam, there is nothing left — no warmth, no welcome, no more chances. It is the desi way of saying 'you have fully worn out your welcome' or 'all goodwill has been consumed.'",
+    tag: "new", year: 2024, language: "Hindi / Hinglish", coinedBy: "Indian internet culture", origin: "Desi internet / Indian meme culture",
+    culturalContext: "Rooted in Indian household culture where ghee — clarified butter — is precious, used for special occasions, and deeply associated with warmth and hospitality. When the ghee runs out, the special treatment ends. Applied to people and situations, it perfectly captures the moment when patience and goodwill have been entirely consumed.",
+    examples: [
+      { label: "💬 Overstayed welcome", them: "He came to visit for a weekend and has been here two weeks.", me: "Bhai ghee khatam ho gaya uska. Ab toh jaana hi chahiye." },
+      { label: "📱 Used up goodwill", them: "She keeps asking for favors after never reciprocating.", me: "Her ghee khatam with everyone. Nobody has anything left to give." },
+      { label: "🎭 Relationship context", them: "He cancelled plans again for the fourth time this month.", me: "Ghee khatam. There is nothing left. I am done extending grace." }
+    ],
+    originStory: [
+      { date: "Indian cultural roots", title: "The Ghee Metaphor", body: "In Indian households, ghee is precious — used for special occasions, puja, and treating honored guests. When ghee runs out, the special treatment ends. The metaphor of goodwill as a finite, consumable resource is culturally resonant." },
+      { date: "2023–2024", title: "Desi Internet Slang", body: "Indian internet culture and meme communities began using 'ghee khatam' to describe the specific feeling of having completely exhausted patience with someone. The phrase spread through desi Twitter, Instagram, and WhatsApp groups." },
+      { date: "2024", title: "Gen Z Hinglish Adoption", body: "As Hinglish slang expanded on Indian social media, ghee khatam became part of the vocabulary alongside other desi internet expressions. It fills a specific cultural and emotional gap that English phrases cannot capture with the same precision." }
+    ],
+    whyViral: [
+      { title: "Culturally specific precision", desc: "The ghee metaphor captures something English phrases cannot — the warm-then-exhausted arc of depleted Indian hospitality." },
+      { title: "Desi internet culture growth", desc: "Indian internet culture is creating its own rich slang vocabulary. Ghee khatam is part of that wave." },
+      { title: "Universal feeling, specific expression", desc: "Everyone has experienced goodwill being depleted. The specifically desi framing makes it both universal and distinctive." },
+      { title: "WhatsApp and group chat culture", desc: "Indian WhatsApp group culture is one of the most active meme transmission systems. Phrases spread instantly." }
+    ],
+    relatedSlangs: ["velkamya", "salty", "crashout"],
+    seoKeywords: ["ghee khatam meaning", "ghee khatam slang", "ghee khatam hindi meaning", "desi slang ghee khatam"]
+  }
 
 ];
 
