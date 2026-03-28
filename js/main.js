@@ -406,8 +406,14 @@ function renderCardsIfNeeded() {
   const featuredGrid = document.getElementById('featured-grid');
 
   if (slangsGrid && typeof getAllSlangs === 'function') {
-    renderCards(getAllSlangs(), slangsGrid);
-    updateResultsCount(getAllSlangs().length, '');
+    /* Respect URL filter param or active button on page load */
+    const urlTag = new URLSearchParams(window.location.search).get('filter') || 'all';
+    const activeBtn = document.querySelector('.filter-btn.active');
+    const tag = activeBtn ? (activeBtn.getAttribute('data-filter') || 'all') : urlTag;
+    const all = getAllSlangs();
+    const toShow = tag === 'all' ? all : all.filter(s => s.tag === tag);
+    renderCards(toShow, slangsGrid);
+    updateResultsCount(toShow.length, '');
   }
 
   if (searchResults && typeof getAllSlangs === 'function') {
@@ -441,6 +447,9 @@ function renderCards(slangs, container, fromRoot = null) {
 
   /* Render WITHOUT reveal class — cards start hidden via .card-hidden,
      then we stagger-reveal them via setTimeout (no 56x IntersectionObserver lag) */
+  const tagLbl   = { trending:'Trending', classic:'Classic', new:'New', viral:'Viral' };
+  const tagColor  = { trending:'var(--saffron)', classic:'var(--gold)', new:'var(--rose)', viral:'var(--mint)' };
+
   container.innerHTML = slangs.map(s => `
     <a
       href="${prefix}${s.slug}.html"
@@ -450,13 +459,13 @@ function renderCards(slangs, container, fromRoot = null) {
     >
       <div class="card-header">
         <h3 class="card-word">${s.word}</h3>
-        <span class="tag tag-${s.tag}">${s.tag}</span>
+        <span class="card-badge" style="--badge-color:${tagColor[s.tag]||'var(--gold)'}">${tagLbl[s.tag]||s.tag}</span>
       </div>
       <p class="card-meaning">${s.shortMeaning}</p>
       <div class="card-footer">
-        <span class="card-year">${s.year}${s.language ? ' · ' + s.language : ''}</span>
+        <span class="card-year">${s.year}</span>
         <span class="card-arrow" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <line x1="7" y1="17" x2="17" y2="7"/>
             <polyline points="7 7 17 7 17 17"/>
           </svg>

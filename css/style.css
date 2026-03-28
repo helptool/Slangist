@@ -647,77 +647,83 @@ input { font-family: inherit; }
   background: var(--surface);
   border: 1px solid var(--line-soft);
   border-radius: var(--r-lg);
-  padding: 28px;
+  padding: 0;
   cursor: none;
-  transition: transform 0.35s var(--expo), box-shadow 0.35s, border-color 0.25s, background 0.25s;
+  transition: transform 0.35s var(--expo), box-shadow 0.35s, border-color 0.3s;
   position: relative;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Top color band per tag */
 .slang-card::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, transparent 60%, rgba(207,155,53,0.04));
-  opacity: 0;
-  transition: opacity 0.35s;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  transition: height 0.35s var(--expo), opacity 0.35s;
+  z-index: 1;
 }
+.slang-card[data-tag="trending"]::before { background: linear-gradient(90deg, var(--saffron), var(--gold)); }
+.slang-card[data-tag="classic"]::before  { background: linear-gradient(90deg, var(--gold), rgba(207,155,53,0.4)); }
+.slang-card[data-tag="new"]::before      { background: linear-gradient(90deg, var(--rose), var(--saffron)); }
 
-.slang-card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-card), var(--shadow-gold);
-  border-color: var(--line);
-}
-
-.slang-card:hover::before { opacity: 1; }
-
-/* Card accent bar */
+/* Glow on hover */
 .slang-card::after {
   content: '';
   position: absolute;
-  top: 0; left: 0;
-  width: 3px;
-  height: 0%;
-  border-radius: 0 0 2px 2px;
-  transition: height 0.35s var(--expo);
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
 }
+.slang-card[data-tag="trending"]::after { background: radial-gradient(ellipse at top left, rgba(226,117,26,0.07), transparent 65%); }
+.slang-card[data-tag="classic"]::after  { background: radial-gradient(ellipse at top left, rgba(207,155,53,0.07), transparent 65%); }
+.slang-card[data-tag="new"]::after      { background: radial-gradient(ellipse at top left, rgba(196,81,106,0.07), transparent 65%); }
 
-.slang-card[data-tag="trending"]::after { background: var(--saffron); }
-.slang-card[data-tag="classic"]::after { background: var(--gold); }
-.slang-card[data-tag="new"]::after { background: var(--rose); }
-.slang-card[data-tag="viral"]::after { background: var(--mint); }
+.slang-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.45), 0 0 0 1px var(--line);
+  border-color: var(--line);
+}
+.slang-card:hover::before { height: 3px; }
+.slang-card:hover::after  { opacity: 1; }
 
-.slang-card:hover::after { height: 100%; }
+/* Inner wrapper — the actual padding lives here */
+.slang-card > * { position: relative; z-index: 2; }
 
 .card-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 12px;
+  padding: 24px 24px 0;
   gap: 12px;
 }
 
 .card-word {
   font-family: var(--ff-display);
-  font-size: 1.7rem;
+  font-size: 1.55rem;
   font-weight: 700;
   color: var(--text-1);
   line-height: 1.1;
   letter-spacing: -0.02em;
+  transition: color 0.25s;
 }
+.slang-card:hover .card-word { color: var(--gold); }
 
 .card-meaning {
-  font-size: 0.88rem;
-  color: var(--text-2);
-  line-height: 1.55;
-  margin-bottom: 16px;
+  font-size: 0.84rem;
+  color: var(--text-3);
+  line-height: 1.6;
+  padding: 10px 24px 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  flex: 1;
 }
 
 .card-footer {
@@ -725,39 +731,42 @@ input { font-family: inherit; }
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  margin-top: 20px;
-  padding-top: 16px;
+  margin-top: 16px;
+  padding: 12px 24px 20px;
   border-top: 1px solid var(--line-soft);
 }
 
 .card-year {
-  font-size: 0.72rem;
-  color: var(--text-3);
-  letter-spacing: 0.06em;
+  font-size: 0.68rem;
+  color: var(--text-4);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .card-arrow {
-  width: 32px; height: 32px;
+  width: 30px; height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--r-full);
-  background: var(--surface-2);
+  border-radius: 50%;
+  border: 1px solid var(--line-soft);
   color: var(--text-3);
-  transition: background 0.2s, color 0.2s, transform 0.25s var(--expo);
+  transition: background 0.25s, color 0.25s, border-color 0.25s, transform 0.3s var(--expo);
 }
 
 .slang-card:hover .card-arrow {
   background: var(--gold);
-  color: #0D0A06;
-  transform: rotate(-45deg);
+  color: var(--bg);
+  border-color: var(--gold);
+  transform: rotate(-45deg) scale(1.1);
 }
 
 .card-arrow svg {
-  width: 14px; height: 14px;
+  width: 12px; height: 12px;
   stroke: currentColor;
   fill: none;
-  stroke-width: 2;
+  stroke-width: 2.5;
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -839,27 +848,36 @@ input { font-family: inherit; }
 }
 
 .filter-btn {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  padding: 8px 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 20px;
   border-radius: var(--r-full);
-  background: var(--surface);
-  color: var(--text-2);
+  background: transparent;
+  color: var(--text-3);
   border: 1px solid var(--line-soft);
-  transition: all 0.2s;
+  transition: color 0.2s, background 0.2s, border-color 0.2s, transform 0.2s;
+  cursor: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .filter-btn:hover {
   color: var(--text-1);
-  background: var(--surface-2);
+  border-color: var(--line);
+  background: var(--surface);
+  transform: translateY(-1px);
 }
 
 .filter-btn.active {
-  color: #0D0A06;
+  color: var(--bg);
   background: var(--gold);
   border-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(207,155,53,0.3);
 }
+
+.filter-btn.active:hover { transform: translateY(-1px); }
 
 [data-theme="light"] .filter-btn.active { color: #0D0A06; }
 
@@ -2375,4 +2393,41 @@ body { padding-bottom: 56px; }
 @media (max-width: 480px) {
   .sticky-nav-word { display: none; }
   .sticky-nav-btn { padding: 14px 8px; }
+}
+
+/* ════════════════════════════════════════════════════════════
+   CARD BADGE — replaces old .tag inside cards
+   ════════════════════════════════════════════════════════════ */
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--badge-color, var(--gold));
+  padding: 3px 10px;
+  border: 1px solid var(--badge-color, var(--gold));
+  border-radius: var(--r-full);
+  background: transparent;
+  opacity: 0.85;
+  flex-shrink: 0;
+  transition: background 0.2s, opacity 0.2s;
+}
+.card-badge::before {
+  content: '';
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--badge-color, var(--gold));
+  box-shadow: 0 0 6px var(--badge-color, var(--gold));
+}
+.slang-card:hover .card-badge {
+  background: color-mix(in srgb, var(--badge-color, var(--gold)) 12%, transparent);
+  opacity: 1;
+}
+
+/* Improved slang-grid spacing */
+.slang-grid {
+  grid-auto-rows: auto;
 }

@@ -9,27 +9,27 @@ const SLANGIST_DATA = [
   /* ── ORIGINAL ENTRIES ─────────────────────────────────── */
 
   {
-    id: "velkamya", word: "Velkāmya", slug: "velkamya",
-    devanagari: "वेलकाम्य", pronunciation: "/veːl-kaːm-ya/",
+    id: "velkamya", word: "Velkamya", slug: "velkamya",
+    devanagari: "वेलकम्य", pronunciation: "/vel-kam-ya/",
     shortMeaning: "You're welcome — but make it desi Gen Z.",
     fullMeaning: "A modern Hindi/Hinglish slang word used as a warm, confident reply to 'thank you' or 'dhanyavaad'. It fills the gap that Hindi never had — a casual, expressive way to say 'you're welcome' without sounding stiff or dismissive.",
     tag: "new", year: 2026, language: "Hinglish", coinedBy: "@avgec", origin: "Indian Gen Z internet",
-    culturalContext: "Born from the observation that Hindi had no casual, modern equivalent of 'you're welcome.' All existing options — koi baat nahi, swagat hai — felt either dismissive or archaic. Velkāmya fills that gap with warmth.",
+    culturalContext: "Born from the observation that Hindi had no casual, modern equivalent of 'you're welcome.' All existing options — koi baat nahi, swagat hai — felt either dismissive or archaic. Velkamya fills that gap with warmth.",
     examples: [
-      { label: "💬 WhatsApp", them: "Yaar tune meri itni help ki — thank you so much 🥺", me: "Velkāmya! Tu bhi hamesha mere liye hoti hai 💕" },
-      { label: "📚 College Chat", them: "Bhai notes ke liye shukriya, seriously life saver hai tu.", me: "Velkāmya yaar. Exam mein achha karna bas." },
-      { label: "📸 Instagram", them: "Thanks for always showing up fr fr ❤️", me: "Velkāmya — anytime, always 🤝" }
+      { label: "💬 WhatsApp", them: "Yaar tune meri itni help ki — thank you so much 🥺", me: "Velkamya! Tu bhi hamesha mere liye hoti hai 💕" },
+      { label: "📚 College Chat", them: "Bhai notes ke liye shukriya, seriously life saver hai tu.", me: "Velkamya yaar. Exam mein achha karna bas." },
+      { label: "📸 Instagram", them: "Thanks for always showing up fr fr ❤️", me: "Velkamya — anytime, always 🤝" }
     ],
     originStory: [
       { date: "Early 2026", title: "The Gap Gets Noticed", body: "On Indian X (Twitter) and Instagram comment sections, Hinglish speakers started realizing that Hindi had no casual equivalent to 'you're welcome.' Every existing phrase fell flat." },
-      { date: "Mid 2026 · @avgec", title: "The Word Is Coined", body: "By blending the English root 'welcome' with the soft conversational Hindi suffix '-ya' (common in dialects and terms like 'bhaiya'), Velkāmya was born. One comment reply. Instantly felt right." },
+      { date: "Mid 2026 · @avgec", title: "The Word Is Coined", body: "By blending the English root 'welcome' with the soft conversational Hindi suffix '-ya' (common in dialects and terms like 'bhaiya'), Velkamya was born. One comment reply. Instantly felt right." },
       { date: "2026 Onward", title: "Organic Spread", body: "WhatsApp groups, YouTube threads, Instagram Reels. The word spread because it sounds like it always existed — that's the mark of a word that was genuinely needed." }
     ],
     whyViral: [
       { title: "Sounds authentic", desc: "First time you hear it, it doesn't feel invented — it sounds like a dialect word that always existed." },
-      { title: "Phonetically perfect", desc: "/veːl-kaːm-ya/ has natural rhythm and rolls off the tongue with genuine satisfaction." },
+      { title: "Phonetically perfect", desc: "/vel-kam-ya/ has natural rhythm and rolls off the tongue with genuine satisfaction." },
       { title: "Fills a real gap", desc: "Hindi had no casual 'you're welcome.' This word solves a real daily communication need." },
-      { title: "Meme-ready", desc: "\"Velkāmya ho!\" as a dramatic reply has obvious viral Reel potential." }
+      { title: "Meme-ready", desc: "\"Velkamya ho!\" as a dramatic reply has obvious viral Reel potential." }
     ],
     relatedSlangs: ["sus", "rizz", "delulu"],
     seoKeywords: ["velkamya meaning", "velkamya kya hai", "velkamya meaning in hindi", "gen z hindi slang 2026"]
@@ -2992,6 +2992,252 @@ const SLANGIST_DATA = [
     ],
     relatedSlangs: ["baddie", "looksmaxxing", "era"],
     seoKeywords: ["clean girl aesthetic meaning", "what is clean girl aesthetic", "clean girl slang definition", "clean girl makeup meaning"]
+  }
+,
+
+  /* ── BATCH 8 — DATING & RELATIONSHIP TERMS ──────────── */
+
+  {
+    id: "talkingstage", word: "Talking Stage", slug: "talkingstage",
+    devanagari: null, pronunciation: "/ˈtɔːk.ɪŋ steɪdʒ/",
+    shortMeaning: "The pre-relationship phase where two people get to know each other before making anything official.",
+    fullMeaning: "The talking stage is the limbo between meeting someone and officially dating them. You are texting constantly, meeting up, developing feelings — but nothing has been defined. No labels. No commitment. Just mutual interest hanging in an undefined space. It is exciting and anxiety-inducing simultaneously, and it can last weeks or months with no resolution.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Gen Z dating culture", origin: "Social media / dating discourse",
+    culturalContext: "The talking stage emerged because modern dating apps made it easy to interact with multiple people simultaneously without committing to any. The formal 'asking someone out' step was replaced by an extended undefined getting-to-know-you phase that lacks the clarity of traditional dating.",
+    examples: [
+      { label: "💬 Checking status", them: "So are you two actually dating?", me: "We're in the talking stage. Nothing official yet but it's going well." },
+      { label: "📱 Overthinking", them: "Why haven't they texted today?", me: "The talking stage anxiety is real. You just have to wait." },
+      { label: "🎭 Ending it", them: "What happened with them?", me: "Talking stage ended. Nobody defined anything and it just faded." }
+    ],
+    originStory: [
+      { date: "Pre-2019", title: "Dating App Era", body: "As Tinder, Hinge, and Bumble normalized connecting with multiple people simultaneously, the traditional linear path of asking someone out was replaced by extended, undefined communication periods." },
+      { date: "2019–2021", title: "Social Media Names It", body: "Gen Z on Twitter and TikTok began naming the talking stage as a distinct relationship phase. Content about navigating its anxiety, signals, and lack of clarity resonated enormously." },
+      { date: "2022 Onward", title: "Universal Dating Vocabulary", body: "The talking stage entered mainstream dating vocabulary as a recognized phase. Therapists, relationship coaches, and media all adopted the term." }
+    ],
+    whyViral: [
+      { title: "Names a universal modern experience", desc: "Anyone who has dated in the app era has lived through a talking stage. The recognition is instant." },
+      { title: "Relationship anxiety content", desc: "Content about navigating the talking stage is some of TikTok's most engaged dating material." },
+      { title: "No older equivalent", desc: "Traditional dating skipped straight from meeting to dating. The talking stage is a genuinely new phase that needed its own word." },
+      { title: "Ambiguity is universal", desc: "The anxiety of undefined relationships is deeply relatable. Content about it always performs." }
+    ],
+    relatedSlangs: ["situationship", "softlaunch", "ghosting"],
+    seoKeywords: ["talking stage meaning", "what is the talking stage", "talking stage dating definition", "talking stage slang"]
+  },
+
+  {
+    id: "sneakylink", word: "Sneaky Link", slug: "sneakylink",
+    devanagari: null, pronunciation: "/ˈsniː.ki lɪŋk/",
+    shortMeaning: "A secret hookup partner. Someone you see romantically without telling anyone.",
+    fullMeaning: "A sneaky link is someone you are secretly hooking up with — a romantic or physical connection you keep hidden from your friends, family, or social circle. The secrecy is intentional. Sneaky links exist in the shadows of your social life, separate from your public romantic identity. They might be someone inappropriate, someone you're embarrassed about, or someone you are not ready to acknowledge publicly.",
+    tag: "trending", year: 2021, language: "English / AAVE", coinedBy: "Black American internet culture / TikTok", origin: "TikTok / Black internet culture",
+    culturalContext: "Emerged from TikTok during the pandemic when secret meetups became both logistically difficult and more exciting for that difficulty. The term filled a specific vocabulary gap for casual connections kept deliberately out of public view.",
+    examples: [
+      { label: "💬 Vague reference", them: "Where are you going this late?", me: "Out. Just out." },
+      { label: "📱 Asking", them: "Who is she always texting?", me: "She has a sneaky link. We don't ask questions." },
+      { label: "🎭 Revealing", them: "You were not at home last night.", me: "Sneaky link. I'll explain eventually." }
+    ],
+    originStory: [
+      { date: "2020", title: "Pandemic Secrecy", body: "COVID lockdowns made any meetup technically rule-breaking. TikTok culture created 'sneaky link' as the term for the forbidden secret meeting, initially tied to lockdown-era hookups." },
+      { date: "2021", title: "Viral TikTok Trend", body: "TikTok videos about sneaky links — the anticipation, the secrecy, the 3am meetups — went massively viral. The format resonated with the thrill of forbidden romantic connections." },
+      { date: "2022 Onward", title: "Standard Dating Vocabulary", body: "Sneaky link became standard Gen Z vocabulary for any secret romantic or physical connection, regardless of pandemic context." }
+    ],
+    whyViral: [
+      { title: "Thrill of secrecy", desc: "Secret romantic connections are inherently exciting. Content about them performs because the premise is compelling." },
+      { title: "Pandemic timing", desc: "Every lockdown meetup was technically a sneaky link. The relatability was global during 2020." },
+      { title: "TikTok audio culture", desc: "Sneaky link TikTok sounds and songs went viral, embedding the term in music culture." },
+      { title: "Specific and vivid", desc: "Sneaky link describes something specific — not just a secret crush, but an active secret connection with real meetups." }
+    ],
+    relatedSlangs: ["talkingstage", "situationship", "finsta"],
+    seoKeywords: ["sneaky link meaning slang", "what does sneaky link mean", "sneaky link definition", "sneaky link dating slang"]
+  },
+
+  {
+    id: "orbiting", word: "Orbiting", slug: "orbiting",
+    devanagari: null, pronunciation: "/ˈɔːr.bɪt.ɪŋ/",
+    shortMeaning: "Watching someone's social media after cutting off direct contact. Present but distant.",
+    fullMeaning: "Orbiting is when someone stops direct communication with you — no texts, no replies — but continues to engage with your social media presence: watching your stories, liking your posts, occasionally reacting to content. They have not fully disappeared but they are not actually there. Like a satellite orbiting a planet — close enough to observe, too far to interact. More passive-aggressive than ghosting, more cowardly than honesty.",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Anna Iovine / Man Repeller", origin: "Dating culture / social media",
+    culturalContext: "Named by writer Anna Iovine in a Man Repeller article in 2018. The behavior was already common but unnamed. Social media's story views and like notifications made it uniquely visible in a way that was not possible before.",
+    examples: [
+      { label: "💬 Calling it out", them: "He watched my story within 30 seconds but has not replied to my last text in two weeks.", me: "He is orbiting. He wants to be present without being present." },
+      { label: "📱 Processing", them: "Should I block them?", me: "If the orbiting is bothering you then yes. They know you can see them watching." },
+      { label: "🎭 Self-awareness", them: "I keep watching their stories even though we're done.", me: "You're orbiting. Step back." }
+    ],
+    originStory: [
+      { date: "2018 · Anna Iovine", title: "The Word Is Coined", body: "Dating writer Anna Iovine wrote about the phenomenon of being 'orbited' for Man Repeller. The space metaphor — circling without landing — was precise and memorable. The article went widely shared." },
+      { date: "2018–2020", title: "Social Media Context", body: "Story views, post likes, and reaction features made orbiting uniquely visible. Unlike previous eras, you could see exactly who was watching you without engaging. Orbiting became documentable." },
+      { date: "2020 Onward", title: "Dating Dictionary Standard", body: "Orbiting entered standard dating vocabulary alongside ghosting, zombieing, and breadcrumbing as words for specific bad-faith relationship behaviors." }
+    ],
+    whyViral: [
+      { title: "Social media made it visible", desc: "Before story views, orbiting was invisible. Instagram's view count made the behavior suddenly observable and callout-able." },
+      { title: "Perfectly specific metaphor", desc: "A satellite orbiting a planet — close but never landing. The metaphor is immediately understood and vivid." },
+      { title: "Universal dating frustration", desc: "Being orbited is uniquely maddening. It is ambiguous enough to be confusing and passive enough to be cowardly." },
+      { title: "Named by media", desc: "When writers give dating behaviors precise names, those names spread fast through the media that covers dating." }
+    ],
+    relatedSlangs: ["ghosting", "zombieing", "situationship"],
+    seoKeywords: ["orbiting meaning slang", "what does orbiting mean dating", "orbiting dating definition", "orbiting vs ghosting"]
+  },
+
+  {
+    id: "zombieing", word: "Zombieing", slug: "zombieing",
+    devanagari: null, pronunciation: "/ˈzɒm.bi.ɪŋ/",
+    shortMeaning: "When someone who ghosted you reappears in your life like nothing happened.",
+    fullMeaning: "Zombieing is when someone who ghosted you — completely cut off contact without explanation — suddenly reappears in your life acting as if nothing occurred. They rise from the dead of your contacts. It could be a casual 'hey' text, a like on an old photo, or a story reply out of nowhere. The zombie offers no explanation for the disappearance. They just return and expect things to continue.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Dating culture / social media discourse", origin: "Social media / dating vocabulary",
+    culturalContext: "A natural evolution of ghosting vocabulary. Once ghosting was named and understood, zombieing emerged to describe the specific secondary behavior of reappearance without explanation. The horror metaphor fits perfectly: the dead come back, usually unwanted.",
+    examples: [
+      { label: "💬 The return", them: "He just texted 'hey' like he didn't disappear for four months.", me: "The zombie has risen. Do not respond." },
+      { label: "📱 Processing", them: "What do you do when someone zombies you?", me: "You have two options: ignore it or ask for an explanation. Never just pick up where you left off." },
+      { label: "🎭 Warning", them: "She liked my photo from 2019.", me: "That is zombieing behavior. She wants your attention. Whether you give it is up to you." }
+    ],
+    originStory: [
+      { date: "Pre-2019", title: "Ghosting Vocabulary Expands", body: "As ghosting became understood as a specific dating behavior, the gaps in ghosting vocabulary became apparent. What about when the ghost comes back? The zombie metaphor was obvious and immediate." },
+      { date: "2019", title: "Dating Media Adoption", body: "Dating advice websites and columns began using 'zombieing' to describe ghost-return behavior. The term spread through the same channels that had spread 'ghosting' earlier." },
+      { date: "2020 Onward", title: "Social Media Recognition", body: "TikTok and Twitter made zombieing a recognizable part of the dating vocabulary canon. Alongside ghosting, orbiting, and breadcrumbing, it became part of the naming system for bad-faith dating behaviors." }
+    ],
+    whyViral: [
+      { title: "Horror metaphor precision", desc: "Coming back from the dead without explanation is exactly what a zombie does. The metaphor was always going to stick." },
+      { title: "Universal dating experience", desc: "Almost everyone has been zombied or has considered zombieing someone. The recognition is immediate." },
+      { title: "Ghosting ecosystem", desc: "Ghosting's vocabulary spawned a whole family of related terms. Zombieing is one of its most logical descendants." },
+      { title: "Platform behavior visibility", desc: "Social media story views and old post likes make zombieing visible in a way that older communication could not." }
+    ],
+    relatedSlangs: ["ghosting", "orbiting", "situationship"],
+    seoKeywords: ["zombieing meaning slang", "what does zombieing mean dating", "zombieing definition", "ghosting vs zombieing"]
+  },
+
+  {
+    id: "lovebombing", word: "Love Bombing", slug: "lovebombing",
+    devanagari: null, pronunciation: "/lʌv ˈbɒm.ɪŋ/",
+    shortMeaning: "Overwhelming someone with intense affection and attention early in a relationship to manipulate them.",
+    fullMeaning: "Love bombing is when someone overwhelms you with extreme affection, compliments, gifts, and attention — especially early in a relationship — as a manipulation tactic. The intensity is not genuine, it is designed to create emotional dependency and lower your defenses. Love bombers make you feel uniquely special and chosen so that you will overlook red flags, accept bad behavior later, and feel unable to leave.",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Psychology / mental health discourse", origin: "Psychology / abuse awareness",
+    culturalContext: "Originally from psychology and narcissistic abuse literature where love bombing described a manipulation tactic used by narcissistic and abusive partners. Social media's mental health awareness explosion brought it from clinical vocabulary into everyday relationship discourse.",
+    examples: [
+      { label: "💬 Warning signs", them: "He said he loved me after two weeks and wants to spend every second together.", me: "That is love bombing. The intensity is a red flag, not a green one." },
+      { label: "📱 Educating a friend", them: "She buys me gifts constantly and texts me 50 times a day.", me: "That is love bombing. It feels good now but watch what happens if you try to create any distance." },
+      { label: "🎭 Self-reflection", them: "I've been feeling overwhelmed by how much attention they give.", me: "Trust that feeling. Love bombing is designed to make you feel special while lowering your boundaries." }
+    ],
+    originStory: [
+      { date: "1970s–80s", title: "Cult Psychology Origins", body: "Love bombing was first documented in cult research to describe how cults used overwhelming affection to recruit and retain members. Psychiatrist Robert Lifton's work on thought reform included this pattern." },
+      { date: "2000s–2010s", title: "Narcissistic Abuse Awareness", body: "Mental health writers and advocates began applying love bombing to describe romantic manipulation by narcissistic partners. The concept moved from cult psychology to relationship psychology." },
+      { date: "2018 Onward", title: "Social Media Mainstream", body: "TikTok's mental health content explosion brought love bombing to millions. 'Signs you're being love bombed' content reached massive audiences and the term became everyday relationship vocabulary." }
+    ],
+    whyViral: [
+      { title: "Mental health awareness era", desc: "Gen Z is the most psychologically literate generation. Mental health vocabulary travels fast on social media." },
+      { title: "Protective knowledge", desc: "Understanding love bombing can protect people from abusive relationships. Content that protects people spreads." },
+      { title: "Counter-intuitive warning", desc: "The idea that extreme affection can be a red flag is counter-intuitive and therefore striking. People want to share it." },
+      { title: "TikTok therapy content", desc: "Therapy and mental health content is some of TikTok's most viewed. Love bombing fits perfectly." }
+    ],
+    relatedSlangs: ["redflag", "situationship", "ick"],
+    seoKeywords: ["love bombing meaning slang", "what is love bombing", "love bombing definition", "love bombing signs"]
+  },
+
+  {
+    id: "redflag", word: "Red Flag", slug: "redflag",
+    devanagari: null, pronunciation: "/rɛd flæɡ/",
+    shortMeaning: "A warning sign that someone or a situation is problematic or dangerous.",
+    fullMeaning: "A red flag is a warning sign — something someone does, says, or is that signals potential problems, harm, or incompatibility. In dating, red flags are behaviors that indicate someone might be controlling, dishonest, emotionally unavailable, or just wrong for you. The term has expanded beyond dating to describe any concerning signal in any situation. Paired with green flags (positive signs) and beige flags (neutral quirks).",
+    tag: "classic", year: 2016, language: "English", coinedBy: "Social media / dating discourse", origin: "Social media / pop psychology",
+    culturalContext: "While 'red flag' existed in formal contexts (racing, military) to signal danger, its use in dating and personal discourse exploded on social media around 2016. TikTok's 'red flags' content genre — listing dealbreakers — became one of the platform's most engaging formats.",
+    examples: [
+      { label: "💬 Dating warning", them: "He doesn't have any close friends and never has.", me: "That's a red flag. Something is usually behind that pattern." },
+      { label: "📱 Listing red flags", them: "What is your biggest red flag in dating?", me: "When they talk about their ex in every other sentence. That is not processed." },
+      { label: "🎭 Ignoring it", them: "I know it's a red flag but...", me: "There is no 'but' after 'I know it's a red flag.' That is the whole sentence." }
+    ],
+    originStory: [
+      { date: "Pre-internet", title: "Warning Signal Origin", body: "Red flags as physical warning signals (red cloth warning of danger in racing, military, etc.) gave the metaphor its meaning. Danger is associated with the color red universally." },
+      { date: "2016–2018", title: "Social Media Dating", body: "Dating Twitter and Tumblr turned 'red flags' into a content format. 'Tell me your red flags' became a popular icebreaker and content prompt. The flag spectrum expanded to green and beige." },
+      { date: "2020 Onward", title: "TikTok Red Flag Era", body: "TikTok's red flag content exploded. Listing red flags, calling out red flags, defending behavior accused of being a red flag — the format drove billions of views." }
+    ],
+    whyViral: [
+      { title: "Intuitive metaphor", desc: "Red means danger. The flag raises. The warning is immediate. No explanation needed." },
+      { title: "Dating content is endless", desc: "Red flag content generates infinite participation. Everyone has opinions and everyone wants to share them." },
+      { title: "The flag spectrum", desc: "Red, green, and beige flags together create a complete assessment vocabulary for relationships." },
+      { title: "Protective information", desc: "Red flag content warns people about harmful patterns. Protective knowledge spreads because sharing it feels valuable." }
+    ],
+    relatedSlangs: ["beigeflag", "lovebombing", "ick"],
+    seoKeywords: ["red flag meaning slang", "what does red flag mean dating", "red flags in relationships", "red flag slang definition"]
+  },
+
+  {
+    id: "breadcrumbing", word: "Breadcrumbing", slug: "breadcrumbing",
+    devanagari: null, pronunciation: "/ˈbrɛd.krʌm.ɪŋ/",
+    shortMeaning: "Sending just enough attention to keep someone interested without any real commitment.",
+    fullMeaning: "Breadcrumbing is when someone drops just enough affection, attention, or interest — a random like, a late-night text, an occasional compliment — to keep you emotionally hooked without ever actually committing to anything. Like leaving breadcrumbs, they create a trail that keeps you following without leading anywhere real. It is emotional manipulation through minimum viable effort.",
+    tag: "trending", year: 2017, language: "English", coinedBy: "Dating advice media", origin: "New York Times / dating discourse",
+    culturalContext: "Named in a New York Times Style section article in 2017. The Hansel and Gretel metaphor — following breadcrumbs that lead nowhere — perfectly captured the frustrating dynamic of being strung along by someone who invests just enough to maintain your interest.",
+    examples: [
+      { label: "💬 Recognizing it", them: "He texts me randomly every few weeks but never makes actual plans.", me: "That is breadcrumbing. Just enough to keep you in his back pocket." },
+      { label: "📱 The pattern", them: "She liked my photo the day after I posted it but nothing else.", me: "Breadcrumb. She wants you to think about her without doing the work of actually pursuing you." },
+      { label: "🎭 Breaking free", them: "Should I respond to the random text?", me: "Only respond if you are prepared for it to go nowhere. Breadcrumbing rarely becomes something real." }
+    ],
+    originStory: [
+      { date: "Pre-2017", title: "The Behavior Existed", body: "Stringing someone along with minimal attention while avoiding commitment has always existed. Social media made it easier — a like or story view requires almost no effort but reads as a signal of continued interest." },
+      { date: "2017 · New York Times", title: "Named by Media", body: "A New York Times feature named 'breadcrumbing' as a recognized dating pattern. The Hansel and Gretel metaphor resonated immediately and the article was widely shared." },
+      { date: "2018 Onward", title: "Dating Vocabulary Canon", body: "Breadcrumbing joined ghosting, orbiting, and zombieing as part of the formal vocabulary for specific bad-faith dating behaviors. Therapy and dating advice content spread it rapidly." }
+    ],
+    whyViral: [
+      { title: "Literary metaphor clarity", desc: "Hansel and Gretel's breadcrumb trail leading nowhere is culturally embedded. The metaphor is immediately understood." },
+      { title: "Social media enables it", desc: "A like or story view is almost zero effort but high psychological impact. Social media made breadcrumbing easier than ever." },
+      { title: "Universal frustration", desc: "Being strung along is one of the most frustrating dating experiences. Naming it gave people vocabulary for a common pain." },
+      { title: "Media naming power", desc: "When a New York Times article names a behavior, it enters mainstream vocabulary quickly." }
+    ],
+    relatedSlangs: ["ghosting", "orbiting", "situationship"],
+    seoKeywords: ["breadcrumbing meaning slang", "what is breadcrumbing", "breadcrumbing dating definition", "breadcrumbing vs ghosting"]
+  },
+
+  {
+    id: "choremance", word: "Choremance", slug: "choremance",
+    devanagari: null, pronunciation: "/ˈtʃɔːr.mæns/",
+    shortMeaning: "Bonding deeply with a partner while doing everyday errands and tasks together.",
+    fullMeaning: "Choremance is the romantic warmth and intimacy that develops when you do mundane tasks with a partner — grocery shopping, cooking together, doing laundry, running errands. It is the discovery that love is not just about grand gestures but about being comfortable sharing the boring parts of life. A 'We're just getting groceries together' that feels like the most romantic thing in the world.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "TikTok / relationship culture", origin: "TikTok / domestic romance content",
+    culturalContext: "Emerged from TikTok's domestic romance content trend where couples shared everyday moments — grocery runs, cooking, errands — that generated enormous engagement because they depicted realistic, comfortable intimacy rather than grand romantic gestures.",
+    examples: [
+      { label: "💬 The feeling", them: "You seem really happy lately.", me: "We just had the most perfect choremance afternoon. Grocery run then cooked together. Life is good." },
+      { label: "📱 Content", them: "Why do grocery store couple videos always do so well?", me: "Choremance energy. People want the mundane romance more than the grand gestures." },
+      { label: "🎭 Relationship goal", them: "What is your relationship goal?", me: "Choremance. I want someone who makes running errands feel like a date." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Domestic Comfort Romance", body: "The appeal of comfortable, domestic intimacy has always existed in relationships. The 'we're just doing nothing together' contentment is a well-known relationship milestone." },
+      { date: "2023", title: "TikTok Domestic Content", body: "TikTok creators began documenting ordinary moments with partners — grocery runs, cooking together — and finding that this content vastly outperformed traditional 'romantic' content. Choremance named what was resonating." },
+      { date: "2023 Onward", title: "Relationship Aspiration", body: "Choremance became a recognized relationship goal for Gen Z — the desire for comfortable, present-tense intimacy rather than performative romance." }
+    ],
+    whyViral: [
+      { title: "Counter-romantic appeal", desc: "In a culture saturated with grand romantic gestures, the mundane intimacy of choremance is refreshing and aspirational." },
+      { title: "Visible relationship comfort", desc: "Choremance signals a level of relationship comfort that people aspire to. Domestic ease is evidence of genuine connection." },
+      { title: "Content format", desc: "Grocery run couple videos and cooking-together content generate millions of views. Choremance named why." },
+      { title: "Portmanteau cleverness", desc: "Chore + romance = choremance. It is a satisfying word construction that explains itself." }
+    ],
+    relatedSlangs: ["situationship", "talkingstage", "vibe"],
+    seoKeywords: ["choremance meaning", "what is choremance", "choremance slang definition", "choremance relationship meaning"]
+  },
+
+  {
+    id: "slowfade", word: "Slow Fade", slug: "slowfade",
+    devanagari: null, pronunciation: "/sloʊ feɪd/",
+    shortMeaning: "Gradually reducing communication to end a relationship without a direct conversation.",
+    fullMeaning: "The slow fade is a passive form of ending a relationship — gradually reducing the frequency and warmth of communication until it simply stops, without ever having the actual breakup conversation. Texts become less frequent, replies slower, plans never materialize. The slow fader hopes the other person takes the hint and ends things without confrontation. It is cowardly but extremely common.",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Dating advice media / social media", origin: "Dating culture / advice columns",
+    culturalContext: "The slow fade is older than its name — people have been drifting out of relationships passively for generations. But the name gave it a shape and made it recognizable as a specific behavior pattern with its own taxonomy in the modern dating glossary.",
+    examples: [
+      { label: "💬 Noticing it", them: "He used to text first every morning. Now it's been four days.", me: "He is slow fading. The pattern is very clear." },
+      { label: "📱 Being honest", them: "Should I just do the slow fade?", me: "Just tell them directly. The slow fade is more painful for the other person than a clean ending." },
+      { label: "🎭 Calling it", them: "We still technically talk but it feels like nothing.", me: "You are in the slow fade. It will reach zero in a few more weeks." }
+    ],
+    originStory: [
+      { date: "Pre-2018", title: "The Pattern Existed", body: "Passive relationship endings through reduced communication have always happened. What changed was the visibility social media provided — read receipts, story views, and online status made slow fading more observable." },
+      { date: "2018", title: "Named in Dating Culture", body: "Dating advice media began distinguishing between ghosting (abrupt) and slow fading (gradual). The distinction was immediately useful and the term spread through relationship content." },
+      { date: "2020 Onward", title: "Dating Vocabulary", body: "Slow fade joined the formal dating vocabulary canon. Understanding the pattern helped people recognize it earlier and respond with more clarity." }
+    ],
+    whyViral: [
+      { title: "Distinction from ghosting", desc: "Ghosting is sudden. Slow fading is gradual. Both needed names. Having both gave dating vocabulary more precision." },
+      { title: "Deeply relatable pattern", desc: "The slow fade is one of the most common relationship endings. Recognition is instant for anyone who has dated." },
+      { title: "Protective knowledge", desc: "Recognizing a slow fade early lets you make decisions rather than waiting indefinitely." },
+      { title: "Communication anxiety insight", desc: "Slow fading reveals avoidance and conflict-aversion. Understanding it illuminates a common psychological pattern." }
+    ],
+    relatedSlangs: ["ghosting", "orbiting", "breadcrumbing"],
+    seoKeywords: ["slow fade meaning dating", "what is the slow fade", "slow fade slang definition", "ghosting vs slow fade"]
   }
 
 ];
