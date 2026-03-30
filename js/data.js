@@ -3239,6 +3239,653 @@ const SLANGIST_DATA = [
     relatedSlangs: ["ghosting", "orbiting", "breadcrumbing"],
     seoKeywords: ["slow fade meaning dating", "what is the slow fade", "slow fade slang definition", "ghosting vs slow fade"]
   }
+,
+
+  /* ── BATCH 9 — 24 NEW ENTRIES ────────────────────────── */
+
+  {
+    id: "auraloss", word: "Aura Loss / Gain", slug: "auraloss",
+    type: "phrase",
+    devanagari: null, pronunciation: "/ˈɔː.rə lɒs · ɡeɪn/",
+    shortMeaning: "A reputation drop or boost based on a specific action. Scored like points.",
+    fullMeaning: "Aura loss is when you do something embarrassing, awkward, or uncool that visibly damages your social standing — your aura points drop. Aura gain is the reverse: you do something impressive, smooth, or courageous that elevates your presence. People rate specific actions: 'That was -200 aura' or '+500 aura right there.' It is a gamified social reputation system applied to everyday moments.",
+    tag: "trending", year: 2024, language: "English", coinedBy: "Gen Z / TikTok gaming culture", origin: "TikTok / aura meme culture",
+    culturalContext: "A natural extension of the aura meme. Once aura became a scoreable concept, the gain/loss framework gave every observable action a point value. Sports mistakes, smooth moments, awkward interactions — all can be rated on the aura scale.",
+    examples: [
+      { label: "💬 The drop", them: "He called his teacher mom in front of the whole class.", me: "Instant aura loss. Like -400 at least. Hard to recover from." },
+      { label: "📱 The gain", them: "She walked back in calm after that whole argument and said nothing.", me: "Massive aura gain. Silent unbothered is peak aura farming." },
+      { label: "🎭 Rating moments", them: "Did you see what he did?", me: "Bro that was +1000 aura. No one else could have pulled that off." }
+    ],
+    originStory: [
+      { date: "2023", title: "Aura Points Foundation", body: "Once the aura points meme established that social presence could be scored, loss and gain became the natural tracking verbs." },
+      { date: "2024", title: "Rating Format", body: "TikTok videos rating real-life moments as aura loss or aura gain became a dominant format. Every cringe or cool moment became a scoreable event." },
+      { date: "2024 Onward", title: "Universal Social Scoring", body: "Aura loss and gain entered everyday conversation as a playful way to rate social performance in any context." }
+    ],
+    whyViral: [
+      { title: "Gamification of social life", desc: "Turning embarrassing or impressive moments into a point score makes them funnier and more shareable." },
+      { title: "Infinite content material", desc: "Every social situation has an aura value. The format never runs out of material." },
+      { title: "Self-aware humor", desc: "Calling your own actions aura loss is funny self-deprecation. Calling others' actions aura gain is flattery." },
+      { title: "Builds on established meme", desc: "Loss/gain extends the aura ecosystem. Established meme families retain audiences longer." }
+    ],
+    relatedSlangs: ["aura", "aurafarming", "rizz"],
+    seoKeywords: ["aura loss meaning slang", "aura gain meaning", "what is aura loss gen z", "aura points loss"]
+  },
+
+  {
+    id: "skullemoji", word: "Skull Emoji (💀)", slug: "skullemoji",
+    type: "reaction slang",
+    devanagari: null, pronunciation: "/skʌl ɪˈmoʊ.dʒi/",
+    shortMeaning: "This was so funny or insane that I am metaphorically dead. Same energy as I'm dead.",
+    fullMeaning: "The skull emoji 💀 is used to indicate that something is so funny, shocking, or absurd that you have metaphorically died from it. It functions identically to saying 'I'm dead' but in single-character form. In fast-moving comment sections and group chats, 💀 is often the entirety of the response — no words needed. Three skulls in a row means it was especially fatal.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Gen Z social media", origin: "Twitter / TikTok comment culture",
+    culturalContext: "As comment sections sped up and character economy became everything, the skull emoji compressed 'I'm dead laughing' into one character. TikTok's comment section normalized 💀 as the primary comedy reaction, often more expressive than any written response.",
+    examples: [
+      { label: "📱 Comment section", them: "Posted the most chaotic video possible", me: "💀💀💀" },
+      { label: "💬 Group chat", them: "He said WHAT in the meeting?", me: "💀 I cannot. I literally cannot." },
+      { label: "🎭 No words needed", them: "Sent a truly unhinged clip", me: "💀" }
+    ],
+    originStory: [
+      { date: "Pre-2019", title: "I'm Dead Origins", body: "The expression 'I'm dead' for extreme laughter existed on Black Twitter before the emoji version. The skull was the natural visual representation." },
+      { date: "2019–2021", title: "TikTok Comment Standard", body: "TikTok's comment section culture made 💀 the dominant comedy reaction. Fast scrolling rewarded single-character responses over sentences." },
+      { date: "2021 Onward", title: "Cross-Platform Standard", body: "💀 became universal across all platforms as the single most efficient way to express being dead from laughter or shock." }
+    ],
+    whyViral: [
+      { title: "Maximum efficiency", desc: "One character. Complete emotional response. Unbeatable in a character-economy world." },
+      { title: "Platform-agnostic", desc: "Works in every comment section, every chat, every platform. Zero contextual requirements." },
+      { title: "Layered meaning", desc: "Skull can mean funny, shocking, unhinged, or chaotic. The ambiguity makes it versatile." },
+      { title: "Visual impact", desc: "A skull is a visceral symbol. Even without context it communicates a strong reaction." }
+    ],
+    relatedSlangs: ["imdead", "sendingme", "sheesh"],
+    seoKeywords: ["skull emoji meaning slang", "what does skull emoji mean", "💀 meaning gen z", "skull emoji dead laughing"]
+  },
+
+  {
+    id: "delusionship", word: "Delusionship", slug: "delusionship",
+    type: "word",
+    devanagari: null, pronunciation: "/dɪˈluː.ʒən.ʃɪp/",
+    shortMeaning: "A one-sided imagined relationship existing entirely in your head, often with a stranger or celebrity.",
+    fullMeaning: "A delusionship is an entirely fabricated romantic relationship that exists only in one person's imagination — built from minimal or zero real interaction. Unlike a situationship (undefined but real), a delusionship has no actual mutual component. You have constructed a full relationship in your mind: the inside jokes, the future plans, the dynamic. The other person may not know you exist.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "TikTok / dating discourse", origin: "TikTok / delulu culture",
+    culturalContext: "A portmanteau of delusion and relationship, emerging from the same culture that celebrated 'delulu is the solulu.' Parasocial feelings toward celebrities, crushes who have never spoken to you, and strangers you have observed extensively are all potential delusionship material.",
+    examples: [
+      { label: "💬 Celebrity crush", them: "She has a whole playlist for him and he doesn't know she exists.", me: "A delusionship. Rich lore, zero basis in reality." },
+      { label: "📱 Self-aware", them: "I have planned our entire future with someone I've made eye contact with twice.", me: "Classic delusionship. I am in my delusionship era." },
+      { label: "🎭 Support", them: "Is it weird that I feel like I know him?", me: "That is a delusionship and it is completely fine. Just do not mistake it for real." }
+    ],
+    originStory: [
+      { date: "2023", title: "Delulu Culture Context", body: "Emerging from the 'delulu is the solulu' era, delusionship named the specific subtype of delusion applied to romantic fantasy. K-pop fan culture had already been engaging in this for years." },
+      { date: "2023", title: "TikTok Naming", body: "TikTok dating content creators began distinguishing delusionship from situationship — the former entirely imagined, the latter technically real. The distinction was immediately useful." },
+      { date: "2023 Onward", title: "Universal Recognition", body: "Delusionship resonated because parasocial feelings are extremely common in a celebrity and creator culture. Many people recognized their own experience in the word." }
+    ],
+    whyViral: [
+      { title: "Parasocial culture", desc: "Streaming, social media, and creator culture produce intense one-sided feelings constantly. Delusionship named the result." },
+      { title: "Self-aware humor", desc: "Calling your own crush a delusionship is funny and honest. That self-aware vulnerability spreads." },
+      { title: "Delulu ecosystem", desc: "Delusionship extends delulu vocabulary precisely. Extended meme families retain engagement." },
+      { title: "Distinguishes from situationship", desc: "Two similar-sounding but distinct concepts needed different names. Delusionship vs situationship is now a clear vocabulary pair." }
+    ],
+    relatedSlangs: ["delulu", "situationship", "rentfree"],
+    seoKeywords: ["delusionship meaning slang", "what is a delusionship", "delusionship vs situationship", "delusionship definition"]
+  },
+
+  {
+    id: "copium", word: "Copium", slug: "copium",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈkoʊ.pi.əm/",
+    shortMeaning: "A fake coping mechanism. Telling yourself things to feel better about a situation that is actually bad.",
+    fullMeaning: "Copium is a portmanteau of cope and opium — the imaginary drug you take to cope with a painful reality. 'She is on copium' means she is telling herself things that are not true to avoid facing a difficult situation. Being on copium means your coping mechanism is delusional. The word is used both gently (affectionate roast) and sharply (genuine callout).",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Twitch / esports culture", origin: "Twitch streaming / esports communities",
+    culturalContext: "Started in esports and Twitch culture where fans of losing teams would rationalize defeats with increasingly implausible explanations. Being accused of huffing copium meant your coping rationalization had become embarrassing. Spread to general internet use for any denial of reality.",
+    examples: [
+      { label: "🎮 Esports context", them: "They're saying their team still has a chance to win the championship.", me: "That is pure copium at this point. They are out of contention." },
+      { label: "💬 Relationship context", them: "She keeps saying he will change.", me: "She has been on copium for eight months. He is not changing." },
+      { label: "📱 Self-aware", them: "I keep telling myself the job market will improve.", me: "I know this is copium but I need it right now." }
+    ],
+    originStory: [
+      { date: "2018", title: "Twitch Origins", body: "The term emerged in Twitch esports communities. Streamer Moonmoon and others used it to describe fans of losing teams who maintained irrational hope through increasingly elaborate cope. The word spread through streaming culture." },
+      { date: "2020–2021", title: "Political Context", body: "Copium spread heavily during election cycles where the word described denial of electoral results. The political context dramatically expanded its reach beyond gaming." },
+      { date: "2022 Onward", title: "Universal Denial Word", body: "Copium became general internet vocabulary for any coping rationalization that has detached from reality — political, romantic, sports, career, or personal." }
+    ],
+    whyViral: [
+      { title: "The drug metaphor", desc: "Framing coping as an addictive substance you huff is vivid, funny, and precise. The metaphor communicates exactly how irrational coping feels." },
+      { title: "Esports to mainstream pipeline", desc: "Gaming and esports communities are enormous vocabulary generators. Copium traveled the standard path." },
+      { title: "Universal human experience", desc: "Everyone copes irrationally sometimes. Copium names that behavior with both humor and critique." },
+      { title: "Paired with hopium", desc: "Copium and hopium as companion words create a complete irrational optimism vocabulary pair." }
+    ],
+    relatedSlangs: ["hopium", "delulu", "based"],
+    seoKeywords: ["copium meaning slang", "what does copium mean", "copium slang definition", "copium internet slang"]
+  },
+
+  {
+    id: "hopium", word: "Hopium", slug: "hopium",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈhoʊ.pi.əm/",
+    shortMeaning: "Unrealistic hope maintained despite clear evidence it should be abandoned.",
+    fullMeaning: "Hopium is hope that has crossed into delusion — the imaginary drug you take to sustain hope when reality no longer supports it. Where copium helps you cope with failure, hopium keeps you hoping for success that evidence suggests will not come. Both are irrational, but hopium is more optimistic. 'Stop giving me hopium' means stop making me hope for something that is not going to happen.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Twitch / internet culture", origin: "Internet culture / cryptocurrency communities",
+    culturalContext: "A natural companion word to copium. Where copium deals with coping after failure, hopium deals with maintaining hope before or during it. Cryptocurrency communities popularized it to describe irrational price expectations. Spread to sports, dating, and general life contexts.",
+    examples: [
+      { label: "💬 Dating context", them: "He has not texted in three weeks but she is convinced he will.", me: "Pure hopium. She needs someone to give her a reality check." },
+      { label: "📱 Sports", them: "They keep saying their team will make playoffs.", me: "Season-long hopium. The math does not work anymore." },
+      { label: "🎭 Career", them: "I keep applying to the same company that keeps rejecting me.", me: "I know this is hopium. But I genuinely love the company." }
+    ],
+    originStory: [
+      { date: "2019", title: "Crypto Community Origins", body: "Cryptocurrency communities used hopium to describe investors maintaining bullish expectations during market downturns. The parallel with copium was immediate and the word spread through the same channels." },
+      { date: "2020–2021", title: "Twitch and Gaming", body: "Streaming and gaming communities adopted hopium for game patches, team performances, and comeback scenarios that evidence suggested would not materialize." },
+      { date: "2022 Onward", title: "Universal Application", body: "Hopium entered general vocabulary for any context where hope has detached from realistic expectation — dating, career, sports, or personal goals." }
+    ],
+    whyViral: [
+      { title: "Copium companion", desc: "Copium and hopium form a vocabulary pair that covers both the coping and hoping ends of irrational optimism. Pairs spread together." },
+      { title: "Drug metaphor continuation", desc: "The 'ium' suffix from opium carries across from copium. The drug metaphor is consistent and vivid." },
+      { title: "Crypto culture reach", desc: "Cryptocurrency communities are large, internet-native, and create vocabulary that travels widely." },
+      { title: "Affectionate critique", desc: "Calling someone's hope 'hopium' is both critique and sympathy. The dual tone makes it easier to use without being harsh." }
+    ],
+    relatedSlangs: ["copium", "delulu", "vibecheck"],
+    seoKeywords: ["hopium meaning slang", "what does hopium mean", "hopium slang definition", "hopium vs copium"]
+  },
+
+  {
+    id: "mainquest", word: "Main Quest / Side Quest", slug: "mainquest",
+    type: "phrase",
+    devanagari: null, pronunciation: "/meɪn kwɛst · saɪd kwɛst/",
+    shortMeaning: "Framing life priorities as RPG quests. Main quest is your core goal; side quests are everything else.",
+    fullMeaning: "Borrowed from RPG gaming, where the main quest is the primary storyline and side quests are optional adventures. Applied to life: your main quest is your central life goal or priority right now — the career, the degree, the relationship, the project. Side quests are everything else — fun, interesting, worth doing, but secondary. 'I am doing a side quest' means you are exploring something that is not your main goal.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Gaming culture / Gen Z internet", origin: "RPG gaming / TikTok",
+    culturalContext: "Emerged from Gen Z's tendency to frame life through gaming narratives. The main quest / side quest framework gives people a way to talk about priorities, distraction, and life direction with gaming vocabulary that feels natural and non-judgmental.",
+    examples: [
+      { label: "💬 Life priorities", them: "Why are you learning pottery during exam season?", me: "It is a side quest. The main quest is finals. But a man needs side quests." },
+      { label: "📱 Meeting someone", them: "What is going on with them?", me: "That started as a side quest and is threatening to become the main quest. Complicated." },
+      { label: "🎯 Focus check", them: "Are you focused on what actually matters right now?", me: "Main quest locked in. Side quests paused until after this is done." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Gaming Vocabulary", body: "Main quests and side quests are fundamental RPG concepts. Any gamer understands the distinction instinctively." },
+      { date: "2022", title: "Life Framing Application", body: "Gen Z began applying the quest framework to life decisions — treating major life goals as main quests and diversions as side quests. The framing made priorities feel manageable and even fun." },
+      { date: "2023 Onward", title: "Universal Framework", body: "Main quest entered everyday conversation as a way to talk about life direction, focus, and priorities. 'What is your main quest right now?' became a meaningful question." }
+    ],
+    whyViral: [
+      { title: "Gaming vocabulary universality", desc: "RPG vocabulary is understood by the most connected generation. Main quest needs no explanation." },
+      { title: "Life narrative framing", desc: "Treating life as a game makes goals feel structured and achievable. The framing is both useful and fun." },
+      { title: "Non-judgmental language", desc: "Calling something a side quest does not dismiss it — side quests can be important. The vocabulary is flexible." },
+      { title: "Priority conversation tool", desc: "Main quest / side quest gives people an easy way to discuss what they are focused on without heavy life-talk vocabulary." }
+    ],
+    relatedSlangs: ["era", "lockin", "lore"],
+    seoKeywords: ["main quest meaning slang", "side quest meaning slang", "what does main quest mean gen z", "life as main quest slang"]
+  },
+
+  {
+    id: "npcenergy", word: "NPC Energy", slug: "npcenergy",
+    type: "phrase",
+    devanagari: null, pronunciation: "/ɛn piː siː ˈɛn.ər.dʒi/",
+    shortMeaning: "Someone radiating scripted, unaware, background-character energy in a specific moment.",
+    fullMeaning: "NPC energy is the specific vibe of someone who is acting robotic, scripted, or completely unaware of the social dynamics around them in a particular moment. Where NPC describes someone's overall character, NPC energy describes a specific behavior in a situation. 'You are giving NPC energy right now' means in this moment you are responding without genuine awareness, like a background character following a script.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Gen Z / gaming culture", origin: "Gaming / TikTok",
+    culturalContext: "A situational application of the NPC concept. NPC energy focuses on moments rather than overall character — useful because most people have moments where they respond on autopilot without genuine engagement. It is more flexible and less permanent than calling someone an NPC outright.",
+    examples: [
+      { label: "💬 In conversation", them: "He just kept repeating the same three points no matter what anyone said.", me: "Full NPC energy. There was no actual processing happening." },
+      { label: "📱 Social situation", them: "She smiled and nodded through the whole conversation without engaging at all.", me: "NPC energy activated. She was not present." },
+      { label: "🎭 Self-check", them: "Am I being weird right now?", me: "You are giving slight NPC energy. Be more present." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "NPC Foundation", body: "The NPC concept established that some people seem to operate on autopilot. NPC energy extended this from a character judgment to a situational observation." },
+      { date: "2023", title: "Energy Framework", body: "Gen Z's 'energy' framework — vibes, rizz energy, NPC energy — made NPC energy a natural phrase for situational autopilot behavior." },
+      { date: "2023 Onward", title: "Contextual Use", body: "NPC energy became useful for moments rather than people. You can have NPC energy in a meeting while being fully present elsewhere." }
+    ],
+    whyViral: [
+      { title: "More flexible than NPC", desc: "Energy-based framing is situational. Giving NPC energy right now does not define you as an NPC permanently." },
+      { title: "Gaming vocabulary precision", desc: "The NPC metaphor is already established. Adding 'energy' makes it more specific and less permanently judgmental." },
+      { title: "Gen Z energy framework", desc: "Energy-based vocabulary is central to Gen Z communication. Adding NPC to the framework was natural." },
+      { title: "Useful social feedback", desc: "Telling someone they have NPC energy is useful feedback delivered in non-aggressive gaming vocabulary." }
+    ],
+    relatedSlangs: ["npc", "vibecheck", "aura"],
+    seoKeywords: ["NPC energy meaning slang", "what does NPC energy mean", "NPC energy definition", "NPC energy gen z"]
+  },
+
+  {
+    id: "loredrop", word: "Lore Drop", slug: "loredrop",
+    type: "phrase",
+    devanagari: null, pronunciation: "/lɔːr drɒp/",
+    shortMeaning: "When someone suddenly reveals significant backstory or context that reframes everything.",
+    fullMeaning: "A lore drop is the moment when someone reveals significant backstory, history, or context — either about themselves or a situation — that completely changes how you understand what has been happening. Named after how games and shows release lore (backstory) in dramatic narrative moments. 'Wait that was a lore drop' means the information just shared is significant context you did not have before.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Gaming / fandom culture", origin: "Gaming / TikTok storytelling",
+    culturalContext: "Gaming communities use 'lore drop' for when significant world-building backstory is revealed. Gen Z applied it to real life — moments when someone reveals personal history that recontextualizes their current behavior or situation.",
+    examples: [
+      { label: "💬 Personal revelation", them: "He mentioned casually that he grew up in twelve different countries.", me: "That was a lore drop. So much of his personality suddenly makes sense." },
+      { label: "📱 Story revelation", them: "Wait they used to date?", me: "Massive lore drop. That explains the entire dynamic I was confused about." },
+      { label: "🎭 Context shift", them: "She just told me why she is the way she is about trust.", me: "That lore drop hit different. I understand her completely now." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Gaming and Fandom Origins", body: "In gaming and media fandom, a lore drop is when significant backstory is revealed — often dramatically. The concept is central to how games like Dark Souls and shows like Lost build their worlds." },
+      { date: "2023", title: "Real Life Application", body: "Gen Z began applying lore drop to personal revelations — moments when someone shares context that makes their present behavior suddenly comprehensible. The narrative framing of real life accelerated." },
+      { date: "2023 Onward", title: "Standard Revelation Phrase", body: "Lore drop became a standard Gen Z phrase for significant personal disclosures or context reveals in any situation." }
+    ],
+    whyViral: [
+      { title: "Gaming vocabulary precision", desc: "The lore drop concept captures something specific — not just any revelation, but one that recontextualizes everything." },
+      { title: "Narrative life framing", desc: "Treating people as having lore makes their history feel rich and worth understanding." },
+      { title: "TikTok storytelling culture", desc: "TikTok's story format rewards dramatic context reveals. Lore drop named the satisfying moment of revelation." },
+      { title: "Builds on lore vocabulary", desc: "Lore and lore drop extend each other. The pair creates a complete backstory vocabulary." }
+    ],
+    relatedSlangs: ["lore", "iykyk", "tea"],
+    seoKeywords: ["lore drop meaning slang", "what does lore drop mean", "lore drop definition gen z", "lore drop slang"]
+  },
+
+  {
+    id: "benching", word: "Benching", slug: "benching",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈbɛntʃ.ɪŋ/",
+    shortMeaning: "Keeping someone around as a backup option without any real commitment or intention.",
+    fullMeaning: "Benching is when someone keeps you in their romantic lineup as a backup — active enough to maintain your interest, not active enough to be a real relationship. Like a sports bench: you are on the team but you are not playing. The bencher periodically gives you attention to keep you warm but never actually commits. You are kept available for when their first-choice options do not work out.",
+    tag: "trending", year: 2016, language: "English", coinedBy: "Dating advice media / New York Magazine", origin: "Dating culture / sports metaphor",
+    culturalContext: "Named in New York Magazine's The Cut in 2016. The sports bench metaphor — sitting warmed up and ready but not playing — captured the specific frustration of being kept available without being chosen. Quickly adopted into standard dating vocabulary.",
+    examples: [
+      { label: "💬 Recognizing it", them: "He texts every few days but never makes actual plans.", me: "You are benched. He is keeping you warm as an option." },
+      { label: "📱 Calling it out", them: "She asked to reschedule again.", me: "That is the third time. Either she is benching you or genuinely chaotic. Either way, address it." },
+      { label: "🎭 Taking action", them: "Should I wait for him to plan something?", me: "Stop waiting to be taken off the bench. Either he commits or you walk." }
+    ],
+    originStory: [
+      { date: "2016 · New York Magazine", title: "Named by Media", body: "New York Magazine's The Cut published a piece naming 'benching' as a specific dating pattern. The sports bench metaphor was precise and immediately resonant." },
+      { date: "2016–2018", title: "Dating Vocabulary Adoption", body: "Benching entered the modern dating glossary alongside ghosting and breadcrumbing. Each term gave people vocabulary for specific bad-faith romantic behaviors." },
+      { date: "2019 Onward", title: "Social Media Standard", body: "Benching became widely used on dating TikTok and Twitter as a recognized behavior pattern with its own warning signs and responses." }
+    ],
+    whyViral: [
+      { title: "Sports metaphor precision", desc: "Being on the bench is universally understood. You are there, you are available, but you are not playing." },
+      { title: "Media naming power", desc: "When respected media names a behavior, it enters mainstream vocabulary quickly." },
+      { title: "Universal frustration", desc: "Being kept as a backup option is deeply frustrating. Naming it gave people vocabulary to identify and discuss it." },
+      { title: "Dating vocabulary ecosystem", desc: "Benching joined ghosting, breadcrumbing, and orbiting as part of the complete bad-faith dating behavior vocabulary." }
+    ],
+    relatedSlangs: ["cushioning", "breadcrumbing", "situationship"],
+    seoKeywords: ["benching meaning dating slang", "what is benching in dating", "benching slang definition", "benching vs breadcrumbing"]
+  },
+
+  {
+    id: "cushioning", word: "Cushioning", slug: "cushioning",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈkʊʃ.ən.ɪŋ/",
+    shortMeaning: "Maintaining backup romantic options while in a relationship, just in case.",
+    fullMeaning: "Cushioning is when someone in a relationship flirts with or maintains low-level romantic connections with other people as a 'cushion' — so that if their primary relationship ends, they do not land hard. The cushions are kept warm through occasional texting, social media engagement, or mild flirting. It is relationship insurance, which is also relationship betrayal.",
+    tag: "trending", year: 2016, language: "English", coinedBy: "Dating advice media", origin: "Dating culture / social media",
+    culturalContext: "Emerged alongside benching and breadcrumbing as part of the naming of specific modern dating behaviors made possible by social media. Cushioning specifically addresses the anxiety of relationship security — using other people as emotional insurance against a breakup.",
+    examples: [
+      { label: "💬 Observing it", them: "She is in a relationship but still texts three other guys daily.", me: "That is cushioning. She is keeping her options padded." },
+      { label: "📱 Self-reflection", them: "Am I doing something wrong by keeping in touch with my ex?", me: "Depends on the nature of contact. If you are maintaining it romantically, that is cushioning." },
+      { label: "🎭 Addressing it", them: "I think my partner is doing this.", me: "Have the conversation. Cushioning often comes from relationship insecurity but it is still a boundary issue." }
+    ],
+    originStory: [
+      { date: "2016", title: "Social Media Dating Era", body: "Dating apps and constant social media connectivity made it easy to maintain multiple low-level romantic connections simultaneously. Cushioning named the behavior of using those connections as relationship insurance." },
+      { date: "2016–2018", title: "Dating Media Coverage", body: "Dating advice columns and psychology-adjacent media covered cushioning as a specific modern relationship behavior. The naming gave people vocabulary to discuss and identify it." },
+      { date: "2019 Onward", title: "Relationship Vocabulary", body: "Cushioning became recognized in relationship counseling vocabulary as a behavior often linked to attachment anxiety and fear of abandonment." }
+    ],
+    whyViral: [
+      { title: "Soft metaphor, hard behavior", desc: "Cushioning sounds gentle but describes a real betrayal of trust. The contrast makes it memorable." },
+      { title: "Attachment anxiety insight", desc: "Understanding cushioning as a fear response (not malice) makes the vocabulary educational as well as descriptive." },
+      { title: "Complements benching", desc: "Benching is what you do to others; cushioning is what you do for yourself. The pair creates complete relationship-backup vocabulary." },
+      { title: "Social media enables it", desc: "Maintaining multiple low-level connections requires minimal effort on social media. Cushioning was always going to emerge from that environment." }
+    ],
+    relatedSlangs: ["benching", "situationship", "breadcrumbing"],
+    seoKeywords: ["cushioning meaning dating slang", "what is cushioning in a relationship", "cushioning slang definition", "cushioning dating behavior"]
+  },
+
+  {
+    id: "floodlighting", word: "Floodlighting", slug: "floodlighting",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈflʌd.laɪt.ɪŋ/",
+    shortMeaning: "Oversharing intensely early in a relationship to test if someone will stay.",
+    fullMeaning: "Floodlighting is when someone dumps excessive personal information, trauma, insecurities, or intense feelings on someone very early in a new connection — often unconsciously testing whether the other person will stay or run. Coined by Brené Brown. The metaphor: instead of lighting the room gradually, you hit the floodlights immediately and bleach out all the shadows. It can be trauma-driven vulnerability that scares people away before trust is built.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Brené Brown", origin: "Psychology / self-help / TikTok mental health content",
+    culturalContext: "From Brené Brown's vulnerability research where floodlighting describes the difference between healthy vulnerability (gradual, appropriate) and overwhelming oversharing that uses intimacy as a test or shield. TikTok's mental health content wave brought it from academic to mainstream.",
+    examples: [
+      { label: "💬 First date behavior", them: "She told him about all her trauma and deepest fears on the first date.", me: "That is floodlighting. Too much too fast before trust is established." },
+      { label: "📱 Self-awareness", them: "I always share everything immediately with new people.", me: "That might be floodlighting. Ask yourself if you are building connection or testing escape." },
+      { label: "🎭 Therapy language", them: "My therapist said I floodlight as an attachment behavior.", me: "That is really self-aware. Floodlighting usually comes from wanting to see who stays." }
+    ],
+    originStory: [
+      { date: "2015", title: "Brené Brown's Research", body: "Brené Brown introduced 'floodlighting' in her work on vulnerability to describe oversharing as a false intimacy substitute — using extreme disclosure before trust is built as an armor or test." },
+      { date: "2020–2022", title: "TikTok Mental Health", body: "TikTok's mental health content explosion brought Brené Brown's vocabulary to millions who would never have encountered it academically. Floodlighting became recognizable dating and relationship vocabulary." },
+      { date: "2022 Onward", title: "Self-Help Mainstream", body: "Floodlighting entered everyday relationship vocabulary as a recognizable pattern with a clinical origin, lending it both accuracy and credibility." }
+    ],
+    whyViral: [
+      { title: "Brené Brown credibility", desc: "Vocabulary from respected researchers carries clinical authority. Floodlighting is both descriptive and backed by research." },
+      { title: "Mental health TikTok", desc: "TikTok's therapy-vocabulary content reaches billions. Floodlighting fit the format perfectly." },
+      { title: "Relatable oversharing experience", desc: "Most people have either floodlighted or been floodlighted. The recognition is immediate." },
+      { title: "Empathy-forward framing", desc: "Floodlighting is explained as an attachment behavior, not a character flaw. That empathetic framing makes people more comfortable sharing and discussing it." }
+    ],
+    relatedSlangs: ["lovebombing", "situationship", "talkingstage"],
+    seoKeywords: ["floodlighting meaning slang", "what is floodlighting dating", "floodlighting definition relationship", "Brene Brown floodlighting"]
+  },
+
+  {
+    id: "roaching", word: "Roaching", slug: "roaching",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈroʊtʃ.ɪŋ/",
+    shortMeaning: "Secretly dating multiple people while pretending to be exclusive with one.",
+    fullMeaning: "Roaching is when someone hides the fact that they are dating or sleeping with multiple people simultaneously, allowing a partner to believe the relationship is exclusive or heading toward exclusivity when it is not. Named after the cockroach principle — if you see one, there are many more hidden. When you discover your partner is roaching you, the 'one' you knew about is just the one you caught.",
+    tag: "trending", year: 2017, language: "English", coinedBy: "AskMen / dating media", origin: "Dating culture / dating advice media",
+    culturalContext: "Named in dating media around 2017. The cockroach metaphor is darkly precise — the discovered parallel relationship is just the one you found, not necessarily the only one. Emerged from dating app culture where maintaining multiple simultaneous connections is frictionless.",
+    examples: [
+      { label: "💬 Discovery", them: "He said he thought they had discussed being exclusive. But she had three other dating profiles active.", me: "Classic roaching. She assumed exclusivity was assumed. He assumed nothing." },
+      { label: "📱 Warning sign", them: "He never posts about you and his phone is always face down.", me: "These are not definitive but they are roaching risk signals. Trust your instincts." },
+      { label: "🎭 The talk", them: "Should we define things?", me: "Yes. Have the exclusivity conversation explicitly. Do not assume. That is how roaching happens." }
+    ],
+    originStory: [
+      { date: "2017", title: "Dating App Context", body: "As dating apps made maintaining multiple connections simultaneously easy, the need to name specifically deceptive versions emerged. Roaching named the hidden-plural-relationships scenario." },
+      { date: "2017–2019", title: "Dating Media Coverage", body: "Dating advice media covered roaching as a distinct behavior from polyamory (consensual) or general dating (disclosed). The deception component was the defining feature." },
+      { date: "2019 Onward", title: "Relationship Vocabulary", body: "Roaching entered the dating behavior glossary as a recognized pattern, typically addressed with advice about having explicit exclusivity conversations early." }
+    ],
+    whyViral: [
+      { title: "The cockroach metaphor", desc: "If you see one, there are more you have not found. The metaphor is vivid, unsettling, and immediately understood." },
+      { title: "Dating app culture relevance", desc: "Apps make maintaining multiple connections frictionless. Roaching is a natural behavior to emerge from that environment." },
+      { title: "Protective knowledge", desc: "Understanding roaching encourages explicit exclusivity conversations. Knowledge that changes behavior spreads because it helps people." },
+      { title: "Memorable name", desc: "Roaching is a striking, slightly disgusting name that sticks in memory. Memorable vocabulary spreads." }
+    ],
+    relatedSlangs: ["cushioning", "ghosting", "situationship"],
+    seoKeywords: ["roaching meaning dating slang", "what is roaching in dating", "roaching slang definition", "roaching vs cushioning"]
+  },
+
+  {
+    id: "corecore", word: "Corecore", slug: "corecore",
+    type: "meme template",
+    devanagari: null, pronunciation: "/kɔːr kɔːr/",
+    shortMeaning: "A meta-aesthetic that parodies and deconstructs the 'core' aesthetic trend itself.",
+    fullMeaning: "Corecore is the self-aware parody of the entire '-core' aesthetic naming trend. Where cottagecore, goblincore, and barbiecore are genuine aesthetic categories, corecore is the ironic observation that everything has become a core. Corecore content often combines incompatible aesthetics or names deliberately absurd cores to highlight how the format has become its own parody.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "TikTok meta-humor communities", origin: "TikTok / post-ironic internet culture",
+    culturalContext: "Emerged as the '-core' aesthetic trend became so pervasive that meta-commentary on it was inevitable. Corecore represents the post-ironic layer where the joke is the format itself. It is both genuine aesthetic exploration and commentary on how aesthetics are catalogued.",
+    examples: [
+      { label: "📱 Meta-observation", them: "What aesthetic is this?", me: "This is corecore. The aesthetic is aesthetics. The core is cores." },
+      { label: "💬 Absurdist naming", them: "What core is eating cereal while watching a sunset?", me: "That is corecore energy. You cannot actually name this. That is the point." },
+      { label: "🎭 TikTok context", them: "Everything is a core now.", me: "Welcome to corecore. The meta-awareness is itself the aesthetic." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Core Aesthetic Peak", body: "The -core suffix had been applied to so many aesthetics that the format itself became a cultural phenomenon worth commenting on." },
+      { date: "2023", title: "Meta-Parody Emerges", body: "TikTok's post-ironic humor communities began making corecore content — aesthetics that were about being an aesthetic, or deliberately absurd combinations. The label named the meta-layer." },
+      { date: "2023 Onward", title: "Commentary and Content", body: "Corecore exists as both a genuine aesthetic category (emotional, melancholic Gen Z video collages) and as ironic meta-commentary on the core naming trend." }
+    ],
+    whyViral: [
+      { title: "Meta-humor resonance", desc: "Gen Z loves layers of irony. A parody of a trend that is itself a trend is very Gen Z." },
+      { title: "The core trend saturation", desc: "When a format gets so saturated that parodying it becomes the format, the parody is inevitable and recognized immediately." },
+      { title: "Two meanings coexist", desc: "Corecore functions as genuine emotional aesthetic and as ironic commentary simultaneously. That duality is Gen Z's comfort zone." },
+      { title: "Participatory confusion", desc: "Asking 'what core is this?' and getting 'corecore' as the answer is funny. The format generates engagement through deliberate confusion." }
+    ],
+    relatedSlangs: ["core", "coded", "skibidi"],
+    seoKeywords: ["corecore meaning slang", "what does corecore mean", "corecore aesthetic definition", "corecore tiktok meaning"]
+  },
+
+  {
+    id: "moneymaxxing", word: "Moneymaxxing", slug: "moneymaxxing",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈmʌn.i.mæks.ɪŋ/",
+    shortMeaning: "Systematically maximizing your income and financial position through deliberate strategies.",
+    fullMeaning: "Moneymaxxing is applying the maxxing framework (systematic optimization) to financial goals — deliberately studying high-income skills, pursuing high-earning career paths, optimizing spending, building multiple income streams, and treating wealth accumulation as a project to be min-maxed. It is hustle culture with gaming vocabulary.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Self-improvement / finance communities", origin: "Reddit / YouTube finance culture",
+    culturalContext: "Part of the -maxxing vocabulary family (alongside looksmaxxing and statusmaxxing). Applied the systematic optimization framework to financial goals. Finance YouTube, Reddit communities like r/personalfinance, and hustle culture content accelerated the term.",
+    examples: [
+      { label: "💬 Career focus", them: "Why did you switch to tech?", me: "Moneymaxxing. The salary ceiling is ten times higher than my previous field." },
+      { label: "📱 Side hustles", them: "You have three income streams now?", me: "Full moneymaxxing mode. Diversify and optimize." },
+      { label: "🎯 Life strategy", them: "Is it all about money for you?", me: "Moneymaxxing now so I have options later. It is about freedom, not just money." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Finance Culture", body: "Financial optimization communities on Reddit and YouTube had long discussed strategic income maximization. The -maxxing vocabulary frame gave it a gaming-culture word." },
+      { date: "2022", title: "Maxxing Vocabulary Expansion", body: "As looksmaxxing spread mainstream, the -maxxing suffix was applied to other life domains. Moneymaxxing emerged alongside statusmaxxing and healthmaxxing as a complete optimization vocabulary." },
+      { date: "2023 Onward", title: "Financial Content", body: "TikTok's personal finance content boom ('FinTok') gave moneymaxxing a platform. Financial advice creators used the term naturally." }
+    ],
+    whyViral: [
+      { title: "Gaming optimization vocabulary", desc: "Min-maxing is core gaming strategy. Applying it to finances makes financial optimization feel structured and achievable." },
+      { title: "Maxxing family", desc: "Moneymaxxing belongs to the established maxxing vocabulary family. The -maxxing suffix is already understood." },
+      { title: "Financial content explosion", desc: "Personal finance content is massive on TikTok and YouTube. Moneymaxxing fits naturally." },
+      { title: "Hustle culture evolution", desc: "Moneymaxxing is hustle culture with gaming vocabulary — more systematic, less motivational-poster energy." }
+    ],
+    relatedSlangs: ["looksmaxxing", "statusmaxxing", "grindingalong"],
+    seoKeywords: ["moneymaxxing meaning slang", "what is moneymaxxing", "moneymaxxing definition", "money maxxing strategy"]
+  },
+
+  {
+    id: "statusmaxxing", word: "Statusmaxxing", slug: "statusmaxxing",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈsteɪ.təs.mæks.ɪŋ/",
+    shortMeaning: "Deliberately building social status, reputation, and perceived prestige.",
+    fullMeaning: "Statusmaxxing is the systematic pursuit of social status — building reputation, network, perceived prestige, and social authority. This includes attending high-status events, building elite network connections, cultivating a prestigious public identity, and making strategic decisions that increase social standing. It is reputation and influence optimization.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Self-improvement communities", origin: "Reddit / self-improvement culture",
+    culturalContext: "Part of the maxxing vocabulary family. Status as a variable to be optimized fits the gaming min-max framework. Social climbing strategies have always existed; statusmaxxing gave them a systematic, non-judgmental vocabulary.",
+    examples: [
+      { label: "💬 Social strategy", them: "Why are you going to events you don't even care about?", me: "Statusmaxxing. The network in these rooms is worth the boredom." },
+      { label: "📱 Reputation building", them: "He seems to know everyone important.", me: "Intentional statusmaxxing. He studies who matters and shows up where they are." },
+      { label: "🎯 Honest self-reflection", them: "Are you going there to enjoy it or for status?", me: "Forty percent enjoy, sixty percent statusmaxxing. I will take both." }
+    ],
+    originStory: [
+      { date: "2022", title: "Maxxing Family Expansion", body: "As looksmaxxing and moneymaxxing established the -maxxing framework for different life domains, statusmaxxing naturally emerged as the social reputation optimization variant." },
+      { date: "2022–2023", title: "Networking Culture Vocabulary", body: "Statusmaxxing gave networking and social climbing a non-stigmatized, gaming-vocabulary framing. Treating status as a stat to optimize removed the social awkwardness around discussing strategic relationship building." },
+      { date: "2023 Onward", title: "Self-improvement Integration", body: "Statusmaxxing entered self-improvement content on YouTube and TikTok as a recognized optimization domain alongside finances and appearance." }
+    ],
+    whyViral: [
+      { title: "Complete maxxing vocabulary", desc: "Looks, money, status, health — the maxxing framework now covers all primary optimization domains." },
+      { title: "Non-judgmental framing", desc: "Calling social climbing 'statusmaxxing' makes it sound systematic rather than opportunistic." },
+      { title: "Self-improvement culture", desc: "Self-optimization content is enormous. Statusmaxxing fits naturally." },
+      { title: "Gaming vocabulary prestige", desc: "Min-maxing your stats is normal in games. The vocabulary makes strategic social decisions feel similarly normal." }
+    ],
+    relatedSlangs: ["moneymaxxing", "looksmaxxing", "sigma"],
+    seoKeywords: ["statusmaxxing meaning slang", "what is statusmaxxing", "statusmaxxing definition", "status maxxing strategy"]
+  },
+
+  {
+    id: "healthmaxxing", word: "Healthmaxxing", slug: "healthmaxxing",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈhɛlθ.mæks.ɪŋ/",
+    shortMeaning: "Systematically optimizing your physical and mental health across all dimensions.",
+    fullMeaning: "Healthmaxxing is the systematic pursuit of optimal physical and mental health — treating wellness as a project to be optimized rather than a default state. Sleep optimization, nutrition tracking, exercise programming, mental health practices, recovery protocols. Where general wellness is casual, healthmaxxing is deliberate and comprehensive.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Fitness and wellness communities", origin: "Reddit / fitness culture / biohacking",
+    culturalContext: "Part of the maxxing vocabulary family, healthmaxxing sits alongside looksmaxxing (appearance), moneymaxxing (finance), and statusmaxxing (reputation) as part of a comprehensive optimization framework. Biohacking culture and fitness optimization communities fed this vocabulary.",
+    examples: [
+      { label: "💬 Lifestyle", them: "Why do you track everything you eat?", me: "Healthmaxxing. Optimization requires data." },
+      { label: "📱 Full commitment", them: "Sleep schedule, gym, diet, supplements, therapy. You're doing a lot.", me: "Full healthmaxxing mode. It is the foundation everything else is built on." },
+      { label: "🎯 Priority", them: "Is the health obsession worth it?", me: "Healthmaxxing pays dividends in everything else. Energy, clarity, mood. Worth it." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Biohacking Culture", body: "Biohacking and elite wellness communities had long approached health as an optimization problem. The -maxxing vocabulary gave those communities a more mainstream-accessible word." },
+      { date: "2022", title: "Maxxing Vocabulary Adoption", body: "As the maxxing framework expanded beyond looksmaxxing, healthmaxxing emerged as the wellness domain. Fitness and health optimization content on YouTube and TikTok adopted the term naturally." },
+      { date: "2023 Onward", title: "Self-improvement Integration", body: "Healthmaxxing became part of the complete maxxing vocabulary — the four domains of systematic life optimization." }
+    ],
+    whyViral: [
+      { title: "Complete optimization framework", desc: "Health, looks, money, status — healthmaxxing completes the comprehensive maxxing vocabulary set." },
+      { title: "Wellness content boom", desc: "Health and fitness content is one of TikTok and YouTube's largest categories. Healthmaxxing fits naturally." },
+      { title: "Non-preachy framing", desc: "Healthmaxxing sounds systematic rather than moralistic. It is optimization, not virtue-signaling." },
+      { title: "Foundation argument", desc: "Health is framed as the foundation of all other optimization. The vocabulary reflects that philosophical argument." }
+    ],
+    relatedSlangs: ["looksmaxxing", "moneymaxxing", "mewing"],
+    seoKeywords: ["healthmaxxing meaning slang", "what is healthmaxxing", "healthmaxxing definition", "health maxxing optimization"]
+  },
+
+  {
+    id: "softboy", word: "Soft Boy / Soft Girl Era", slug: "softboy",
+    type: "phrase",
+    devanagari: null, pronunciation: "/sɒft bɔɪ · sɒft ɡɜːl ˈɪər.ə/",
+    shortMeaning: "An emotional, sensitive aesthetic phase. Gentle, vulnerable, artsy energy.",
+    fullMeaning: "The soft boy or soft girl era describes a phase of intentional emotional openness, sensitivity, and gentle aesthetic — think journaling, poetry, vintage clothing, being openly vulnerable about feelings, listening to emotional music, and generally leaning into your softer side. It is both a genuine emotional state and an aesthetic identity. Entering your soft era means choosing softness over hardness.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Tumblr / TikTok aesthetic communities", origin: "Tumblr / TikTok aesthetic culture",
+    culturalContext: "The soft aesthetic emerged from Tumblr's emotional-aesthetics culture and was brought to mainstream by TikTok. Soft boy originally described a specific type of emotionally manipulative but sensitive-seeming male, but evolved into a broader aesthetic. Soft girl era dropped the gendered connotation and became a universal emotional phase vocabulary.",
+    examples: [
+      { label: "💬 Life phase", them: "You seem different lately.", me: "I entered my soft era. Journaling, crying at movies, feeling things deeply. It is healing." },
+      { label: "📱 Aesthetic", them: "What is the vibe today?", me: "Full soft girl energy. Oversized sweater, hot tea, sad songs. Living in it." },
+      { label: "🎭 Permission", them: "Is it okay to be soft?", me: "Being in your soft era is not weakness. It is choosing to feel instead of numb." }
+    ],
+    originStory: [
+      { date: "2019", title: "Tumblr Aesthetics", body: "The soft aesthetic — pastel colors, emotional music, journaling, vulnerability — developed on Tumblr before TikTok brought it mainstream. Soft boy emerged as a specific character type in dating discourse." },
+      { date: "2021–2022", title: "Soft Girl Era", body: "TikTok's era vocabulary merged with the soft aesthetic. 'Soft girl era' and 'soft era' became phrases for intentional emotional openness phases." },
+      { date: "2023 Onward", title: "Universal Emotional Phase", body: "Entering your soft era lost its gendered dimensions and became universal vocabulary for choosing emotional openness and sensitivity as a life phase." }
+    ],
+    whyViral: [
+      { title: "Era framework pairing", desc: "The era vocabulary made soft era a natural phrase. Era + soft = immediately understood emotional phase declaration." },
+      { title: "Mental health culture", desc: "Gen Z's emotional openness culture embraced the soft aesthetic as a healthy counterpoint to emotional hardening." },
+      { title: "Aesthetic clarity", desc: "The soft aesthetic has clear visual markers — pastels, journals, tea, oversized knitwear. Visual clarity makes aesthetics spreadable." },
+      { title: "Universal aspiration", desc: "Giving yourself permission to feel deeply is universally appealing, especially to generations that were taught to suppress emotions." }
+    ],
+    relatedSlangs: ["era", "cleangirl", "vibe"],
+    seoKeywords: ["soft era meaning slang", "soft girl era meaning", "what does soft era mean", "soft boy slang definition"]
+  },
+
+  {
+    id: "clipfarming", word: "Clip Farming", slug: "clipfarming",
+    type: "phrase",
+    devanagari: null, pronunciation: "/klɪp ˈfɑːr.mɪŋ/",
+    shortMeaning: "Doing things specifically to generate viral clips rather than for any genuine reason.",
+    fullMeaning: "Clip farming is the practice of engineering situations, reactions, or moments specifically to be captured as viral content — rather than doing those things for their own sake. A clip farmer asks 'how will this look on camera?' before making any decision. The action is a means to content, not an end in itself. It is the most calculated form of social media performance.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Streaming / content creator culture", origin: "Twitch / YouTube / content creator discourse",
+    culturalContext: "Emerged from streaming and content creator discourse where 'farming clips' was already gaming vocabulary (farming highlights from gameplay). Applied to social behavior, it describes engineering real-life situations to generate shareable content moments.",
+    examples: [
+      { label: "💬 Calling it out", them: "Why did he do that weird thing at the party?", me: "Clip farming. He had his friend filming the whole time." },
+      { label: "📱 Content strategy", them: "Is everything content now?", me: "If someone has a camera out and is doing something unusual, assume clip farming." },
+      { label: "🎭 Self-aware", them: "I set up that scenario just to film it.", me: "You are clip farming. Own it. At least you know." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Streaming Clip Culture", body: "Twitch and YouTube creators 'clip' memorable moments from streams. 'Farming' clips means engineering moments that will make good highlights." },
+      { date: "2023", title: "Real-World Application", body: "As phone cameras made everyone a potential content creator, clip farming extended to real-life behavior — engineering situations specifically to generate shareable moments." },
+      { date: "2023 Onward", title: "Content Criticism", body: "Clip farming became a criticism leveled at calculated social media behavior — the accusation that someone is performing for an audience rather than living authentically." }
+    ],
+    whyViral: [
+      { title: "Content creator culture critique", desc: "As everyone becomes a creator, the line between authentic living and content performance becomes a cultural question." },
+      { title: "Gaming vocabulary fit", desc: "Farming in gaming means grinding for resources. Clip farming is grinding for content — the parallel is precise." },
+      { title: "Visible in everyday life", desc: "Noticing that someone is clip farming in public is increasingly common. The vocabulary names something observable." },
+      { title: "Authenticity discourse", desc: "Clip farming is the opposite of authentic expression. In a culture that values authenticity, naming its opposite is important." }
+    ],
+    relatedSlangs: ["aurafarming", "ragebait", "npc"],
+    seoKeywords: ["clip farming meaning slang", "what does clip farming mean", "clip farming definition", "clip farming content creator"]
+  },
+
+  {
+    id: "chatisthisreal", word: "Chat Is This Real", slug: "chatisthisreal",
+    type: "meme template",
+    devanagari: null, pronunciation: "/tʃæt ɪz ðɪs rɪəl/",
+    shortMeaning: "A streaming reaction phrase for when something seems too wild to be genuine.",
+    fullMeaning: "'Chat is this real?' is a streaming-native reaction phrase where a content creator addresses their chat (live audience) to ask if what they just witnessed is actually happening. It expresses genuine disbelief and invites the community to confirm or deny reality. Adopted beyond streaming as a general reaction phrase for anything that seems too absurd, funny, or shocking to be real.",
+    tag: "trending", year: 2022, language: "English", coinedBy: "Twitch streaming culture", origin: "Twitch / streaming community",
+    culturalContext: "Emerged from Twitch streaming culture where creators talk to their live chat audience constantly. 'Chat' as an address to a collective audience became iconic. 'Chat is this real?' captured the specific disbelief reaction when something unbelievable happens during a stream.",
+    examples: [
+      { label: "📱 Reacting to video", them: "Sent the most unhinged video ever filmed", me: "Chat is this real?? Am I watching this??" },
+      { label: "💬 Disbelief", them: "He actually said that to his boss and kept his job.", me: "Chat is this real?? How??" },
+      { label: "🎭 Ironic use", them: "She matched with her long-lost twin on a dating app.", me: "Chat. Is this real. I need a moment." }
+    ],
+    originStory: [
+      { date: "Pre-2022", title: "Streaming Address", body: "Twitch streamers address their live audience as 'chat' constantly — it is fundamental to streaming culture. 'Chat' as a collective noun for the live audience has been standard since Twitch's early days." },
+      { date: "2022", title: "Reaction Phrase Emergence", body: "'Chat is this real?' became a recognizable reaction format as streaming clips spread on TikTok and Twitter. Non-streamers adopted the address even without a literal chat audience." },
+      { date: "2023 Onward", title: "General Disbelief Phrase", body: "'Chat is this real' detached from streaming entirely and became a general reaction phrase for unbelievable moments — used even in person or in private chats." }
+    ],
+    whyViral: [
+      { title: "Streaming culture export", desc: "Streaming has generated more internet vocabulary than almost any other culture. 'Chat is this real' is one of its most traveled exports." },
+      { title: "Community disbelief format", desc: "Addressing a collective audience about shared disbelief is a unique linguistic move. It creates community around a reaction." },
+      { title: "Versatile application", desc: "Works for funny, shocking, heartwarming, and chaotic content equally. Universal disbelief phrase." },
+      { title: "Clip culture spread", desc: "When streaming clips go viral on TikTok, the phrases within them travel with them. 'Chat' vocabulary spread through clips." }
+    ],
+    relatedSlangs: ["sheesh", "imdead", "skullemoji"],
+    seoKeywords: ["chat is this real meaning slang", "what does chat is this real mean", "chat is this real streaming slang", "chat slang meaning"]
+  },
+
+  {
+    id: "grindingalong", word: "Grinding Arc", slug: "grindingalong",
+    type: "phrase",
+    devanagari: null, pronunciation: "/ˈɡraɪnd.ɪŋ ɑːrk/",
+    shortMeaning: "A sustained self-improvement phase where you are fully locked in and making real progress.",
+    fullMeaning: "The grinding arc is your dedicated self-improvement phase — a period where you have committed to consistent work toward a significant goal and are executing on it. Where 'grinding' describes the activity, the 'arc' (borrowed from story structure) frames it as a narrative chapter with a beginning, middle, and end. You are in your grinding arc means this chapter of your life is defined by disciplined, focused effort.",
+    tag: "trending", year: 2023, language: "English", coinedBy: "Gaming / anime culture / Gen Z internet", origin: "Gaming / anime / self-improvement content",
+    culturalContext: "Combines gaming (grinding = repetitive effort for reward) with anime/story (arc = narrative chapter). Gen Z's tendency to frame life as a story gave 'arc' to many life phases. The grinding arc specifically frames self-improvement work as a meaningful narrative chapter rather than just boring effort.",
+    examples: [
+      { label: "💬 Life phase", them: "Where have you been? I haven't seen you.", me: "Deep in my grinding arc. Gym at 5am, work, study, sleep. Repeat." },
+      { label: "📱 Progress update", them: "You've changed a lot in six months.", me: "I entered my grinding arc and I have not left it. Something shifted." },
+      { label: "🎯 Motivation", them: "How do you stay consistent?", me: "I think of this as an arc. Arcs have to be completed. I am not closing this one unfinished." }
+    ],
+    originStory: [
+      { date: "Pre-2023", title: "Grinding in Gaming", body: "In gaming, grinding means repeatedly doing tasks for experience, gold, or resources. The word has been used for effort-intensive work since gaming vocabulary entered mainstream." },
+      { date: "2023", title: "Arc Framework", body: "Gen Z's narrative life framing brought 'arc' to life phases. Combined with grinding, the grinding arc became the vocabulary for serious self-improvement commitment periods." },
+      { date: "2023 Onward", title: "Self-improvement Content", body: "Grinding arc content on TikTok — study vlogs, gym transformation series, business-building journals — adopted the phrase as their standard descriptor for the effort phase." }
+    ],
+    whyViral: [
+      { title: "Narrative framing power", desc: "Framing boring, hard work as an 'arc' makes it feel like a story chapter worth completing." },
+      { title: "Gaming vocabulary prestige", desc: "Grinding is understood by the most connected generation. Adding arc from anime/story elevated the phrase." },
+      { title: "Motivational content", desc: "Self-improvement content is massive. Grinding arc gave that content category a precise vocabulary." },
+      { title: "Completion pressure (positive)", desc: "An arc has to end. Framing your effort as an arc creates narrative pressure to complete it — which is actually motivating." }
+    ],
+    relatedSlangs: ["lockin", "era", "mainquest"],
+    seoKeywords: ["grinding arc meaning slang", "what does grinding arc mean", "grinding arc gen z definition", "grind arc self improvement"]
+  },
+
+  {
+    id: "postironic", word: "Post-ironic", slug: "postironic",
+    type: "word",
+    devanagari: null, pronunciation: "/poʊst ˈaɪ.rɒn.ɪk/",
+    shortMeaning: "Intentionally absurd humor that has moved beyond irony into sincerity-in-absurdity.",
+    fullMeaning: "Post-ironic humor is the layer beyond irony. Irony says the opposite of what it means. Post-irony is so layered that it has looped back to sincerity — but through a route so absurd that the earnestness itself becomes the joke. Post-ironic content is intentionally so weird, so sincere about something strange, or so committed to the bit that analyzing it for 'real meaning' misses the point entirely.",
+    tag: "trending", year: 2019, language: "English", coinedBy: "Internet humor culture / academic media theory", origin: "Academic media theory / internet humor communities",
+    culturalContext: "Post-irony describes the comedic mode of Gen Z internet culture — past the snark and irony of millennial humor, into a space where sincerity and absurdism coexist without contradiction. Content that seems to be joking but is also genuinely meant, or seems earnest but is too weird to be taken straight.",
+    examples: [
+      { label: "📱 Humor style", them: "Is he serious or joking?", me: "Yes. That is post-ironic. Both. Neither. The question is the wrong frame." },
+      { label: "💬 Meme analysis", them: "What does this meme even mean?", me: "Nothing. Everything. It is post-ironic. You are not supposed to decode it." },
+      { label: "🎭 Content creation", them: "Your content is so strange.", me: "Post-ironic. If you are not sure whether to laugh sincerely or ironically, that is correct." }
+    ],
+    originStory: [
+      { date: "Pre-2019", title: "Academic Theory", body: "Post-irony as a philosophical and cultural concept existed in media theory and philosophy before it became internet vocabulary — describing art that moved beyond cynical detachment into a new earnestness." },
+      { date: "2019–2021", title: "Internet Humor Application", body: "Internet humor critics and cultural observers began applying post-irony to describe the specific comedic mode of Gen Z meme culture — too sincere to be pure irony, too weird to be pure sincerity." },
+      { date: "2021 Onward", title: "Gen Z Humor Descriptor", body: "Post-ironic became a recognized descriptor for the dominant Gen Z comedic mode — the layer of humor that exists past snark and into absurdist sincerity." }
+    ],
+    whyViral: [
+      { title: "Names Gen Z's humor mode", desc: "Post-irony precisely describes how Gen Z comedy works. Naming the mode lets people discuss it." },
+      { title: "Academic vocabulary accessibility", desc: "Bringing theory vocabulary into everyday discourse is itself a Gen Z move. Post-irony traveled from theory to meme commentary." },
+      { title: "Explains confusing content", desc: "When you cannot tell if something is serious, post-ironic is the answer. Explanatory vocabulary is valuable." },
+      { title: "Identity marker", desc: "Being post-ironic signals a specific cultural sophistication. It is both descriptive and identificatory." }
+    ],
+    relatedSlangs: ["antihumor", "corecore", "ohio"],
+    seoKeywords: ["post-ironic meaning slang", "what does post ironic mean", "post ironic humor definition", "post ironic gen z"]
+  },
+
+  {
+    id: "antihumor", word: "Anti-Humor", slug: "antihumor",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈæn.ti hjuː.mər/",
+    shortMeaning: "A joke deliberately lacking a conventional punchline, where the absence of humor is the humor.",
+    fullMeaning: "Anti-humor is comedy that intentionally subverts joke structure — delivering a straight, literal, or completely unfunny punchline where a funny one is expected. The joke is that there is no joke, or that the joke is maximally disappointing. 'Why did the chicken cross the road? To get to the other side' lands differently when you realize 'the other side' means death — a dark anti-joke. Anti-humor works because the expectation of comedy is itself the setup.",
+    tag: "trending", year: 2018, language: "English", coinedBy: "Internet humor communities / r/AntiJokes", origin: "Reddit / internet humor communities",
+    culturalContext: "Anti-humor communities on Reddit (r/AntiJokes) popularized the format. The humor comes from the structure of a joke without the conventional funny content — which is itself funny for those who understand why it is funny. A very Gen Z comedic mode.",
+    examples: [
+      { label: "💬 Classic example", them: "Why did the chicken cross the road?", me: "Because it was not restricted by conceptual frameworks about road-crossing. It simply crossed." },
+      { label: "📱 Reaction humor", them: "Tell me a joke.", me: "A man walked into a bar and sat down. He had a beer. He went home." },
+      { label: "🎭 The meta-layer", them: "That was not funny.", me: "That was the joke." }
+    ],
+    originStory: [
+      { date: "Pre-2018", title: "Comedy Theory Roots", body: "Anti-humor as a comedic concept — jokes that subvert expectations through literalism or disappointment — existed in comedy theory long before internet culture. Norm MacDonald was a famous practitioner." },
+      { date: "2018", title: "Reddit Community", body: "r/AntiJokes popularized the format online. The community created and shared anti-jokes, building a recognizable genre with its own vocabulary." },
+      { date: "2021 Onward", title: "Gen Z Integration", body: "Anti-humor became recognized as a central mode of Gen Z internet comedy — the 'that's the joke' humor where the absence of conventional punchline is itself comedic." }
+    ],
+    whyViral: [
+      { title: "Subverts expectation", desc: "Comedy fundamentally operates on expectation subversion. Anti-humor subverts the subversion — which is itself a layer of subversion." },
+      { title: "Gen Z humor resonance", desc: "Gen Z's comedy involves irony layers. Anti-humor is one of the cleanest examples of layered comedic structure." },
+      { title: "Norm MacDonald legacy", desc: "One of comedy's most respected practitioners made anti-humor famous. His legacy gives the format prestige." },
+      { title: "Participation format", desc: "Anyone can make an anti-joke. The accessible format drove enormous content creation." }
+    ],
+    relatedSlangs: ["postironic", "ohio", "brainrot"],
+    seoKeywords: ["anti-humor meaning slang", "what is anti humor", "anti humor definition", "anti joke meaning gen z"]
+  },
+
+  {
+    id: "nothingburger", word: "Nothingburger", slug: "nothingburger",
+    type: "word",
+    devanagari: null, pronunciation: "/ˈnʌθ.ɪŋ.bɜːr.ɡər/",
+    shortMeaning: "Something hyped as a big deal that turned out to be completely irrelevant or unimportant.",
+    fullMeaning: "A nothingburger is an event, story, or revelation that was heavily anticipated or promoted as significant but turned out to be completely empty — no substance, no impact, no meaning. The hype was the only thing — the burger itself is nothing. Often used for overhyped news stories, celebrity drama that resolves anticlimactically, or any situation where the buildup far exceeded the actual content.",
+    tag: "trending", year: 2017, language: "English", coinedBy: "Political media / internet discourse", origin: "Political commentary / journalism",
+    culturalContext: "While 'nothingburger' as a phrase existed as early as the 1950s, it entered internet vocabulary through political commentary around 2017, where it was used to dismiss allegedly significant news stories as having no real substance. Spread from political into general internet usage.",
+    examples: [
+      { label: "📱 Hyped reveal", them: "The big announcement was just a rebrand.", me: "Absolute nothingburger. I waited three weeks for that." },
+      { label: "💬 Celebrity drama", them: "The feud they teased turned out to be one passive-aggressive tweet.", me: "Nothingburger. The media covered it for days and it was nothing." },
+      { label: "🎭 Deflating hype", them: "Everyone was talking about this all week.", me: "Nothingburger. Never let hype tell you something is actually significant." }
+    ],
+    originStory: [
+      { date: "1950s", title: "Original Usage", body: "The word appeared as early as the 1950s in American slang to describe an unremarkable or nonexistent thing — a burger with nothing in it." },
+      { date: "2017", title: "Political Media Adoption", body: "During the Trump era's 24-hour news cycle, 'nothingburger' became common political commentary vocabulary for stories that generated enormous coverage but had minimal substantive content." },
+      { date: "2019 Onward", title: "General Internet Use", body: "Nothingburger escaped political commentary into general internet vocabulary for any situation where hype dramatically exceeded substance." }
+    ],
+    whyViral: [
+      { title: "Hype culture critique", desc: "In a media environment that constantly manufactures urgency, a word for deflating hype is perpetually useful." },
+      { title: "Food metaphor humor", desc: "A burger with nothing in it is a funny image for an overhyped non-event." },
+      { title: "Satisfying to say", desc: "Nothingburger is fun to say. Words that feel good phonetically spread faster." },
+      { title: "Universal media experience", desc: "Everyone has followed hyped coverage of something that turned out to be irrelevant. The recognition is immediate." }
+    ],
+    relatedSlangs: ["mid", "ragebait", "cap"],
+    seoKeywords: ["nothingburger meaning slang", "what does nothingburger mean", "nothingburger definition", "nothingburger internet slang"]
+  }
 
 ];
 
@@ -3299,4 +3946,12 @@ const TAG_LABELS = {
 
 function getSlangURL(slug, fromRoot = true) {
   return fromRoot ? `slang/${slug}.html` : `${slug}.html`;
+}
+
+/**
+ * Get slangs by type (word / phrase / meme template / reaction slang)
+ */
+function getSlangsByType(type) {
+  if (!type || type === 'all') return SLANGIST_DATA;
+  return SLANGIST_DATA.filter(s => s.type === type);
 }
